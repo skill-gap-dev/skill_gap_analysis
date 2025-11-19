@@ -6,6 +6,31 @@ This project aims to identify the gap between a user's current skill set and the
 Using **ADZUNA** to extract job postings, we aggregate and analyze the required skills for a specific role or team.  
 A dashboard in **Looker Studio (Google Data Studio)** will visually present the missing skills and recommendations to help users prepare and become stronger candidates.
 
+## Configuration
+
+### 🔐 Environment Variables
+
+Create a `.env` file in the project root containing:
+
+```
+APP_ID=your_app_id
+APP_KEY=your_app_key
+```
+
+Make sure the `.env` file is also listed in your `.gitignore`.
+
+Load the variables in your Python code with:
+
+```python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+APP_ID = os.getenv("APP_ID")
+APP_KEY = os.getenv("APP_KEY")
+```
+
+
 ## 🎯 Objectives  
 - Analyze user-provided skills and job preferences  
 - Extract relevant job descriptions using **ADZUNA**  
@@ -18,11 +43,12 @@ A dashboard in **Looker Studio (Google Data Studio)** will visually present the 
 - **Python** — Data cleaning, structuring, and analysis  
 - **Looker Studio (Google Data Studio)** — Dashboard visualization  
 - **GitHub** — Project organization & version control
-- 
-## 👥 Authors  
-Carolina López De La Madriz  
-Emma Rodríguez Hervas
-Álvaro Martín Ruiz
-Iker Rosales Saiz
 
-Web Analytics — 2024/2025
+  
+## 👥 Authors  
+- Carolina López De La Madriz 
+- Emma Rodríguez Hervas
+- Álvaro Martín Ruiz
+- Iker Rosales Saiz
+
+**Web Analytics — 2024/2025**
