@@ -29,7 +29,17 @@ load_dotenv()
 APP_ID = os.getenv("APP_ID")
 APP_KEY = os.getenv("APP_KEY")
 ```
+### Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+> **Nota para Windows:** Si la instalación se queda bloqueada mucho tiempo, cancela y ejecuta: `pip install spacy --only-binary :all:` antes de reintentar.
 
+### Download the Language Model (Multi-language):
+It is necessary to download the NLP model separately to enable analysis in both English and Spanish.
+```bash
+python -m spacy download xx_ent_wiki_sm
+```
 
 ## 🎯 Objectives  
 - Analyze user-provided skills and job preferences  

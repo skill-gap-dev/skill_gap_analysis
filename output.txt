@@ -1,0 +1,116 @@
+Fetching jobs for: data analyst...
+------------------------------------------------------------
+PUESTO: Data Analyst (Publicis Groupe España)
+Skills detectadas: Sql
+Snippet descripción: Overview ERIS is looking for an outstanding Advance Analytics Specialist , someone with SQL [...]
+------------------------------------------------------------
+PUESTO: Senior Data Analyst & Clinical Data Manager (Exeltis)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: In few words Position: Senior Data Analyst & Clinical Data Manager Location: Madrid (onsite) [...]
+------------------------------------------------------------
+PUESTO: Data Analyst (Exoticca)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: What is Exoticca Exoticca is a pioneering online travel agency that has revolutionized the [...]
+------------------------------------------------------------
+PUESTO: Data Analyst (Wood Mackenzie)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: Wood Mackenzie is the global data and analytics business for the renewables, energy, and [...]
+------------------------------------------------------------
+PUESTO: Data Analyst (Grupo Planeta)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: Grupo Planeta Somos el primer grupo editorial y de comunicación español, de capital familiar, [...]
+
+============================================================
+ RESUMEN DE DEMANDA (GAP ANALYSIS BASE)
+============================================================
+Sql                  | Presente en 1 ofertas (20%)
+(.venv) PS C:\Users\Iker\RepositoriosPython\skill_gap_analysis> & c:/Users/Iker/RepositoriosPython/skill_gap_analysis/.venv/Scripts/python.exe c:/Users/Iker/RepositoriosPython/skill_gap_analysis/rule_based_matching.py
+Fetching jobs for: data analyst...
+------------------------------------------------------------
+PUESTO: Data Analyst (Publicis Groupe España)
+Skills detectadas: Sql
+Snippet descripción: Overview ERIS is looking for an outstanding Advance Analytics Specialist , someone with SQL experience, ideally in cloud data environments such as Google Cloud Platform, and the ability to build queries to extract accurate metrics using BigQuery and other tools in the Google Cloud environment. Responsibilities As a Data Scientist, you'll work on extracting, validating and automating SQL queries (BigQuery) to ensure data quality, as well as creating and maintaining workflows to automate data ext…
+------------------------------------------------------------
+PUESTO: Senior Data Analyst & Clinical Data Manager (Exeltis)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: In few words Position: Senior Data Analyst & Clinical Data Manager Location: Madrid (onsite) Experience: 5 years of experience in similar positions in Pharma sector with experience at international level.  Global Responsibility The Senior Data Analyst & Clinical Data Manager is a hybrid role responsible for driving the development of reporting and visualization activities that enable data-driven decision-making across Exeltis’ portfolio of clinical studies, while leading and ensuring accountabi…
+------------------------------------------------------------
+PUESTO: Data Analyst (Exoticca)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: What is Exoticca Exoticca is a pioneering online travel agency that has revolutionized the conception, production, and e-commerce of long-distance dream trips. At the core of Exoticca's brand equity is the commitment to "creating life milestones." We believe in delivering best-value trips, exploring unique destinations, curating extraordinary travel experiences, and demonstrating genuine care for both our customers and the planet. We are a professional, dynamic, multicultural team in rapid inte…
+------------------------------------------------------------
+PUESTO: Data Analyst (Wood Mackenzie)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: Wood Mackenzie is the global data and analytics business for the renewables, energy, and natural resources industries. Enhanced by technology. Enriched by human intelligence. In an ever-changing world, companies and governments need reliable and actionable insight to lead the transition to a sustainable future. That’s why we cover the entire supply chain with unparalleled breadth and depth, backed by over 50 years’ experience. Our team of over 2,400 experts, operating across 30 global locations…
+------------------------------------------------------------
+PUESTO: Data Analyst (Grupo Planeta)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: Grupo Planeta Somos el primer grupo editorial y de comunicación español, de capital familiar, que lidera una amplia oferta al servicio de la cultura, la formación, la información y el entretenimiento audiovisual, con presencia en más de 20 países, conectando con 25 millones de personas cada día. Todos los profesionales y empresas del Grupo Planeta compartimos unos principios que tienen como base las personas, la ética, la calidad y la excelencia en el trabajo. ¡Te invitamos a conocernos! Descri…
+
+============================================================
+ RESUMEN DE DEMANDA (GAP ANALYSIS BASE)
+============================================================
+Sql                  | Presente en 1 ofertas (20%)
+(.venv) PS C:\Users\Iker\RepositoriosPython\skill_gap_analysis> & c:/Users/Iker/RepositoriosPython/skill_gap_analysis/.venv/Scripts/python.exe c:/Users/Iker/RepositoriosPython/skill_gap_analysis/rule_based_matching.py
+Traceback (most recent call last):
+  File "c:\Users\Iker\RepositoriosPython\skill_gap_analysis\rule_based_matching.py", line 72, in <module>
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Iker\RepositoriosPython\skill_gap_analysis\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.openwebninja.com/jsearch/search?query=data+analysts+jobs+in+Madrid&country=es&date_posted=all&page=1&num_pages=1
+(.venv) PS C:\Users\Iker\RepositoriosPython\skill_gap_analysis> & c:/Users/Iker/RepositoriosPython/skill_gap_analysis/.venv/Scripts/python.exe c:/Users/Iker/RepositoriosPython/skill_gap_analysis/rule_based_matching.py
+------------------------------------------------------------
+PUESTO: Google Data Analyst (Izertis)
+Skills detectadas: Python, R, Sql
+Snippet descripción: Descripción We are looking for a professional capable of transforming business questions into clear, actionable insights. Someone who feels...       
+------------------------------------------------------------
+PUESTO: Data Analyst with Looker (IZERTIS)
+Skills detectadas: Python, R, Sql
+Snippet descripción: We are looking for a professional capable of transforming business questions into clear, actionable insights. Someone who feels comfortable working...
+------------------------------------------------------------
+PUESTO: Data Analyst / PMO (Excelia)
+Skills detectadas: Python, Sql
+Snippet descripción: **excelia **es una firma multinacional de C**onsultoría, Tecnología y Servicios profesionales** con más de 20 años de experiência. Prestamos...
+------------------------------------------------------------
+PUESTO: Data Process Analyst (ALTEN)
+Skills detectadas: Python, Inglés, Excel, Sql, Power Bi
+Snippet descripción: En ALTEN sabemos que el éxito de nuestros proyectos depende del talento y la implicación de las personas que forman nuestro equipo. Si tienes...
+------------------------------------------------------------
+PUESTO: Data Analyst & AI (Sabentis)
+Skills detectadas: Python, Machine Learning, Azure
+Snippet descripción: Buscamos nuevo talento para el equipo de Datos & IA de Sabentis. En Sabentis, plataforma tecnológica líder en Seguridad y Salud en el Trabajo (SST)...
+------------------------------------------------------------
+PUESTO: Data Analyst with Tableau (Haybury)
+Skills detectadas: Machine Learning, Tableau, Sql, Communication
+Snippet descripción: About the Role We are seeking a talented Front-End Data Consultant to join our dynamic team. This position is heavily focused on front-end...
+------------------------------------------------------------
+PUESTO: Graduate Data Analyst — Big-Impact Data Insights, Remote (Bending Spoons)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: A leading technology company is seeking a skilled individual to analyze big data and identify product improvements in Madrid. You will collaborate...
+------------------------------------------------------------
+PUESTO: Data Analyst - Power Platform (MIGSO-PCUBED)
+Skills detectadas: Python, Inglés, Excel, Sql, Power Bi
+Snippet descripción: Buscamos personas apasionadas por los datos, la innovación y la mejora continua, que quieran formar parte de un equipo en crecimiento dentro del...  
+------------------------------------------------------------
+PUESTO: Data Analyst - Power Platform (MIGSO-PCUBED)
+Skills detectadas: Python, Inglés, Excel, Sql, Power Bi
+Snippet descripción: Buscamos personas apasionadas por los datos , la innovación y la mejora continua , que quieran formar parte de un equipo en crecimiento dentro del...
+------------------------------------------------------------
+PUESTO: Analista de datos / Data Analyst, hibrido (Segula Technologies)
+Skills detectadas: Ninguna skill de la lista detectada
+Snippet descripción: Analista de datos / Data Analyst Descripción ¿Quieres formar parte de una empresa innovadora, presente en sectores tan importantes como automoción,...
+
+============================================================
+ RESUMEN DE DEMANDA (GAP ANALYSIS BASE)
+============================================================
+Python               | Presente en 7 ofertas (70%)
+Sql                  | Presente en 7 ofertas (70%)
+Inglés               | Presente en 3 ofertas (30%)
+Excel                | Presente en 3 ofertas (30%)
+Power Bi             | Presente en 3 ofertas (30%)
+R                    | Presente en 2 ofertas (20%)
+Machine Learning     | Presente en 2 ofertas (20%)
+Azure                | Presente en 1 ofertas (10%)
+Tableau              | Presente en 1 ofertas (10%)
+Communication        | Presente en 1 ofertas (10%)
