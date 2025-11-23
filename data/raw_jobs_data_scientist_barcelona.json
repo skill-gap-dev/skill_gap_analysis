@@ -1,0 +1,447 @@
+{
+  "status": "OK",
+  "request_id": "44e7d65e-c52e-492e-bf70-30b778756b42",
+  "parameters": {
+    "query": "data scientist jobs in Barcelona",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "work_from_home": true,
+    "employment_types": [
+      "FULLTIME"
+    ],
+    "job_requirements": [
+      "no_experience"
+    ],
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "PG2F9JuZWZZcMCfaAAAAAA==",
+      "job_title": "Data Scientist",
+      "employer_name": "Checkatrade",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXGYm5cgxvKZKp6W2jqTbgEHCQ_bTOayI0nHHU&s=0",
+      "employer_website": "https://www.checkatrade.com",
+      "job_publisher": "Jobs",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://jobs.ashbyhq.com/checkatrade/481651bf-010a-4283-b5a7-aa1017514565?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobs",
+          "apply_link": "https://jobs.ashbyhq.com/checkatrade/481651bf-010a-4283-b5a7-aa1017514565?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=37a255d41017d9a3&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Wd3.Myworkdaysite.com",
+          "apply_link": "https://wd3.myworkdaysite.com/pt-BR/recruiting/verisure/eQuest/job/Pozuelo-de-Alarcon/Data-Scientist_r2025060251/apply?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Workday",
+          "apply_link": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylProfessionalCareers/job/Data-Scientist--Machine-Learning-_R-52153?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-scientist-at-interex-group-4340523666?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobgether",
+          "apply_link": "https://jobgether.com/offer/6909fff6dec002a1d45c1768-data-scientist-ii-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Built In",
+          "apply_link": "https://builtin.com/job/data-scientist-ii-remote/7579483?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "The Muse",
+          "apply_link": "https://www.themuse.com/jobs/kyndryl/data-scientist-machine-learning?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Join us as a Data Scientist\n\nWant to do work that really matters?\nAt Checkatrade, we’re building the UK’s go-to home improvement marketplace. Every day, we help millions of homeowners find the right tradesperson for the job, fast, fair, and without the faff.\n\nAI and data are at the core of that mission. We believe intelligence should drive every decision, workflow, and customer experience — helping trades win more work and homeowners get the right match, faster. We’re building an AI-powered Checkatrade where models, insights, and automation create real-world impact at scale.\n\nAs our next Data Scientist, based in Barcelona, you’ll join our Marketplace Team — the engine room where data meets behaviour. You’ll design intelligent systems that make our two-sided marketplace smarter and fairer: better search, faster matching, and more dynamic pricing. This isn’t about isolated modelling — it’s about shipping production-ready intelligence that directly shapes how millions of people find, choose, and hire trusted trades.\n\nForget long lists, here’s what you’ll actually spend your time on:\n• Experimenting with LLM-based and retrieval-augmented models (RAG) to improve matching, ranking, and recommendations.\n• Building prototypes that make our search and pricing systems more adaptive, efficient, and fair — powered by embeddings, reinforcement learning, and continuous feedback loops.\n• Collaborating closely with engineers to productionise insights, ensuring our models aren’t just smart, but scalable and measurable in the real world.\n• Working cross-functionally with product and platform teams to define how AI and data science integrate into every part of the marketplace experience.\n• Contributing to our internal AI playbook — helping set the standards for experimentation, evaluation, and ethical AI in production environments.\n\nIt’s not about ticking every box. It’s about turning up curious, ready to crack on. You’ll do well here if you bring:\n• Strong applied data science experience in modern Python stacks — PyTorch, TensorFlow, LangChain, or similar.\n• Experience building and deploying production-grade models that solve real business problems.\n• Comfort working across the spectrum — from quick-turn experiments to rigorous model evaluation and refinement.\n• A pragmatic mindset: you know when to fine-tune, when to use off-the-shelf models, and when simpler is smarter.\n• Curiosity, creativity, and a desire to turn data into tangible, measurable impact.\n\nWe believe great work deserves great rewards. Here’s just a taste:\n• Great salary for the impact you make\n• Annual bonus - get rewarded for your work\n• Work your way - flexible, remote-friendly setup\n• Lunch vouchers so you stay fuelled while you build\n• Learning support for courses, certs and books to level up\n• Real time off - generous annual leave plus local public holidays\n\nInterviews will take place in Barcelona and you will be required to work in Barcelona 2 days per week.\n\nIf you require any reasonable adjustments during our interview process, please discuss them with your Talent Acquisition Partner.\n\nIf this sounds like the place where you can do your best work, we’d love to hear from you, even if you don’t tick every box\n\nAbout us\n\nWe’re Checkatrade – the UK’s leading platform for finding a tradesperson. With more than 50,000 trades listed and over 6 million reviews, we help homeowners get jobs done right and help tradespeople grow their business.\n\nWe’re growing fast, with big plans to become the go-to brand for home improvements. If you care about great work, take pride in the details, and want to make an impact, you’ll fit right in.",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Barcelona",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DPG2F9JuZWZZcMCfaAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "skuuScH_cgjNpw3wAAAAAA==",
+      "job_title": "(Senior) Data Scientist",
+      "employer_name": "OLX",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehb75oL7cxAW21w02Hq9C_1me_y0yfxNJXfKJ&s=0",
+      "employer_website": null,
+      "job_publisher": "Lever",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://jobs.eu.lever.co/olx/51226864-5bed-4ccc-b4e4-5528a94d5c92?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Lever",
+          "apply_link": "https://jobs.eu.lever.co/olx/51226864-5bed-4ccc-b4e4-5528a94d5c92?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/OQPtqieXRxpB6RVOM3T7mkknbDk1hW4xTd3_CbIfH4NbCKAZTbAqDA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Experteer",
+          "apply_link": "https://www.experteer.es/career/view-jobs/senior-data-scientist-08036-barcelona-cataluna-spanien-54516796?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/7a44f3f0b19d33ed833a659f7d21c733?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/910445159508869120?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajas.es - Ofertas De Trabajo",
+          "apply_link": "https://www.trabajas.es/oferta/senior-data-scientist-2a1ae3231d7abe8/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2635-9a8da9080be190ba46dd9208004397f6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "WhatJobs",
+          "apply_link": "https://es.whatjobs.com/(senior)-data-scientist-jobs?id=277843629&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "WELCOME TO OLX\n\nAt OLX, we work together to build a more sustainable world through trade.\n\nWe make it safe, smart, and convenient to buy and sell cars, find housing, get jobs, buy and sell household goods, and more. Our colleagues around the world help to serve millions of people around the world every month, through its well-loved consumer brands including OLX, Otodom, AutoTrader, Property24.\n\nJoin OLX and see how far you can go.\n\nJOIN OLX GENERATIVE AI DATA SCIENCE TEAM\n\nWe invite you to join us on a critical and exciting mission! To expand and scale our recent investments in the Generative AI area to not only embark on exciting projects with our internal customers but also to lead OLX into the future with LLMs and Generative AI.\n\nThis is a unique opportunity to be part of a strategic movement inside the company! You’ll be part of a team that breaks through walls and builds cross-functional connections with everyone around. A team where a common mission and goals matter more than reporting lines. We build on each other, asking for help and support when needed, and we proactively support others.\n\nAs a Data Scientist in the team, you will work with an amazing squad composed of different profiles such as Data Scientists, MLEs, Engineers, Product Managers, and Analytics. Our focus areas revolve around Generative AI and Large Language Models, where we operate within two key Streams: Platform and Transversal Services. Those two will be part of our Data organization. The first of the Streams focuses on enabling capabilities and creating infrastructure for applying Generative AI at scale with controlled cost. The second Stream (which you’ll join!) is dedicated to crafting customer-centric solutions focused on enhancing the discovery experience and seller features, such as:\n\n- Validate and build reusable GenAI services and functionalities, including new user-facing innovations using agents, video, voice, among others, for the later benefit of the CUs;\n\n- Prepare for next-level classifieds with new GenAI-enabled capabilities, in the form of reusable services across CUs - this means personalization, recommendations and assistants!\n\n- Validate GenAI-enabled solutions which can provide a step change to the user experience, but are riskier (and therefore might not have space in short-term Product roadmaps). These opportunities are likely to “fall between the cracks”. So, your turn!\n\nIn your role, you'll dive into cutting-edge machine learning techniques, specializing in LLMs and GenAI, while also providing technical guidance to junior team members. Applying AI methods to core OLX product platforms deployed in the cloud that are affecting the user experience for millions of visitors per month, rolling your solutions to production, analyzing model results offline and online, and measuring site impact. All using Python and the AWS cloud. You will be exposed to key stakeholders, have direct contact with internal customers. You will have the carte blanche to experiment and test things. And most importantly, you will also witness how your work impacts the day-to-day business of our customers.\n\nWhat you will do in Data Science at OLX:\n• Work in the Data Science team, focusing on LLMs and GenAI, from a platform and marketplace perspective.\n• You will build models, tinker around them to make them work, test them, and eventually deploy them to production. You will see your stuff in action and you will be able to measure the true impact of your models\n• You will maintain strong relationships with stakeholders. This means asking a lot of questions to business people and translating their requirements into achievable projects. It also means collaborating with other teams, like infrastructure and data engineering to get things done in an elegant and timely manner.\n• Partner with Engineering and Product to deliver solutions (customer-facing and platforms) to our customers (internal and end customers)\n• Work with Product Analytics to track the KPIs of different ML use cases and measure the impact on our customers.\n• Partner with the Experimentation team to integrate the KPIs and their proxies into the Experimentation (A/B testing) platform.\n• You will work in multi-functional teams, in a diverse, multinational environment, filled with people from Portugal, Bulgaria, Romania, Poland, Ukraine, Kazakhstan, and Uzbekistan.\n• Most importantly, you will have fun working with us :)\n\nWho we’re looking for:\n• You must be located in Barcelona.\n• Solid background in statistics and modeling.\n• Good knowledge of Python, which means having experience with the most common data packages and libraries as well as the ability to develop and maintain simple services.\n• Experience with AI Agents frameworks (Pydantic AI, Google ADK, Langchain, etc.).\n• Experience with LLM observability, evaluation and tracing concepts (LLM as a judge, sampling monitoring, etc.) and frameworks (Langfuse, Arize AI, etc.)\n• Hands-on experience with Machine Learning (supervised, unsupervised, etc.).\n• Very good knowledge of NLP and Deep Learning (Embeddings, Language Models, Transformers, etc.).\n• Good knowledge of Generative AI and Large Language Models (LLMs).\n• Good understanding of engineering best practices, that is: testing, CI/CD, monitoring, alerting, and containers.\n• Hands-on experience with SQL.\n• Experience with MLOps.\n• Proficient in English with excellent written and oral communication skills!\n• Strong presentation skills.\n• Able to work in diverse, multi-functional teams with people from different backgrounds.\n\nNice to have:\n• Exposure to other programming languages such as Kotlin, Java, Scala, etc\n• Experience bringing models into production and serving models at scale\n• Experience using AWS for deploying machine learning solutions\n• Experience with Infrastructure as code (Terraform)\n• Experience with building data pipelines using tools like Spark and Airflow\n• Understanding of A/B testing and experimentation\n• Exposure to MLOps tools\n\nWhat we offer:\n• Permanent contract\n• Salary + annual bonus\n• Work with and impact all OLX services in Europe\n• Train and conference budget and free access to Udemy courses\n• Health insurance and life insurance\n• MacBook Pro along with necessary accessories to make your work comfortable\n• 100% remote work (and the possibility to work from our office in Barcelona)\n\nOur hiring process:\n• Recruiter Interview\n• Hiring Manager Interview\n• Technical Interview\n• Take-home Exercise + Panel Interview\n\nDiversity, Equity and Inclusion at OLX\n\nOLX values diversity and welcomes applicants of all races, ethnicities, disabilities, ages, genders, sexual orientations, religions, backgrounds, and experiences to apply. If this role excites you, we encourage you to apply, even if you don’t meet all the requirements - you may be just the right fit for this or other opportunities with us!\n\nOLX will process your personal data to assess your fit for the applied position. You may optionally consent to store your data for up to 12 months after the application process for consideration in future OLX roles. For more details on how your application data will be processed please check our Privacy Statement.",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Barcelona",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DskuuScH_cgjNpw3wAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "xIvGW8ZMGa-JxrrdAAAAAA==",
+      "job_title": "Remote Senior Data Scientist",
+      "employer_name": "Onfido Ltd (UK)",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "BeBee",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.bebee.com/job/b0f405fef5045fe448a15068199971f8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/b0f405fef5045fe448a15068199971f8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2635-d87b8865880d284bb819d6812d32aeb3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-catalonia-barcelona-data-science-senior-scientist-remote-amaris?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Job Description\n\nWe're looking for an experienced Senior Product Data Scientist, you will support the Product organization to take data driven decisions.\n\nThe Team / Projects You will be working on : The Biometrics team ensures that the selfies and video clips that users submit feature real humans. These teams are growing our new facial products (Facial Similarity for photo and video, Known Faces, motion, and verification) for live detection, providing a substantial leap in selfie and video verifications.\n\nYou will have the opportunity to work on Biometric Projects ranging from improving the SDK experience to detecting deep fakes.\n\nTechnical hands‑on delivery on measuring product performance through the product development cycle i.e. design experiments to test the hypothesis, define success metrics of features, and define the data points needed capturing to facilitate accurate measurement.\n\nApply technical data skills (data science, statistics, coding / scripting) and expertise to produce strategic as well as tactical insights that will aid product strategy, discovery, and planning.\n\nAct as a mentor for junior Product Data Scientists, providing guidance on their development, and supporting and reviewing delivery when needed.\n\nBe a thought leader in the use of data and analytics, help and educate a diverse group of data users to utilise Entrust's tools and data assets.\n\nExtensive experience in end‑to‑end analytical delivery, i.e. requirement capture, stakeholder management, metric design as well as delivering complex analysis.\n\nSolid demonstrable technical experience using analytical tools, statistics, and data science techniques to build experiments, test hypotheses, and conduct analysis.\n\nDemonstrable experience in looking at data from a variety of angles (i.e. product / commercial performance, operations, finance, and user experience) using both technical skills and deep product / business understanding.\n\nStrong technical experience with SQL and Python\n\nBe a self‑starter who takes the initiative in spotting opportunities and finding ways to solve business problems using data.\n\nGood understanding of Agile methodologies.\n\nExperience with BI tools (i.e. Looker, Tableau etc..)\n\nExperience in using big data & cloud technologies\n\nExperience in Machine Learning, building data products using ML.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 1 día",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Barcelona",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DxIvGW8ZMGa-JxrrdAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15204100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "hDnXvK6dzMWgyDlYAAAAAA==",
+      "job_title": "Data Scientist , Translational Medicine",
+      "employer_name": "Clarivate",
+      "employer_logo": null,
+      "employer_website": "https://clarivate.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/1053809003185831936?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/1053809003185831936?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "We are always looking for talented scientists to grow and develop our team and currently we are looking for an experienced data scientist who will work with our clients - ranging from pharmaceutical companies to clinical centers and non-profit organizations - on different projects, related to data analysis, literature curation, data standardization and reconstruction of molecular pathways.\n- Responsibilities and Duties\n- In your day-to-day activities, you will work on:\n- Work with customers in data analysis, extraction, and curation of translational research datasets.-\n- Responsible for systematization of biological and medical information, search and in-depth analysis of translational and medical data.-\n- Support projects related to pathway reconstruction of molecular mechanisms of disease development and progression, mechanisms of drug action or resistance.-\n- Contribute to the development of new approaches and techniques to address complicated and interesting scientific questions.-\n- Participate in business and strategy development by scoping customers’ needs and transforming their requirements into solutions.-\n- Publish results of your research in scientific journals, prepare customer-oriented presentations and training materials.- Qualifications\n- Your Knowledge, Skills, and Abilities- Extensive experience with curation of multiple data sources, including scientific literature, patents, clinical trial registries, FDA/EMA drug labels, companion diagnostic kits and clinical society guidelines, as well as public databases.-\n- Knowledge of molecular biology, cell biology, human genetics, and signaling pathways.-\n- Knowledge of scientific methodology, clinical research, translational and medical data management.-\n- Broad experience in delivering consulting projects for Business Development, Medical and R&D groups of global pharma companies, biotechs, non-profits and academia.-\n- Highly Preferred: Knowledge of scripting languages (Python, R) or database querying languages (SQL), and Git and experience with MetaCore and/or Ingenuity Pathways would be an advantage.-\n- Preferred: Knowledge of Clarivate proprietary databases Cortellis, Cortellis Drug Discovery Intelligence (previously Integrity) and MetaBase would be a plus.-\n- Excellent written and verbal communication skills with the ability to conduct regular presentations, lead customer conversations and write scientific texts/articles. Aptitude for working in a customer-oriented consulting environment: an ability to earn customer trust through effective communication, efficiency, integrity, and deep technical expertise.-\n- Self-starter able to work independently and within a dynamic multidisciplinary team.- Experience- PhD or Master’s degree with professional experience in a field related to molecular biology, biochemistry, systems biology or similar-\n- Advanced level of Excel and PowerPoint-\n- Knowledge of scripting languages (Python, R) or database querying languages (SQL) would be an advantage-\n- A minimum of two to three years of relevant work experience in data analysis in professional setting, preferably in a biotechnology, pharmaceutical, or healthcare setting.- What We Can Offer You- A modern culture environment combined with all the financial and stability advantages of working for a large business-\n- Active volunteering community, with 40 annual paid hours of volunteering time-\n- Private Health and Life & Disability insurances.-\n- Tax-free benefits (Ticket Restaurant scheme, kindergarten and transport cards)-\n- Remote language classes (Catalan, Spanish and English)-\n- Digital workplace with possibility to work in a central office location in Barcelona, near Sagrada Familia-\n- Global and dynamic employee base (more than 20 nationalities)-\n- 30 working days of vacation- It is the policy of Clarivate to provide equal employment opportunity (EEO) to all persons regardless of age, color, national origin, citizenship status, physical or mental disability, race, religion, creed, gender, pregnancy, sex, sexual orientation, gender identity and/or expression, genetic information, marital status, status with regard to public assistance, veteran status, or any other characteristic protected by federal, state or local law. In addition, Clarivate will provide reasonable accommodations for qualified individuals with disabilities.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 8 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Barcelona",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DhDnXvK6dzMWgyDlYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "0y7Mvm2BWeDBd64VAAAAAA==",
+      "job_title": "Data Science Manager - remote within EMEA",
+      "employer_name": "Printful",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-n1x_VDJ18Hwh8oweazEFUjUKpsLF5gYlc1Ei&s=0",
+      "employer_website": "https://www.printful.com",
+      "job_publisher": "Printful",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.printful.com/uk/careers/open-positions/jr1781?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Printful",
+          "apply_link": "https://www.printful.com/uk/careers/open-positions/jr1781?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "In November of 2024, Printful and Printify came together as two equals and merged to form a global on-demand powerhouse. This role will involve working across our two platforms and brands, a unique and special challenge. To learn more about the merger, check out our blog post.\n\nAbout the Role\n\nWe are looking for a Data Science Manager to own and lead our central machine learning function globally. You’ll oversee a team of seven data scientists and play a pivotal role in defining our machine learning and data science strategy across the organization. In this role, you’ll drive technical excellence, foster a culture of collaboration and innovation, and refine team rituals to ensure high-quality, impactful project delivery that advances our business goals.\n\nYour Daily Tasks will Entail:\n• Lead innovation and enhance the organizational impact of the machine learning team by refining collaboration and innovation practices.\n• Mentor and coach a team of 7 data scientists to enhance their technical and business acumen. Organize regular 1:1s with data scientists, conduct performance reviews, set development goals, and provide career guidance.\n• Define, and drive the implementation of KPIs for machine learning projects. Regularly track KPIs and proactively raise issues within the team.\n• Collaborate with Machine Learning product managers to define the vision of machine learning in the company and discuss potential ML solution applications for business problems.\n• Establish and evaluate optimal team rituals for project delivery.\n• Stay up to date with the latest advancements in machine learning and AI fields and drive their application within the business.\n• Collaborate with MLOps team to ensure that the infrastructure and ML-platform supports the data science needs.\n\nYour Qualifications:\n• At least 5 year experience in data science/machine learning/AI field.\n• At least 2 year of proven experience in leading a team of data scientists and managing projects from ideation to deployment.\n• Experience in a marketplace/product company.\n• Experience with model development, optimization, and deployment in production.\n• Familiarity with MLOps best practices.\n• Proficiency in Python-based ML frameworks.\n• Experience with SQL.\n• Knowledge of cloud platforms (AWS as preferred) for ML deployments.\n• Experience in solving real-world ML problems at scale.\n• Experience working cross-functionally with product, engineering, and business teams.\n• Ability to balance hands-on technical work with strategic planning.\n• Experience in hiring, team scaling, and fostering a high-performance ML culture.\n\nWhat we Offer:\n• All the resources and tools to perform your tasks (choose between Mac or Windows).\n• An opportunity to work remotely (across EMEA) or in a modern and welcoming office in Rīga.\n• Flexible working hours (start your day as late as 11 a.m.).\n• Health insurance, including a mental wellness program.\n• Employee discounts for 300+ premium products.\n• Room for professional growth (conferences, workshops, mentoring, guest lectures).\n• Exciting team-building events and parties you’ll never forget!\n\nWe are an equal opportunity workplace. We’re committed to diversity and inclusion and make our hiring decisions based solely on qualifications, merit, and work experience.\n\nInterested, but don’t think this is the right fit for you? Feel free to share it with friends and check out other open positions at our career's site. We’re always looking for creative and driven minds to join our ever-growing team.",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Barcelona",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D0y7Mvm2BWeDBd64VAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15204100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "yPHb40_m6x3aMIu3AAAAAA==",
+      "job_title": "Senior Product Data Scientist",
+      "employer_name": "Onfido",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvn8ugg-fxIG1mwT8KsA-nRXA2LyishuOA34aC&s=0",
+      "employer_website": null,
+      "job_publisher": "Job Board - Plug And Play Tech Center",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://jobs.pnptc.com/companies/onfido/jobs/59856708-senior-product-data-scientist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Job Board - Plug And Play Tech Center",
+          "apply_link": "https://jobs.pnptc.com/companies/onfido/jobs/59856708-senior-product-data-scientist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "IT JobServe",
+          "apply_link": "https://it.jobserve.com/job-in-Washington-District-of-Columbia-USA/SENIOR-DATA-SCIENTIST-PRODUCT-ANALYTICS-290c2a52aa4a21d563/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Join us at Entrust\n\nAt Entrust, we’re shaping the future of identity centric security solutions. From our comprehensive portfolio of solutions to our flexible, global workplace, we empower careers, foster collaboration, and build solutions that help keep the world moving safely.\n\nGet to Know Us\n\nHeadquartered in Minnesota, Entrust is an industry leader in identity-centric security solutions, serving over 150 countries with cutting-edge, scalable technologies. But our secret weapon? Our people. It’s the curiosity, dedication, and innovation that drive our success and help us anticipate the future.\n\nSenior Product Data Scientist\n\nWe’re looking for an experienced Senior Product Data Scientist, you will support the Product organization to take data driven decisions. You will work on complex and never before explored problems delivering insight on unique and interesting datasets. This role is a hands-on delivery-oriented role by owning one of the key deliveries workstreams. We work in an Agile environment where we are constantly learning and exchanging ideas.\n\nThe Team/Projects You will be working on:\n\nThe Biometrics team ensures that the selfies and video clips that users submit feature real humans. These teams are growing our new facial products (Facial Similarity for photo and video, Known Faces, motion, and verification) for live detection, providing a substantial leap in selfie and video verifications.\n\nYou will have the opportunity to work on Biometric Projects ranging from improving the SDK experience to detecting deep fakes.\n\nWhat you will do:\n• Technical hands-on delivery on measuring product performance through the product development cycle i.e. design experiments to test the hypothesis, define success metrics of features, and define the data points needed capturing to facilitate accurate measurement.\n• Apply technical data skills (data science, statistics, coding/scripting) and expertise to produce strategic as well as tactical insights that will aid product strategy, discovery, and planning\n• Work in partnership with product managers, applied scientists and engineers to define, measure, and communicate product metrics\n• Act as a mentor for junior Product Data Scientists, providing guidance on their development, and supporting and reviewing delivery when needed.\n• Ensure alignment in analytical delivery between Product, R&D, and Analytics Engineering Team\n• Be a thought leader in the use of data and analytics, help and educate a diverse group of data users to utilise Onfido’s tools and data assets\n\nRequirements:\n• Extensive experience in end-to-end analytical delivery, i.e. requirement capture, stakeholder management, metric design as well as delivering complex analysis\n• Solid demonstrable technical experience using analytical tools, statistics, and data science techniques to build experiments, test hypotheses, and conduct analysis\n• Demonstrable experience in looking at data from a variety of angles (i.e. product/commercial performance, operations, finance, and user experience) using both technical skills and deep product/business understanding\n• Experience in mentoring and nurturing other members of the team\n• Strong technical experience with SQL and Python\n• Be a self-starter who takes the initiative in spotting opportunities and finding ways to solve business problems using data\n• Comfortable with engaging with all levels of stakeholders and explaining complex technical issues to non-technical audiences\n\nDesirable:\n• Experience in working with technology and product development teams\n• Good understanding of Agile methodologies\n• Experience with BI tools (i.e. Looker, Tableau etc..)\n• Experience in using big data & cloud technologies\n• SaaS and Product analytics background, understanding how to devise metrics and KPIs in a SaaS environment\n• Experience in Machine Learning, building data products using ML\n\nLocations:\n• London, UK – Hybrid work model (3 days per week in-office)\n• Paris, France – Flexible work model (Hybrid or fully remote)\n\nBenefits UK\n• 25 days annual leave plus a day off for your Birthday.\n• Two paid volunteering days per year.*\n• Bupa Private Medical and Dental Insurance*\n• Pension with The People’s Pension (employer contribution 4% of base salary)*\n• Generous paid parental leave\n• Life enrichment allowance of up to £80 per month to use for services including gym, yoga, fitness classes, massages, childcare, and therapy\n• Dedicated learning opportunities including using tools like Linkedin Learning with availability to use for learning resources such as books, coaches, conferences, courses, podcasts, and more\n• Our open and transparent culture is reflected in our “Better Together” motto and we bring this to life by meeting once a week for our global weekly roundup (OnThursday); holding quarterly team socials, and other company-wide social events\n• Expense up to £300 (or local equivalent) to purchase workstation setup equipment\n• The opportunity to become a member of Entrust’s resource groups in order to learn different skills in our belonging groups\n\nBenefits France\n• 25 days annual leave plus + RTT + 1 day off for your birthday\n• Two paid volunteering days per year*\n• Meal Vouchers provided by Swile. Onfido covers 50% and 50% is deducted from your payroll.\n• Health Insurance (Mutuelle) provided by ALAN\n• Disability & Life insurance (Prevoyance) provided by ALAN (3x Base Salary)\n• Commuter reimbursement up to €40 per month\n• Life enrichment allowance of up to €95 per month to use for services including gym, yoga, fitness classes, massages, childcare, and therapy\n• Dedicated learning opportunities including using tools like Linkedin Learning with availability to use for learning resources such as books, coaches, conferences, courses, podcasts, and more\n• Our open and transparent culture is reflected in our “Better Together” motto and we bring this to life by meeting once a week for our global weekly roundup (OnThursday); holding quarterly team socials, and other company-wide social events\n• Expense up to £300 (or local equivalent) to purchase workstation setup equipment\n• The opportunity to become a member of Entrust’s resource groups in order to learn different skills in our belonging groups\n\nAt Entrust, we don’t just offer jobs – we offer career journeys. Here is what you can expect when you join our team:\n• Career Growth: Whether you’re a budding developer or a seasoned expert, we’re invested in your professional journey. With learning-forward initiatives and exciting challenges, your growth is our priority.\n• Flexibility: Life is all about balance. Whether you’re remote, hybrid, or on-site, we offer flexible options that fit your lifestyle.\n• Collaboration: Here, your voice matters. Our teams thrive on sharing ideas, brainstorming solutions, and working together to build a better tomorrow.\n\nWe believe in securing identities—but it doesn’t stop there. At Entrust, we’re passionate about valuing all identities. Our culture is built on diversity, inclusion, and respect. From unconscious bias training for our leaders to global affinity groups that connect colleagues across the globe, we’re creating a community where everyone is encouraged to be themselves.\n\nReady to Make an Impact?\n\nIf you’re excited by the prospect of innovating, growing your career, and collaborating in a dynamic environment, Entrust is the place for you. Join us in making a difference. Let’s build a more secure world—together.\n\nApply today!\n\nFor more information, visit www.entrust.com. Follow us on, LinkedIn, Facebook, Instagram, and YouTube\n\nFor US roles, or where applicable:\n\nEntrust is an EEO/AA/Disabled/Veterans Employer\n\nFor Canadian roles, or where applicable:\n\nEntrust values diversity and inclusion and we are committed to building a diverse workforce with wide perspectives and innovative ideas. We welcome applications from qualified individuals of all backgrounds, and we strive to provide an accessible experience for candidates of all abilities.\n\nIf you require an accommodation, contact accessibility@entrust.com.\n\nRecruiter:\nJack Steib\n\njack.steib@entrust.com",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Barcelona",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DyPHb40_m6x3aMIu3AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {
+        "Qualifications": [
+          "We’re looking for an experienced Senior Product Data Scientist, you will support the Product organization to take data driven decisions",
+          "You will work on complex and never before explored problems delivering insight on unique and interesting datasets",
+          "Extensive experience in end-to-end analytical delivery, i.e. requirement capture, stakeholder management, metric design as well as delivering complex analysis",
+          "Solid demonstrable technical experience using analytical tools, statistics, and data science techniques to build experiments, test hypotheses, and conduct analysis",
+          "Demonstrable experience in looking at data from a variety of angles (i.e. product/commercial performance, operations, finance, and user experience) using both technical skills and deep product/business understanding",
+          "Experience in mentoring and nurturing other members of the team",
+          "Strong technical experience with SQL and Python",
+          "Be a self-starter who takes the initiative in spotting opportunities and finding ways to solve business problems using data",
+          "Comfortable with engaging with all levels of stakeholders and explaining complex technical issues to non-technical audiences",
+          "Experience in working with technology and product development teams",
+          "Good understanding of Agile methodologies",
+          "Experience with BI tools (i.e",
+          "Experience in using big data & cloud technologies"
+        ],
+        "Benefits": [
+          "25 days annual leave plus a day off for your Birthday",
+          "Two paid volunteering days per year.*",
+          "Bupa Private Medical and Dental Insurance*",
+          "Pension with The People’s Pension (employer contribution 4% of base salary)*",
+          "Generous paid parental leave",
+          "Life enrichment allowance of up to £80 per month to use for services including gym, yoga, fitness classes, massages, childcare, and therapy",
+          "Dedicated learning opportunities including using tools like Linkedin Learning with availability to use for learning resources such as books, coaches, conferences, courses, podcasts, and more",
+          "Our open and transparent culture is reflected in our “Better Together” motto and we bring this to life by meeting once a week for our global weekly roundup (OnThursday); holding quarterly team socials, and other company-wide social events",
+          "Expense up to £300 (or local equivalent) to purchase workstation setup equipment",
+          "The opportunity to become a member of Entrust’s resource groups in order to learn different skills in our belonging groups",
+          "25 days annual leave plus + RTT + 1 day off for your birthday",
+          "Two paid volunteering days per year*",
+          "Meal Vouchers provided by Swile",
+          "Onfido covers 50% and 50% is deducted from your payroll",
+          "Health Insurance (Mutuelle) provided by ALAN",
+          "Disability & Life insurance (Prevoyance) provided by ALAN (3x Base Salary)",
+          "Commuter reimbursement up to €40 per month",
+          "Life enrichment allowance of up to €95 per month to use for services including gym, yoga, fitness classes, massages, childcare, and therapy",
+          "Dedicated learning opportunities including using tools like Linkedin Learning with availability to use for learning resources such as books, coaches, conferences, courses, podcasts, and more",
+          "Our open and transparent culture is reflected in our “Better Together” motto and we bring this to life by meeting once a week for our global weekly roundup (OnThursday); holding quarterly team socials, and other company-wide social events",
+          "Expense up to £300 (or local equivalent) to purchase workstation setup equipment",
+          "Career Growth: Whether you’re a budding developer or a seasoned expert, we’re invested in your professional journey",
+          "Flexibility: Life is all about balance",
+          "Whether you’re remote, hybrid, or on-site, we offer flexible options that fit your lifestyle"
+        ],
+        "Responsibilities": [
+          "This role is a hands-on delivery-oriented role by owning one of the key deliveries workstreams",
+          "We work in an Agile environment where we are constantly learning and exchanging ideas",
+          "You will have the opportunity to work on Biometric Projects ranging from improving the SDK experience to detecting deep fakes",
+          "Technical hands-on delivery on measuring product performance through the product development cycle i.e. design experiments to test the hypothesis, define success metrics of features, and define the data points needed capturing to facilitate accurate measurement",
+          "Apply technical data skills (data science, statistics, coding/scripting) and expertise to produce strategic as well as tactical insights that will aid product strategy, discovery, and planning",
+          "Work in partnership with product managers, applied scientists and engineers to define, measure, and communicate product metrics",
+          "Act as a mentor for junior Product Data Scientists, providing guidance on their development, and supporting and reviewing delivery when needed",
+          "Ensure alignment in analytical delivery between Product, R&D, and Analytics Engineering Team",
+          "Be a thought leader in the use of data and analytics, help and educate a diverse group of data users to utilise Onfido’s tools and data assets",
+          "SaaS and Product analytics background, understanding how to devise metrics and KPIs in a SaaS environment",
+          "Experience in Machine Learning, building data products using ML"
+        ]
+      },
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "sIDTLgKCDgugFK1qAAAAAA==",
+      "job_title": "Senior Data Scientist, App Experience",
+      "employer_name": "Brainly",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5BSMIt7m2uiId_3142LNElhU-kvf9h48rIEOM&s=0",
+      "employer_website": "https://brainly.com",
+      "job_publisher": "Trabajo.org",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.trabajo.org/oferta-3393-a0adaae1f697b2725bc375e3588ae961?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3393-a0adaae1f697b2725bc375e3588ae961?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "_NOTICE: ONLINE RECRUITMENT PROCESS_\n- LOCATION: KRAKÓW OR REMOTELY FROM POLAND / BARCELONA OR REMOTELY FROM SPAIN_\n• *SALARY: 26 000 - 35 000 PLN gross/monthly**\nThere are more than **350 million reasons** to join Brainly — one for every student you'll help go from questioning to understanding. Team up with us as we build and continue improving one of the most popular **ed-tech products** on the planet. In a world of questions and uncertainty, you can be part of the answer as we shape the future of learning and change lives, one student at a time. If this excites you, you know what to do next.\nLet's get to know each other. And get ready to **make a difference**\n• *ROLE OVERVIEW**\nBrainly is looking for a **Data Scientist** to join the App Experience & Monetization team to boost the performance of **conversion optimization tactics**, as well as driving an instantaneous app experience.\nProduct Teams at Brainly are working on some of the most complex technical challenges in the ed-tech space and creating the **product for over 350 million students** from all around the world. We focus on building the infrastructure and features that enable Brainly users to learn and collaborate, ask, and answer millions of questions every day.\nOn a daily basis, you will work with a fully independent product team that includes: developers, Bi analysts, product designers, QA. You will take* full responsibility for your product area from conception to completion creating valuable and engaging products*. All of the features that we are releasing are under the A/B/n test, so you will see how your work impacts students and the company in practice.\nYou will have the chance to work with top-class scientists, engineers, and domain experts, and to drive the data science process of our products end-to-end. We alternate the development workflow with research spikes on state-of-the-art machine intelligence applied to understanding and personalizing learning experiences.\n• *WHAT YOU'LL DO**\n- Consult stakeholders to define most promising and time-to-value effective research areas.\n- **Research and implement** novel techniques for audience segmentation,\n- **Develop user behavior modeling tools**, especially for**:purchase prediction, churn prediction and next best offer prediction**,\n- **Explore and analyze multi-dimensional and unstructured data** in order to find patterns and relationships.\n- Work closely with engineers in order to* integrate models and algorithms* with the larger system.\n- Effectively communicate results and storytelling with the data.\n- Ensure statistical and scientific rigor among the whole team.\n- **Work closely with the product teams** and business stakeholders to design new features or improve the functionalities and user experience of the platform.\n- Educate Brainly employees on topics related to Machine Learning.\n• *WHAT MAKES YOU THE PERFECT CANDIDATE**\n- 4+ years experience, or a comparable industry career, with machine learning, data mining, or statistical modeling.\n- Experience with analyzing **massive datasets on a distributed cluster of machines** (map/reduce or other parallel computing frameworks).\n- **Strong theoretical background** on at least a few among high-dimensional classifiers, regression models, clustering algorithms, recommender systems, time-series analysis, Bayesian inference, text analytics, knowledge graphs, representation learning (embeddings), computer vision, or social network analysis.\n- At least some of the data analysis and visualization tools such as pandas, dask, vaex, matplotlib, seaborn, plotly, dash, bokeh, shap, streamlit.\n- At least some of the data engineering technologies such as Spark, DataBricks, Glue, EMR, Docker, Kubernetes, SQL, key-value stores, Redshift, Snowflake.\n- At least some of the ML technologies such as AWS SageMaker, Tensorflow Extended, PyTorch, Spark ML, scikit-learn, XGBoost, KubeFlow, MLFlow, or related frameworks.\n- **Working knowledge of Python and the PyData stack** or other numerical programming languages.\n- Fluent in English, both verbal and written.\n- Ability to prototype and test suboptimal solutions quickly and iterate up to a final product that can be deployed in production.\n• *WHAT WILL BLOW OUR MINDS**\n- Experience with segmentation, churn prediction or other machine learning models in production.\n- Experience with large volume ETL jobs or data streaming.\n- Experience with graphs data and algorithms.\n- Experience as a contributor or owner of GitHub repositories.\n- Master's degree or above in STEM fields (science, technology, engineering, or mathematics) or a similarly quantitative field.\n- PhD with publications in Statistics, Data Science, Computer Science, Machine Learning, Mathematics or similar.\n• *WHAT YOU GET BY JOINING BRAINLY**\n- We want to see you grow along with us - you will have **800$** per year for personal development, extra **time **for attending conferences and workshops, and unlimited access to an **online learning platform **(co",
+      "job_is_remote": false,
+      "job_posted_at": "hace 14 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Barcelona",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DsIDTLgKCDgugFK1qAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    }
+  ]
+}

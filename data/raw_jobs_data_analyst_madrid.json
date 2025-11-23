@@ -1,0 +1,562 @@
+{
+  "status": "OK",
+  "request_id": "516f5238-b6af-4e5f-9ce2-e8ab21ccbcca",
+  "parameters": {
+    "query": "data analyst jobs in Madrid",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "nOk1qalloQrhP_qDAAAAAA==",
+      "job_title": "Google Data Analyst",
+      "employer_name": "Izertis",
+      "employer_logo": null,
+      "employer_website": "https://www.izertis.com",
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=fd294eb28d56985e&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=fd294eb28d56985e&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.com/job-listing/google-data-analyst-izertis-JV_IC2664239_KO0,19_KE20,27.htm?jl=1009945360002&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.es/job-listing/google-data-analyst-izertis-JV_IC2664239_KO0,19_KE20,27.htm?jl=1009945360002&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/8ff5a6d9e28b3de30d7b49470ffdd9ff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3810-bb01e94e8f2b1ec500020cc6ca8d321e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Descripción\n\nWe are looking for a professional capable of transforming business questions into clear, actionable insights. Someone who feels comfortable working across the Google Cloud ecosystem, building reliable dashboards, and experimenting with Generative AI to enhance analytical workflows.\n\nThis role requires a mix of technical skills, analytical thinking, and the ability to collaborate with product, engineering, and business teams.\n\nKey Responsibilities:\n• Build and maintain advanced, interactive Looker dashboards connected to BigQuery models and datasets.\n• Apply Generative AI techniques to enrich data analysis (automated insight generation, summaries, explanations).\n• Experiment with Looker + GenAI integrations, including Vertex AI, Gemini, and similar tools.\n• Collaborate with cross-functional teams to design intelligent, user-focused data solutions.\n• Design and maintain efficient LookML models and underlying data structures.\n• Ensure data quality, consistency, and governance within the GCP environment.\n\nRequisitos mínimos\n\nMust Have Requirements:\n• 1–2 years of experience as a Data Analyst or in a similar role.\n• Strong proficiency with Looker (dashboards, LookML modeling, permissions, custom metrics).\n• Solid experience writing complex SQL queries in BigQuery.\n• Hands-on experience with Google Cloud Platform (GCP).\n• Practical understanding of Generative AI tools or APIs applied to data analysis (insight generation, text generation, conversational interfaces).\n• Ability to translate business questions into actionable analytical outputs.\n\nNice to Have\n• Basic knowledge of Python or R for exploratory analysis.\n• Familiarity with dbt or Dataform.\n• Google Cloud certifications (Data Engineer, ML Engineer).\n• Experience with CI/CD practices in data environments.\n\nWho are we?\n\nIzertis, with more than 29 years of experience, listed on the BME Continuous Market and among the 1,000 fastest growing companies among European countries, gives you the opportunity to develop your career with more than 2,300 employees through its offices in Europe, America and Africa and with presence in more than 50 countries where we provide services and projects through a broad portfolio of solutions. If you think this opportunity may be of interest to you, do not hesitate to apply or contact us!\n\nUbicación\n\nMadrid\n\nCategoría\n\nInformática y telecomunicaciones\n\nSubcategoría\n\nProgramación\n\nSector\n\nProgramación, consultoría y otras actividades informáticas\n\nJornada laboral\n\nCompleta\n\nModalidad de trabajo\n\nMixto (Presencial y Teletrabajo)\n\nNivel profesional\n\nEmpleado\n\nDepartamento\n\nInformática",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DnOk1qalloQrhP_qDAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "uMhu3Jjs51Oit-EpAAAAAA==",
+      "job_title": "Data Analyst - Sql Specialist",
+      "employer_name": "Oliver Bernard",
+      "employer_logo": null,
+      "employer_website": "https://oliverbernard.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/3586493458916835328?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/3586493458916835328?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Data Analyst - FinTech - Python, SQL\n\nOliver Bernard are partnered with a hyper-growth FinTech with offices across the Globe, who are looking to hire a number of Data Analysts, to their growing team of highly-skilled professionals, where you'll have the opportunity to grow and contribute from day one.\n\nin this role, you will leverage your Data Analysis skills, Financial market knowledge and skills within automation, to thrive in a dynamic environment.\n\nData Analyst - FinTech - Python, SQL\n\nMinimum of 2+ years of relevant commercial experience\n\nExperience with SQL & Python\nData Analyst - FinTech - Python, SQL",
+      "job_is_remote": false,
+      "job_posted_at": "hace 12 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DuMhu3Jjs51Oit-EpAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "t_JPmi1V8GD12EvVAAAAAA==",
+      "job_title": "Data Analyst with Looker",
+      "employer_name": "IZERTIS",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0_xYWruUMAm9Ym7aYFyE4I2paS8RZHzyQIEl&s=0",
+      "employer_website": null,
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/data-analyst-with-looker-at-izertis-4341977246?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-analyst-with-looker-at-izertis-4341977246?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/476311239618723840?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/data-analyst-looker-jobs/4AB9526584DBB9A7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/amp/job/es-madrid-data-analyst-looker-izertis-hiring-now-job-immediately-opening?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "We are looking for a professional capable of transforming business questions into clear, actionable insights. Someone who feels comfortable working across the Google Cloud ecosystem, building reliable dashboards, and experimenting with Generative AI to enhance analytical workflows.\n\nThis role requires a mix of technical skills, analytical thinking, and the ability to collaborate with product, engineering, and business teams.\n\nKey Responsibilities:\n• Build and maintain advanced, interactive Looker dashboards connected to BigQuery models and datasets.\n• Apply Generative AI techniques to enrich data analysis (automated insight generation, summaries, explanations).\n• Experiment with Looker + GenAI integrations, including Vertex AI, Gemini, and similar tools.\n• Collaborate with cross-functional teams to design intelligent, user-focused data solutions.\n• Design and maintain efficient LookML models and underlying data structures.\n• Ensure data quality, consistency, and governance within the GCP environment.\n\nMust Have Requirements:\n• 1–2 years of experience as a Data Analyst or in a similar role.\n• Strong proficiency with Looker (dashboards, LookML modeling, permissions, custom metrics).\n• Solid experience writing complex SQL queries in BigQuery.\n• Hands-on experience with Google Cloud Platform (GCP).\n• Practical understanding of Generative AI tools or APIs applied to data analysis (insight generation, text generation, conversational interfaces).\n• Ability to translate business questions into actionable analytical outputs.\n\nNice to Have:\n• Basic knowledge of Python or R for exploratory analysis.\n• Familiarity with dbt or Dataform.\n• Google Cloud certifications (Data Engineer, ML Engineer).\n• Experience with CI/CD practices in data environments.\n\nWho are we?\n\nIzertis, with more than 29 years of experience, listed on the BME Continuous Market and among the 1,000 fastest growing companies among European countries, gives you the opportunity to develop your career with more than 2,300 employees through its offices in Europe, America and Africa and with presence in more than 50 countries where we provide services and projects through a broad portfolio of solutions. If you think this opportunity may be of interest to you, do not hesitate to apply or contact us!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 2 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dt_JPmi1V8GD12EvVAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "c2Uf_TF0D0ejpJPRAAAAAA==",
+      "job_title": "Data Analyst - Analytics & Innovación en Equipo",
+      "employer_name": "SDG Group",
+      "employer_logo": null,
+      "employer_website": "https://www.sdggroup.com",
+      "job_publisher": "JobLeads",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobleads.com/es/job/data-analyst-analytics-innovacion-en-equipo--madrid--e918ce1d9facae6cf4d066dd7dfdc7c1f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "JobLeads",
+          "apply_link": "https://www.jobleads.com/es/job/data-analyst-analytics-innovacion-en-equipo--madrid--e918ce1d9facae6cf4d066dd7dfdc7c1f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobatus",
+          "apply_link": "https://www.jobatus.es/oferta-trabajo/data-insights-visualization-analyst-madrid-es-568915754?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/247290114378563584?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3393-6eb9cc5344b24c59f201f8e7a7ecc4cd?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Kit Empleo",
+          "apply_link": "https://www.kitempleo.es/empleo/291182777/remote-web-data-analyst-marketing-analytics-dashboards-madrid?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/data-analyst-analytics-innovacion-en-jobs/D3080F88BABB401C?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "- FlexMote",
+          "apply_link": "https://www.flexmote.es/job/manager-data-analytics-ia-barcelona/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Una empresa de Data & Analytics en Madrid busca un apasionado por los datos. Te involucrarás en análisis técnicos, transformación de datos y documentación de proyectos. Ofrecemos un entorno donde crecer y aprender de los mejores. Además, tendrás un contrato indefinido, jornada intensiva en verano y salario competitivo. ¡Únete a nuestro equipo donde la diversidad y la inclusión son clave para el éxito!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dc2Uf_TF0D0ejpJPRAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "3JaH37XAhkmEnDqPAAAAAA==",
+      "job_title": "Analista de datos / Data Analyst, hibrido",
+      "employer_name": "Segula Technologies",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBKe2bu7h7SXEufQmy7a2p_Jx8H10E9Lp5ho4&s=0",
+      "employer_website": "https://www.segulatechnologies.com",
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=d01ab98be724804c&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=d01ab98be724804c&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/McK1wbeFs9BfRoJXADhZkyTmTmNde3RZhg31vtxZsFV6e5k9DKHTDQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/jdp/-2632116952966071561?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Insertia.net",
+          "apply_link": "https://www.insertia.net/ver-oferta/25beb596-4042-4a57-a8ef-73be3279c0a0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/6f72f1a832f3b7b02f36589fe31db19a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/analista-de-datos-data-analyst-jobs/7749E970AC7F0F5F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobatus",
+          "apply_link": "https://www.jobatus.es/oferta-trabajo/data-analyst-hibrido-569042002?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/1266312268321128448?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Analista de datos / Data Analyst\nDescripción\n\n¿Quieres formar parte de una empresa innovadora, presente en sectores tan importantes como automoción, rail, energético o aeroespacial entre otros?\nDesde SEGULA TECHNOLOGIES estamos buscando a gente como tú.\nLa compañía ha experimentado un rápido crecimiento en los últimos años y actualmente estamos presentes en más de 30 países con más de 15.000 empleados/as. Acompañamos a nuestros clientes en todas las etapas del ciclo de vida del producto.\nSEGULA TECHNOLOGIES cuenta con un amplio equipo de expertos/as de ingeniería diseño, modelado y simulación, así como tecnologías digitales.\nTrabajamos en un ambiente inclusivo y respetuoso, donde todas las personas son valoradas y tienen igualdad de oportunidades para desarrollar su potencial.\n\nFunciones\n\nDesde SEGULA Technologies buscamos incorporar en nuestra plantilla un/a Persona con experiencia en gestión de proyectos y desarrollo de soluciones de bases de datos.\n\nRequisitos\n• Diseño, gestión y optimización de bases de datos relacionales\n• Desarrollo y mantenimiento de cuadros de mando e indicadores clave de rendimiento (KPIs) con herramientas de Business Intelligence\n• Elaboración de informes\n• 4 años de experiencia en gestión de proyectos.\n• Habilidades en análisis de datos, modelado de información y procesos ETL.\n• Modalidad hibrida\n\nSe ofrece\n• Salario en función de valía y experiencia aportada por el candidato.\n• Formación continua.\n• Buen ambiente de trabajo: profesional y muy especializado.\n• Posibilidad de trabajar en una empresa multinacional en pleno crecimiento a nivel nacional e internacional.\n• Promoción interna según tus propios objetivos.\n• Posibilidad de obtener ventajas fiscales en tu salario con SEGULA BENEFITS\n\nETL,",
+      "job_is_remote": false,
+      "job_posted_at": "hace 22 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D3JaH37XAhkmEnDqPAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "4_BhnSqMQEsUQHuRAAAAAA==",
+      "job_title": "Data Process Analyst",
+      "employer_name": "ALTEN",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcM4-F18oAhdbeQbLZjVieE8yl5t7qJmUBaicA&s=0",
+      "employer_website": null,
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/data-process-analyst-at-alten-4341932112?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-process-analyst-at-alten-4341932112?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/d94729039efce1000e6b99e755754802?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/5960541923180544000?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/data-process-analyst-jobs/D1B7E7894D1570B3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/amp/job/es-madrid-data-process-analyst-alten-hiring-now-job-immediately-opening?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "ClickaJobs",
+          "apply_link": "https://es.clickajobs.com/gfj/132149443?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "En ALTEN sabemos que el éxito de nuestros proyectos depende del talento y la implicación de las personas que forman nuestro equipo.\n\nSi tienes experiencia trabajando como Data Process Analyst, disfrutas analizando procesos end-to-end, te motiva profundizar en datos para entender qué ocurre en las instalaciones y te sientes cómodo identificando desviaciones, causas raíz y oportunidades de mejora, queremos conocerte.\n\nBuscamos a alguien que aporte solidez analítica, experiencia trabajando con SQL, Power BI y Python, iniciativa para proponer mejoras basadas en datos y capacidad para trabajar en entornos colaborativos, ágiles y con alto nivel de detalle en la comunicación y presentación de resultados.\n\nNos comprometemos a potenciar tu talento, escuchar tus expectativas y ofrecerte un entorno donde puedas crecer profesionalmente mientras contribuyes a proyectos de alto impacto tecnológico en el área de Calidad de Instalaciones & Performance.\n\n¿Te unes a nuestro #WelcomeHome?\n\n¿Qué buscamos?\n\n• +2 años de experiencia analizando procesos operativos, identificando desviaciones y trabajando con KPIs.\n\n• Experiencia sólida realizando análisis de datos con SQL (consultas complejas, joins, extracción de datos desde múltiples fuentes).\n\n• Manejo de Power BI para creación de dashboards, reporting visual y modelado de datos.\n\n• Conocimientos en Python aplicados a análisis, automatización o manipulación de grandes volúmenes de datos.\n\n• Capacidad para investigar problemas en instalaciones, profundizar hasta la causa raíz y documentar hallazgos de forma estructurada.\n\n• Experiencia aplicando metodologías de análisis de causa raíz: 8D, 5 Porqués, Ishikawa o similares.\n\n• Habilidad para transformar datos en insights claros y accionables, con alto nivel de detalle en el análisis y en la presentación.\n\n• Capacidad para comunicar resultados de manera clara y visual a equipos locales e internacionales.\n\n• Experiencia trabajando con bases de datos relacionales y estructuras complejas de información.\n\n• Familiaridad con KPIs operativos y técnicos relacionados con procesos, instalaciones o rendimiento.\n\n• Capacidad para obtener información tanto en remoto como realizando visitas puntuales a instalaciones para investigar desviaciones.\n\n• Perfil analítico, orientado a resultados, con pensamiento crítico y autonomía para proponer mejoras basadas en datos.\n\n• Buen manejo de herramientas de trabajo colaborativo (Excel avanzado, PowerPoint, Jira, Confluence o similares).\n\n• Proactividad, curiosidad técnica y gusto por “cacharrear” hasta entender completamente el origen de un problema.\n\n• Buena comunicación, tanto escrita como verbal, y capacidad para presentar conclusiones a distintos niveles de la organización.\n\n• Nivel de inglés B2 en adelante para participar en reuniones y coordinarse con equipos de otros países.\n\n¿QUÉ PODEMOS OFRECERTE?\n\n- Formar parte de una gran empresa competitiva y en continuo crecimiento.\n\n- Integración en un equipo de profesionales altamente cualificado, con un buen clima laboral, innovador y dinámico.\n\n- Formación especializada y desarrollo profesional continuo.\n\n- Beneficios sociales y plan de compensación flexible.\n\n- Retribución competitiva.\n\n¿QUIÉNES SOMOS?\n\nSomos un equipo. Formamos parte de ALTEN, una multinacional europea especializada en proporcionar servicios de consultoría, tecnología de la información y servicios de ingeniería a las principales compañías del mercado español.\n\nSi te gustan las cifras, te diremos que en España tenemos una facturación de 217 millones de euros, 9 sedes y un equipo formado por 5.240 personas.\n\nAdemás, en ALTEN nos enorgullecemos de ofrecer igualdad de oportunidades con independencia de género, edad, diversidad de capacidades o país de origen. Nuestro compromiso está con el talento y con las personas que lo tienen.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D4_BhnSqMQEsUQHuRAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "e7xg4Ig5qmfpWcJgAAAAAA==",
+      "job_title": "Business Analyst / Data Analyst",
+      "employer_name": "Page Personnel España",
+      "employer_logo": null,
+      "employer_website": "https://www.pagepersonnel.es",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/4107701003145445376?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/4107701003145445376?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Proponer e impulsar la aplicación de medidas de mejora para la modelización de operaciones, la elaboración de informes y la garantía de calidad\n- Definir y desarrollar un modelo para identificar las incoherencias en la entrada de operaciones\n- Definir los requisitos técnicos y de negocio para los procesos y flujos de datos que sirven de entrada para la representación de las operaciones en el sistema\n- Formar parte activa de los proyectos internacionales del departamento\n- Coordinar la resolución de problemas y las instrucciones dadas a las funciones anteriores para apoyar los cambios necesarios, o bien escalar a la dirección\n- MUY IMPORTANTE. Ya que el equipo es internacional, la posición requiere predisposición para viajar a países como Polonia, Suiza u otros.\n\nContrato indefinido|Empresa final\n- Título universitario (ideal ingeniería, matemáticas, física, economía)\n- IMPRESCINDIBLE inglés alto. Tanto el proceso de selección, como tu día a día, será en inglés.\n- Capacidad analítica\n- Sólido conocimiento en gestión, análisis y procesamiento de datos\n- Experiência con el siguiente stack: Python (librerías como Pandas, Tensorflow, PyTorch), SQL y herramientas BI.\n- Excel a nível avanzado\n- Dentro de DATA; formarás parte del área financiera y riesgos, así que valoramos experiência previa en esto último.\n- Tenemos dos posiciones abiertas, una más junior de 1-2 años de experiência previa en puesto relacionado y otra con un recorrido de 4-5 años.\n- Empresa internacional del sector de energía.\n- Tamaño: 2000-3000 empleados\n- Empresa innovadora y flexible.\n- Ubicación oficinas: Madrid centro.\n- Contrato indefinido\n- Salario a definir según experiência previa, se valoran distintos recorridos, por ello la banda salarial es muy amplia (30-45K)\n- Bonus +8-11% del salario bruto anual.\n- Modalidad híbrida: 60% home office, 40% presencial\n- Paquete de beneficios como: seguro médico, cheques restaurante, clases de idiomas, ayuda para gimnasio, formación cuyo gasto asume la compañía.\n- 23 días de vacaciones\n- Posición con muy buena previsión de crecimiento\n- Los costes de los viajes internacionales serán asumidos por la compañía e incluso se podrá recibir un bonus añadido según el país al que os desplacéis.\n- Tenemos una posición abierta de Business Analyst - IT en una empresa internacional con buena previsión de crecimiento profesional. Cuando indicamos internacional es porque el equipo del que formarás parte es de distintas partes de Europa y, además, tendrás la posibilidad de viajar a otros países para reunirte con los distintos compañeros y poder trabajar de forma conjunta.\n\nBusiness Analyst / Data Analyst",
+      "job_is_remote": false,
+      "job_posted_at": "hace 2 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3De7xg4Ig5qmfpWcJgAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "IGGJjJ6GUY4cei9rAAAAAA==",
+      "job_title": "Graduate Data Analyst — Big-Impact Data Insights, Remote",
+      "employer_name": "Bending Spoons",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_b_YBGe1DxCM6FJpw2dUAQEUt9wDk3B4OADfj&s=0",
+      "employer_website": "https://bendingspoons.com",
+      "job_publisher": "Recruit.net",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.recruit.net/job/data-analyst-big-impact-data-jobs/8994F2DAD95B4960?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/data-analyst-big-impact-data-jobs/8994F2DAD95B4960?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "A leading technology company is seeking a skilled individual to analyze big data and identify product improvements in Madrid. You will collaborate with various teams to derive insights and support the development of technologies. The ideal candidate has strong problem-solving skills, is fluent in English, and is driven to succeed. Join an ambitious team that offers competitive pay and exceptional growth opportunities.\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DIGGJjJ6GUY4cei9rAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "KnPZNGeei2JjXp5NAAAAAA==",
+      "job_title": "Data Scientist / Data Analyst (Madrid)",
+      "employer_name": "CAS Training",
+      "employer_logo": null,
+      "employer_website": "https://cas-training.com",
+      "job_publisher": "CAS Training - Empleo",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://empleo.cas-training.com/ofertas-de-empleo/data-scientist-data-analyst-madrid/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "CAS Training - Empleo",
+          "apply_link": "https://empleo.cas-training.com/ofertas-de-empleo/data-scientist-data-analyst-madrid/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Descripción del puesto:\nBuscamos un Data Scientist / Data Analyst con al menos 2 años de experiencia para unirse a nuestra oficina en Madrid. Trabajarás en un modelo híbrido, combinando la colaboración presencial con la flexibilidad del teletrabajo. Serás clave en el desarrollo e implementación de modelos que generen un impacto directo en el negocio.\n\nFunciones principales:\n\nDesarrollo y optimización de modelos predictivos y soluciones de Machine Learning (ML).\nRealizar análisis avanzados de datos para identificar tendencias, patrones e insights de valor.\nColaborar con equipos multifuncionales para entender las necesidades de negocio y traducirlas en soluciones analíticas.\nMantenimiento y mejora continua de los pipelines de datos y modelos implementados.\nPresentar los resultados y las conclusiones de los análisis de forma clara y concisa a stakeholders.\n\nRequisitos clave:\n\nExperiencia mínima: 2 años en posiciones de Data Scientist o Data Analyst.\nDominio experto en el lenguaje de programación Python.\nDominio en librerías de ML y herramientas de analítica avanzada (Scikit-learn, TensorFlow, PyTorch, etc.).\nUbicación: Residencia en Madrid o disponibilidad para trasladarse.\n\nDeseable:\n\nExperiencia previa en el ámbito de Riesgos o ALM (Asset Liability Management).\nNivel de Inglés B1 o superior.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 17 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DKnPZNGeei2JjXp5NAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "xWG31qXT3VBiN9XiAAAAAA==",
+      "job_title": "Functional Data Analyst",
+      "employer_name": "sg tech",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oM2ZZH4OBXSw7mGRkV3w_CZAPCn4JA7hbpFX&s=0",
+      "employer_website": "https://sgtech.tech",
+      "job_publisher": "Tecnoempleo",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.tecnoempleo.com/functional-data-analyst-sg-tech/sql-powerbi-python/rf-8f71116e72ceb3278348?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Tecnoempleo",
+          "apply_link": "https://www.tecnoempleo.com/functional-data-analyst-sg-tech/sql-powerbi-python/rf-8f71116e72ceb3278348?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/rjdp/3317302483274236917?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/024ecbc6150ba238fc54bd4167b1f92e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2635-3109a2e80beea2f2c507ffc82bac510c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Descripción As a Functional Business Analyst for the Data Governance Quality and Extraction workstream related to the data governance tool within SCIB. The main tasks within this role will be - Lead together with the PO all workstreams within the data governance workstream. - Identify analyze and prioritize user needs and functional requirements. - Manage the internal task backlog negotiate with the team for execution and prioritization. - Prioritize the backlog with the external tool provider. - Validate the functionalities implemented in the tool and ensure they meet the functional requirements. - Management and review of incidents tracking them and solutions. - Organize the preparation of deliverables and demos with users. - Attend and manage different meetings and committees. - Design review and validation of different requested dashboards as well as the calculation of different KPIs. - Support and Testing. Requisitos EXPERIENCE / EDUCATION - 2+ years of experience in Corporate Environment - Background in Data - Advanced English skills SKILLS KNOWLEDGE - Knowledge of data governance tools. - Experience with Agile methodology (JIRA Confluence) understanding the different meetings and existing task classifications. - Experience working with data exploitation tools preferably PowerBI. - Knowledge of SQL and other programming languages (Python). - Experience working with Azure Databricks. OTHER INFORMATION - Spanish / English - Pro-active positioning to contribute to develop good products",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DxWG31qXT3VBiN9XiAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    }
+  ]
+}
