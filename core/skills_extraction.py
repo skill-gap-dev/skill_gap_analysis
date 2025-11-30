@@ -127,3 +127,22 @@ def detect_seniority(job_title, job_description=""):
         return "junior"
     else:
         return "unknown"
+
+
+def get_best_apply_link(job):
+    # 1) Search LinkedIn in apply_options field
+    apply_opts = job.get("apply_options", [])
+    for opt in apply_opts:
+        if opt.get("publisher", "").lower() == "linkedin":
+            return opt.get("apply_link")
+
+    # 2) If not LinkedIn, use job_apply_link
+    if job.get("job_apply_link"):
+        return job["job_apply_link"]
+
+    # If there is not job_apply_link, use first apply_option
+    if apply_opts:
+        return apply_opts[0].get("apply_link")
+
+    # 4) Si no hay nada, devolver None
+    return None

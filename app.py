@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from core.api_client import load_or_fetch_jobs
-from core.skills_extraction import clean_html, extract_skills, skills_list, detect_seniority
+from core.skills_extraction import clean_html, extract_skills, skills_list, detect_seniority, get_best_apply_link
 from core.analysis import compute_skill_gap, cluster_jobs, interpret_clusters
 
 # Setup logging
@@ -333,6 +333,7 @@ if st.sidebar.button("Search Jobs", type="primary", use_container_width=True):
             skills = extract_skills(desc)
             title = job.get("job_title", "")
             seniority = detect_seniority(title, desc)
+            apply_link = get_best_apply_link(job)
 
             rows.append({
                 "job_id": job.get("job_id"),
@@ -341,6 +342,7 @@ if st.sidebar.button("Search Jobs", type="primary", use_container_width=True):
                 "city": job.get("job_city"),
                 "seniority": seniority,
                 "skills_detected": skills,
+                "apply_link": apply_link,
             })
 
         rows, missing = compute_skill_gap(rows, all_user_skills, skill_levels)
@@ -641,25 +643,82 @@ if 'df' in st.session_state and not st.session_state.df.empty:
         )
         display_df["match_ratio"] = display_df["match_ratio"].apply(lambda x: f"{x:.1%}")
         
-        # Select relevant columns for display
+        # Select relevant columns for display (excluding apply_link, will add as button)
         cols_to_show = ["title", "company", "city", "seniority", "match_ratio"]
         if "weighted_match_ratio" in display_df.columns:
             cols_to_show.append("weighted_match_ratio")
         cols_to_show.extend(["n_skills_user_has", "n_skills_job", "skills_detected"])
         
         available_cols = [c for c in cols_to_show if c in display_df.columns]
-        display_df = display_df[available_cols].copy()
+        display_df_display = display_df[available_cols].copy()
         
         # Format weighted_match_ratio for display
-        if "weighted_match_ratio" in display_df.columns:
-            display_df["weighted_match_ratio"] = display_df["weighted_match_ratio"].apply(lambda x: f"{x:.1%}")
-            display_df = display_df.rename(columns={"weighted_match_ratio": "weighted_match"})
+        if "weighted_match_ratio" in display_df_display.columns:
+            display_df_display["weighted_match_ratio"] = display_df_display["weighted_match_ratio"].apply(lambda x: f"{x:.1%}")
+            display_df_display = display_df_display.rename(columns={"weighted_match_ratio": "weighted_match"})
         
-        st.dataframe(
-            display_df,
-            use_container_width=True,
-            hide_index=True
-        )
+        # Add CSS for button styling
+        st.markdown("""
+        <style>
+        .apply-button-link {
+            display: inline-block;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+            color: #ffffff !important;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border: 2px solid #b8e994;
+            transition: all 0.3s ease;
+            font-size: 0.85rem;
+        }
+        .apply-button-link:hover {
+            background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+            border-color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(184, 233, 148, 0.4);
+        }
+        </style>
+        """, unsafe_allow_html=True)
+        
+        # Create HTML table with buttons
+        html_parts = []
+        html_parts.append("""
+        <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; background-color: #2a2a3e; color: #ffffff; margin: 1rem 0;">
+        <thead>
+            <tr style="background-color: #1a1a2e; color: #b8e994;">
+        """)
+        
+        # Add headers
+        headers = list(display_df_display.columns) + ["Apply"]
+        for header in headers:
+            html_parts.append(f'<th style="padding: 12px; text-align: left; font-weight: 700; border-bottom: 2px solid #3a3a4e;">{header}</th>')
+        
+        html_parts.append("</tr></thead><tbody>")
+        
+        # Add rows
+        for idx, row in display_df_display.iterrows():
+            html_parts.append('<tr style="border-bottom: 1px solid #3a3a4e;">')
+            for col in display_df_display.columns:
+                value = str(row[col]) if pd.notna(row[col]) else ""
+                html_parts.append(f'<td style="padding: 12px;">{value}</td>')
+            
+            # Add Apply button
+            apply_link = display_df.loc[idx, "apply_link"] if "apply_link" in display_df.columns else None
+            if pd.notna(apply_link) and apply_link:
+                button_html = f'<a href="{apply_link}" target="_blank" class="apply-button-link">Apply</a>'
+            else:
+                button_html = '<span style="color: #a0a0a0;">N/A</span>'
+            html_parts.append(f'<td style="padding: 12px;">{button_html}</td>')
+            html_parts.append("</tr>")
+        
+        html_parts.append("</tbody></table></div>")
+        
+        # Render the table
+        st.markdown("".join(html_parts), unsafe_allow_html=True)
         
         # Clustering analysis
         if "cluster" in df.columns and df["cluster"].nunique() > 1:
