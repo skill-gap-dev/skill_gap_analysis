@@ -3,6 +3,7 @@ import pandas as pd
 import spacy
 from bs4 import BeautifulSoup
 from spacy.matcher import PhraseMatcher
+import re
 
 from .config import TAXONOMY_PATH
 
@@ -31,6 +32,16 @@ except Exception as e:
     logger.error(f"Error loading taxonomy: {e}")
     raise
 
+def normalize_token(x: str) -> str:
+    if not x:
+        return ""
+    x = x.lower().strip()
+    x = re.sub(r"[^a-z0-9+.#]+", " ", x)         # remove weird chars
+    x = re.sub(r"s$", "", x)                    # remove plural "s"
+    x = x.replace("-", " ")                     # machine-learning → machine learning
+    x = x.replace("_", " ")
+    return x
+
 # Create mapping from synonyms to main skill name
 synonym_to_skill = {}
 all_patterns = []
@@ -40,16 +51,18 @@ for _, row in taxonomy_df.iterrows():
     synonyms_str = row.get("synonyms", "")
     
     # Add main skill to patterns
+    norm = normalize_token(main_skill)
     all_patterns.append(main_skill)
-    synonym_to_skill[main_skill.lower()] = main_skill
+    synonym_to_skill[norm] = main_skill
     
     # Add synonyms to patterns and mapping
     if pd.notna(synonyms_str) and synonyms_str.strip():
-        synonyms = [s.strip() for s in str(synonyms_str).split("|")]
-        for synonym in synonyms:
-            if synonym.lower() not in synonym_to_skill:
-                all_patterns.append(synonym)
-                synonym_to_skill[synonym.lower()] = main_skill
+        synonyms = [s.strip() for s in synonyms_str.split("|")]
+        for syn in synonyms:
+            norm = normalize_token(syn)
+            if norm not in synonym_to_skill:
+                all_patterns.append(syn)
+                synonym_to_skill[norm] = main_skill
 
 # PhraseMatcher
 matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
@@ -73,9 +86,9 @@ def extract_skills(description):
     # Map found matches to main skill names
     found_skills = set()
     for _, start, end in matches:
-        matched_text = doc[start:end].text.lower()
+        matched_text = doc[start:end].text
         # Map synonym to main skill
-        main_skill = synonym_to_skill.get(matched_text)
+        main_skill = synonym_to_skill.get(normalize_token(matched_text))
         if main_skill:
             found_skills.add(main_skill)
     

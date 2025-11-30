@@ -1,0 +1,514 @@
+{
+  "status": "OK",
+  "request_id": "07f27911-f63b-4390-82b4-bb0134e472b8",
+  "parameters": {
+    "query": "applied scientist jobs in Madrid",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "qvr5kHytldKVuveNAAAAAA==",
+      "job_title": "Principal Applied Scientist",
+      "employer_name": "amazon",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfdZ961cFl8jXGFJyrGXi6lwCcXSF_fAdjZga&s=0",
+      "employer_website": "https://www.amazon.com",
+      "job_publisher": "Recruit.net",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.recruit.net/job/principal-applied-scientist-jobs/5F7A7F0A39187E4F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/principal-applied-scientist-jobs/5F7A7F0A39187E4F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "A dynamic gaming studio in Barcelona is seeking a Principal Applied Scientist to lead scientific modeling and experimentation for user behavior and ad monetization. This role requires a PhD or MSc in a quantitative field, along with 7+ years in data science, including production ML systems. The candidate will enjoy a unique workplace culture focused on deep work, while offering competitive compensation and perks like unlimited vacations and health insurance.#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dqvr5kHytldKVuveNAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "PUfCvJkx2iCaYSJrAAAAAA==",
+      "job_title": "Applied Scientist - Last Mile Delivery Optimization",
+      "employer_name": "Keysight Technologies",
+      "employer_logo": null,
+      "employer_website": "https://www.keysight.com",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/c44d022dc290cdf02c091ad76be11c90?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/c44d022dc290cdf02c091ad76be11c90?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/5770317478043320320?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/applied-scientist-last-mile-delivery-jobs/E59F81CC38F6DAB9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/amp/job/es-madrid-applied-scientist-last-mile-delivery-optimization-urbantz?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Analista de datos con experiencia en marketing, modelos predictivos y plataformas cloud, responsable de impulsar la toma de decisiones estratégicas.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DPUfCvJkx2iCaYSJrAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "WeTyBOZ6XxJsbRpWAAAAAA==",
+      "job_title": "Applied Scientist II, Alexa AI",
+      "employer_name": "Amazon",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfdZ961cFl8jXGFJyrGXi6lwCcXSF_fAdjZga&s=0",
+      "employer_website": "https://www.amazon.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/8280856841877979136?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/8280856841877979136?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3144-f7aaca2c770e09540e70b4bfe41a2111?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajas.es - Ofertas De Trabajo",
+          "apply_link": "https://www.trabajas.es/oferta/applied-scientist-ii-alexa-ai-7483d1224717519/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/applied-scientist-alexa-ai-jobs/0497C09158934EBA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "The Amazon Alexa AI team in India is seeking a talented, self-driven Applied Scientist to work on prototyping, optimizing, and deploying ML algorithms within the realm of Generative AI. Key Responsibilities * Research, experiment and build Proof Of Concepts advancing the state of the art in AI & ML for GenAI. * Collaborate with cross-functional teams to architect and execute technically rigorous AI projects. * Thrive in dynamic environments, adapting quickly to evolving technical requirements and deadlines. * Engage in effective technical communication (written & spoken) with coordination across teams. * Conduct thorough documentation of algorithms, methodologies, and findings for transparency and reproducibility. * Publish research papers in internal and external venues of repute. * Support on-call activities for critical issues. Basic Qualifications * Master’s or PhD in computer science, statistics or a related field * 2‑7 years experience in deep learning, machine learning, and data science. * Proficiency in coding and software development, with a strong focus on machine learning frameworks. * Experience in Python, or another language; command line usage; familiarity with Linux and AWS ecosystems. * Understanding of relevant statistical measures such as confidence intervals, significance of error measurements, development and evaluation data sets, etc. * Excellent communication skills (written & spoken) and ability to collaborate effectively in a distributed, cross-functional team setting. * Papers published in AI/ML venues of repute * 3+ years of building models for business application experience * Experience in patents or publications at top‑tier peer‑reviewed conferences or journals * Experience programming in Java, C++, Python or related language * Experience in any of the following areas: algorithms and data structures, parsing, numerical optimization, data mining, parallel and distributed computing, high‑performance computing * Knowledge of standard speech and machine learning techniques Preferred Qualifications * Track record of diving into data to discover hidden patterns and conducting error/deviation analysis * Ability to develop experimental and analytic plans for data modeling processes, use of strong baselines, ability to accurately determine cause and effect relations * The motivation to achieve results in a fast‑paced environment. * Exceptional level of organization and strong attention to detail * Comfortable working in a fast paced, highly collaborative, dynamic work environment * Experience using Unix/Linux * Experience in professional software development Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. #J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DWeTyBOZ6XxJsbRpWAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "6dVLiTkR7p6gtRzLAAAAAA==",
+      "job_title": "Applied Scientist II — GenAI Prototyping & Deployment",
+      "employer_name": "amazon",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfdZ961cFl8jXGFJyrGXi6lwCcXSF_fAdjZga&s=0",
+      "employer_website": "https://www.amazon.com",
+      "job_publisher": "Recruit.net",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.recruit.net/job/applied-scientist-genai-prototyping-deployment-jobs/DB59D5F38273B445?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/applied-scientist-genai-prototyping-deployment-jobs/DB59D5F38273B445?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "A leading technology company is seeking a talented Applied Scientist to join their Alexa AI team in Madrid. The role involves researching and developing ML algorithms for Generative AI, collaborating with teams, and publishing findings. Candidates should possess a Master's or PhD in a related field with 2-7 years of experience in machine learning. This position offers a dynamic work environment focused on innovative AI solutions.\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D6dVLiTkR7p6gtRzLAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "wB5mr_mtilVE-j5YAAAAAA==",
+      "job_title": "Applied Scientist Ii, Ring & Blink Ai (Madrid)",
+      "employer_name": "*Nombre Oculto*",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/d862085708f70c981605154372b2c709?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/d862085708f70c981605154372b2c709?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Are you fueled by a passion for computer vision, machine learning and AI, and are eager to leverage your skills to enrich the lives of millions across the globe? Join us at Ring AI team, where we're not just offering a job, but an opportunity to revolutionize safety and convenience in our neighborhoods through innovations.You will be part of a dynamic team dedicated to pushing the boundaries of computer vision, machine learning and AI to deliver an unparalleled user experience for our neighbors. This position presents an exceptional opportunity for you to pioneer and innovate in AI, making a profound impact on millions of customers worldwide. You will partner with world-class AI scientists, engineers, product managers and other experts to develop industry-leading AI algorithms and systems for a diverse array of Ring and Blink products, enhancing the lives of millions of customers globally. Join us in shaping the future of AI innovation at Ring and Blink, where exciting challenges await!#HKJobfairKey job responsibilitiesKey job responsibilities- Research and implement the state-of-the-art computer vision and machine learning methods to deliver high-quality artifacts that meets product specifications.- Establish scalable, efficient, automated processes for large-scale data analysis, machine-learning model development, model validation and gap analysis.- Provide technical leadership and research new machine learning approaches to drive continued scientific innovation.- Work in a collaborative environment with other scientists, engineers, product managers and cross-functional teams. BASIC QUALIFICATIONS - 3+ years of building models for business application experience- PhD, or Master's degree and 4+ years of CS, CE, ML or related field experience- Experience in patents or publications at top-tier peer-reviewed conferences or journals- Experience programming in Java, C++, Python or related language- Experience in any of the following areas: algorithms and data structures, parsing, numerical optimization, data mining, parallel and distributed computing, high-performance computing PREFERRED QUALIFICATIONS - Experience using Unix/Linux- Experience in professional software developmentAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability or other legally protected status. #J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 4 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DwB5mr_mtilVE-j5YAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "I_Xe8IjptUBCS8HIAAAAAA==",
+      "job_title": "Remote Applied Data Scientist — 6-Week Contract",
+      "employer_name": "Taskify AI",
+      "employer_logo": null,
+      "employer_website": "https://taskify-ai.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/3282798451720454144?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/3282798451720454144?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/applied-data-scientist-jobs/DBFB502A547CADE3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2988-2dc283fddd7117aabc66d94cc783311e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/amp/job/es-madrid-applied-data-scientist-110-900-175-500-a-year-elastic-hiring?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "A technology company is hiring applied data science professionals for a short-term remote contract in Spain. Responsibilities include data wrangling, building statistical models, and developing dashboards. Candidates should have over 5 years of experience using Python or R and a solid understanding of SQL. The position offers competitive hourly rates of $75–100 and requires at least 30 hours of work per week over 6 weeks.\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 7 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DI_Xe8IjptUBCS8HIAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "5YGU17im4HFNkpHJAAAAAA==",
+      "job_title": "Applied Research Scientist",
+      "employer_name": "No specific Brand",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/9202774526901878784?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/9202774526901878784?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3810-38322fda5f0eb159ab9b92c073bd5af4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobtome",
+          "apply_link": "https://es.jobtome.com/empleo/applied-research-scientist/e4f5f93eef32d69f5cc1f09f5955f471?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/applied-research-scientist-jobs/033BA2636949952E?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Kit Empleo",
+          "apply_link": "https://www.kitempleo.es/empleo/295293077/applied-research-scientist-madrid?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-applied-research-scientist-banco-santander-sa-hiring-now?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "The Opportunity\n\nWe are strengthening our R&D Science Capabilities to fuel our growth ambitions in Skincare, Sun Care & Hair Care. Reporting to the Manager of Active Innovation & Applied Research, you will be responsible for creating, developing, and ensuring the scientific substantiation of innovative cosmetic formulations. Brands that you will serve are Rabanne, Uriage, Apivita, Barbara Sturm, Loto del Sur, Kama Ayurveda, and Charlotte Tilbury.\nWhat you'll get to do\n• Lead science-driven innovation programs and contribute to the category's strategic axis\n• Maintain continuing awareness of scientific and technological advances relevant to the cosmetic field\n• Build and maintain a deep understanding of categories, market dynamics, competitor activities and evolving scientific and consumer trends\n• Read and track relevant bibliography to support innovation and research monitoring\n• Write and support patent applications by preparing scientific documentation that supports innovation strategies and secures novel cosmetic technologies\n• Create and support the writing of scientific posters, articles and presentations for congresses and internal sharing, showcasing key research findings and ingredient performance\n• Design galenic systems to optimize stability, efficacy, and sensorial experience\n• Work with formulation teams to develop galenic systems suitable for scale-up and product integration\n• Test new ingredients and run experimental plan\n• Identify and engage with suppliers to assess new technologies and raw materials\n• Evaluate formulas, highlight product performance, conduct risk analysis\n• Coordinate and support product testing to confirm formulation efficacy, ensure safety and regulatory compliance\n• Coordinate homologation testing and data monitoring for ensuring high quality level and development feasibility\n• Prepare, review and change laboratory Standard Operating Procedures\nWe'd love to meet you if you have\n• 5-7 years' experience in formulation for the skincare and/or suncare category\n• Master's Degree or higher in Science (Chemistry, Cosmetic Chemistry, Biological Sciences, Pharmacy or Chemical Engineering)\n• Spanish and English, French is a plus\n• Passion for the skincare category\n• Understanding of cosmetic product attributes and consumer insights related to skincare product development\n• Understanding of trends, markets, competitors and beauty categories\n• Working knowledge in physical testing and analytical methods\n• Familiar with global cosmetic regulations and cosmetic GMP\n• Strong oral and written communication skills required\n• Excellent organizational skills\nA few things you'll love about us\n• An entrepreneurial, creative and welcoming work culture\n• A range of learning and development opportunities\n• An international company with plenty of opportunities to grow\n• A competitive compensation & benefits package",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D5YGU17im4HFNkpHJAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "DyH8XfcDUCjIR5zKAAAAAA==",
+      "job_title": "Senior AI Scientist: Applied AI, MLOps",
+      "employer_name": "Plain Concepts",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5BSMIt7m2uiId_3142LNElhU-kvf9h48rIEOM&s=0",
+      "employer_website": "https://www.plainconcepts.com",
+      "job_publisher": "Trabajo.org",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.trabajo.org/oferta-2988-c418c5f62482a68e4a9a8ad9cc6e08d2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2988-c418c5f62482a68e4a9a8ad9cc6e08d2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "A technology consultancy firm is seeking a Senior Data Scientist to drive innovation in AI solutions. Ideal candidates will have 7+ years in AI and ML, strong technical skills, and a passion for building impactful solutions. Responsibilities include architecting AI solutions, leading deployments, and mentoring team members. The role offers options for fully remote work and diverse perks, including medical insurance and training budgets.\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 2 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DDyH8XfcDUCjIR5zKAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "shXQ3CTsWrUVn4TOAAAAAA==",
+      "job_title": "Senior Data Scientist - Applied AI & MLOps",
+      "employer_name": "Plain Concepts Group",
+      "employer_logo": null,
+      "employer_website": "https://www.plainconcepts.com",
+      "job_publisher": "Jooble",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jooble.org/jdp/-7971823712139483992?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/jdp/-7971823712139483992?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/1293591426684157952?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://madrid.es.expertini.com/job/senior-data-scientist-applied-ai-mlops-madrid-plain-concepts-group-3874-9895566/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-senior-data-scientist-applied-ai-mlops-plain-concepts-group?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Overview\n\nWe’re expanding our AI/ML team with a senior-level engineer ready to lead strategic initiatives. This role is ideal for someone with deep technical expertise and a passion for building impactful solutions. You’ll be part of a multidisciplinary team, driving innovation and delivering high-quality AI systems.\n\nYou will be responsible for:\n• Identifying and qualifying leads for AI/ML projects across various industries.\n• Architect and develop end-to-end AI/ML solutions tailored to complex business challenges.\n• Leading client engagements from initial contact through project scoping and proposal development.\n• Lead technical design and implementation of production-grade models and pipelines.\n• Own the deployment, optimization, and monitoring of models and infrastructure (MLOps).\n• Collaborate across teams to ensure technical excellence and project success.\n• Mentor peers and contribute to knowledge-sharing across the organization.\n• Driving sales strategies and achieving revenue targets.\n• Building long-term relationships with clients and partners.\nQualifications\n• 7+ years of experience in AI, Machine Learning, or Data Science.\n• Experience in technology sales, preferably in AI, Machine Learning, or Data Science.\n• Proven track record of initiating and closing complex technology projects.\n• Strong understanding of AI/ML concepts and their business applications.\n• Excellent communication and presentation skills.\n• Proven ability to build full-stack software products with embedded ML components.\n• Strong background in NLP and Computer Vision.\n• Expert-level Python skills and solid SQL knowledge.\n• Hands-on experience with ML frameworks (TensorFlow, PyTorch) and MLOps tools.\n• Fluent English (mandatory).\nBonus Skills\n• Experience with Big Data tools and cloud platforms (especially Azure).\n• RESTful API development and DevOps practices (Docker, CI/CD).\n• Familiarity with recommendation systems, unsupervised learning, and ranking models.\n• Cognitive services, Agentic AI...\n• Knowledge of TensorFlow Lite, TensorFlow Serving, gRPC, and unit testing.\n• Strong object-oriented programming skills.\nBenefits and Compensation\n• Salary determined by the market and your experience.\n• Flexible schedule 35 Hours / Week.\n• Fully remote work (optional).\n• Flexible compensation (restaurant, transport, and childcare).\n• Medical and dental insurance (completely free of charge for the employee).\n• Individual budget for training or equipment and free Microsoft certifications.\n• English lessons.\n• Birthday day off.\n• Monthly bonus for electricity and Internet expenses at home.\n• Discount on gym plan and sports activities.\n• Plain Camp (annual team-building event).\n• Extra perks: events attendance and speakers, welcome pack, baby basket, Christmas basket, discount portal for employees.\nAbout Plain Concepts\n\nPlain Concepts is a global company of over 500 people passionate about technology and innovation. Since our founding, we have grown through technical proficiency and confidence in ideas that others might consider risky, creating custom solutions for our clients. With offices in more than 6 countries, our mission is to continue to drive cutting-edge projects around the world.\n\nWe are highly committed to technical excellence. We are known for developing highly customized projects, offering specialized technical consultancy and training.\n\nThanks to the great work of our technicians, we have been recognized for our ability to lead innovative projects that generate value, from artificial intelligence to blockchain, driving solutions that help companies optimize their performance.\n\nWhat we do at Plain Concepts? We pride ourselves on being a 100% technical team, dedicated to crafting custom projects from scratch, offering expert technical consultancy, and providing top-tier training.\n• Our approach goes beyond traditional outsourcing; we focus on creating value together with our clients.\n• Our teams are diverse and multidisciplinary, operating in a flat, collaborative structure.\n• We live and breathe AGILE principles, ensuring flexibility and efficiency in everything we do.\n• Knowledge-sharing is at our core: from supporting each other internally to contributing to the broader tech community through conferences, events, and talks.\n• Innovation drives us — even the boldest ideas are welcome here.\n• Transparency underpins all our relationships, fostering trust and long-term partnerships.\n\nWant to learn more? Check out our website!\n\nAt Plain Concepts, we certainly seek to provide equal opportunities. We want diverse applicants regardless of race, colour, gender, religion, national origin, citizenship, disability, age, sexual orientation, or any other characteristic protected by law.\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DshXQ3CTsWrUVn4TOAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "ffUMrPwxRWbtHv80AAAAAA==",
+      "job_title": "Applied Scientist - Genai & Multimodal Ml For Cx",
+      "employer_name": "Amazon",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfdZ961cFl8jXGFJyrGXi6lwCcXSF_fAdjZga&s=0",
+      "employer_website": "https://www.amazon.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/2057582820636753920?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/2057582820636753920?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/applied-scientist-genai-multimodal-ml-jobs/B55235ACFE3B33C9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "This job is with Amazon, an inclusive employer and a member of myGwork – the largest global platform for the LGBTQ+ business community. Please do not contact the recruiter directly.\nDescription\nAmazon is looking for creative Applied Scientists to tackle some of the most interesting problems in Articial Intelligence (AI), natural language processing (NLP), search and related areas with our Amazon Books team. At Amazon Books we believe that reading is essential for a healthy society. As such, we aim to inspire readers by making it easy to read more and get more out of reading. We do this by creating an unmatched book discovery experience for our customers worldwide. We enable customers to discover new books, authors and genres through smart search tools, intelligent interactions and sophisticated recommendations, and we need your help to keep innovating in this space.\n\nIf you are looking for an opportunity to solve deep technical problems and build innovative solutions in a fast-paced environment working within a smart and passionate team, this might be the role for you. You will develop and implement novel algorithms and modeling techniques to advance the state-of-the-art in technology areas at the intersection of AI, LLMs, NLP, search, and deep learning. You will innovate, help move the needle for research in these exciting areas and build state-of-the-art technologies that enable delightful experiences for hundreds of millions of people.\n\nKey job responsibilities\n\nIn This Role You Will\n• Work collaboratively with other scientists and developers to design and implement scalable and reliable pipelines for improving our customers' experience discovering and getting the most out of their books;\n• Drive scalable solutions: from understanding the customer and business needs, to prototyping, production testing and through engineering directly to production;\n• Drive best practices on the team, deal with ambiguity and competing objectives, and mentor and guide other members to achieve their career growth potential.\n• Stay up-to-date with the latest technologies and adopt the most appropriate long-term solution to a variety of use cases.\n\nA day in the life\n\nOn a Typical Day You Will\n• run experiments. Depending on the stage or project, this may involve designing the experiments, collecting data, training models, prompt/spec engineering/optimization, error analysis, online system analysis, etc.\n• help drive decisions by interpreting and communicating experimental results with stakeholders (managers, subject matter experts, other scientists, and engineers) and seeking/listening to their feedback.\n\nAdditionally, you'll attend and contribute to regular meetings, activities and conferences with the wider science team, organization as well as internal and external communities.\n\nAbout The Team\nBooks Science, where state-of-the-art AI meets the world of books. We're here to catalyze engineering teams, fuel innovation, and transform the customer experience for readers, authors, and publishers. We:\n• We take ownership of early-stage project work, including prototyping, analysis, and model development.\n• Partner with different teams to help them learn about and adopt AI capabilities, be aware of AI limitations and adopt scientific best practices for long-term reusability and quality assurance.\n• Our team combines broad AI knowledge with individual expertise in specific domains and Amazon Books areas.\n\nBasic Qualifications\n• PhD, or a Master's degree and experience in CS, CE, ML or related field\n• Experience programming in Java, C++, Python or related language\n• Experience in building models for business application\n• Experience in investigating, designing, prototyping, and delivering new and innovative system solutions\n• Strong sense of ownership and drive\n• Strong communication skills\n• 1+ years of industry experience working in a fast-paced environment\n\nPreferred Qualifications\n• PhD\n• Have publications at top-tier peer-reviewed conferences or journals\n• Experience in professional software development\n• Experience building AI solutions for business applications in multiple areas such as: search, NLP, data quality, recommender systems.\n• Experience with in one or more of: Generative AI, LLM-as-judge, prompt optimization, agentic workflows, LLM interpretability.\n\nAmazon is an equal opportunities employer. We believe passionately that employing a diverse workforce is central to our success. We make recruiting decisions based on your experience and skills. We value your passion to discover, invent, simplify and build. Protecting your privacy and the security of your data is a longstanding top priority for Amazon. Please consult our Privacy Notice ) to know more about how we collect, use and",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DffUMrPwxRWbtHv80AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    }
+  ]
+}

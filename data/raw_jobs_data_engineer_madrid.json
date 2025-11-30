@@ -1,0 +1,634 @@
+{
+  "status": "OK",
+  "request_id": "f5ae1496-5e8e-485f-9246-40e8578a99b7",
+  "parameters": {
+    "query": "data engineer jobs in Madrid",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "8P-ckOfvcYOpu1ROAAAAAA==",
+      "job_title": "Senior Data Engineer - Azure",
+      "employer_name": "Yumatech",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOk3Dp8K9M-ykm_pArVPl_Ilu-yl9LqcixuNy8&s=0",
+      "employer_website": "https://www.yumatech.io",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/senior-data-engineer-azure-at-yumatech-4325002940?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/senior-data-engineer-azure-at-yumatech-4325002940?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "JobLeads",
+          "apply_link": "https://www.jobleads.com/es/job/senior-data-engineer-azure--madrid--ed28695a1752580263da80f6b868b834e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/5343102509948862464?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Adzuna",
+          "apply_link": "https://www.adzuna.es/details/5519182155?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/data-engineer-azure-jobs/97A6D23E99629D38?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-data-engineer-azure-airplane-solutions-hiring-now-job-immediately?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Role Description\n\nYou will be working as\n\nSenior Data Engineer\n\nfor a company that leads the market on industrial IoT solutions.\n\nThey are creating a global technology hub in Madrid, and you would be part of an international team.\n\nThey employ over 30,000 people and the projects are coordinated by 3 different tech hubs in the USA and Spain.\n\nYou will be actively participating in the functional design of data architectures adapted to the company needs, directly participating in global data integration projects for the firm using Microsoft Azure services.\n\nYou will partner with other team members in the implementation of technical solutions to support current and future data integration business needs, among other relevant projects.\n\nThis is a hybrid position in Madrid (2 office days per week) and English is the main language for the role.\n\nResponsibilities\n\nDesign, build, and maintain data pipelines and ETL workflows leveraging PySpark, Azure Databricks, SQL Server Studio, and Azure Data Factory.\n\nOversee and optimize data flows to ensure efficiency, reliability, and scalability across all environments.\n\nImplement automated testing and monitoring frameworks to validate data integrity and performance.\n\nManage deployments through Azure DevOps CI/CD pipelines, following established engineering standards and best practices for continuous delivery and reliability.\n\nQualifications\n\n+3 years of experience as a Data Engineer, working with cloud technologies, ideally Azure.\n\nExcellent level of English.\n\nProficiency in Python and other programming languages for data integration contexts.\n\nA huge plus if you have worked with Azure Data Factory or other relevant Azure Data services.\n\nDo not hesitate to send your CV to ******\n\n#J-*****-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 1 día",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D8P-ckOfvcYOpu1ROAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "6C2XZStAiiPWPTf2AAAAAA==",
+      "job_title": "Data Engineer (Inglés alto)",
+      "employer_name": "Sopra Steria ES",
+      "employer_logo": null,
+      "employer_website": "https://www.soprasteria.es",
+      "job_publisher": "Sopra Steria ES",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://careers.soprasteria.es/job/data-engineer-ingles-alto-in-madrid-spain-jid-5730?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Sopra Steria ES",
+          "apply_link": "https://careers.soprasteria.es/job/data-engineer-ingles-alto-in-madrid-spain-jid-5730?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=0f873ea157533864&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Tecnoempleo",
+          "apply_link": "https://www.tecnoempleo.com/data-engineer-ingles-alto-sopra-steria/sql-power-bi/rf-b2cb148be26c4369cb4e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Sopra Steria",
+          "apply_link": "https://careers.soprasteria.com/job/data-engineer-ingles-alto-in-madrid-spain-jid-5730?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "AXON-Networks - Trakstar",
+          "apply_link": "https://axon-networks.hire.trakstar.com/jobs/fk0zhzj/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/B9_kszkbGboItJ2xFMmJ0WkgCzXEc0hUL2IYPNO0DVE5nPh9ycV0mA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Smart Recruiters Jobs",
+          "apply_link": "https://jobs.smartrecruiters.com/SopraSteria1/744000079740082-data-engineer-ingles-alto-?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-engineer-airflow-at-plexus-tech-4250393195?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Descripción de la empresa\n\nPorque trabajar en Sopra Steria, también es sentir Sopra Steria.\n\nSomos un reconocido líder europeo en consultoría, servicios digitales y desarrollo de software, con cerca de 56.000 empleados en casi 30 países y más de 4.000 en España.\n\nNos enfocamos en las personas, en su formación y desarrollo profesional, lo que nos impulsa a crecer y mejorar constantemente.\n\nTenemos pasión por lo digital y al igual que tú, buscamos la mejor de las aventuras. Queremos que tu día a día se convierta en la mejor de tus inspiraciones. Que aprendas, aportes, te diviertas, crezcas y que, sobre todo, disfrutes al máximo.\n\nSi quieres formar parte de un equipo “Great Place to Work”, ¡Sigue leyendo!\n\nRequisitos\n\n¿QUÉ BUSCAMOS?\n• Mínimo 2 años de experiencia como analista de datos, preferiblemente en el sector financiero.\n• Al menos 1 año de experiencia en testing.\n• Conocimientos técnicos sólidos en:\n• SQL: consultas, limpieza y transformación de datos.\n• Herramientas de visualización: Power BI, Tableau o Qlik.\n• Almacenes de datos, pipelines ETL y plataformas en la nube: Azure, AWS o GCP.\n• Redacción de especificaciones funcionales para sistemas de información.\n• Inglés B2 o superior.\n• Disponibilidad para acudir en modalidad híbrida a oficinas en Madrid.\n\nInformación adicional\n\n¿QUÉ TENEMOS PARA TI?\n• Contrato indefinido y jornada completa\n• 23 días de vacaciones\n• Formación continua: competencias técnicas, transversales y de idiomas. Contamos con acceso a certificaciones, formaciones de los principales Partners Tecnológicos, plataformas online y ¡mucho más!\n• Seguro de vida y de accidentes\n• Posibilidad de acogerte a nuestra retribución flexible (seguro médico, cheques guarderías, transporte, comida y formación)\n• Acceso a Privilege Club, donde encontrarás descuentos interesantes en las principales marcas\n• Onboarding personalizado y detallado. Te acompañamos en todo momento para que te sientas #soprano desde el primer momento.\n• Oficina con espacios reservados al ocio. ¡Trabajo y diversión unido!\n• Compañerismo y buen ambiente, el poder de la unión lo tenemos presente.\n\nY lo más importante…Tienes la posibilidad de desarrollar tu carrera profesional con nosotros:\n\nCrearemos juntos un plan de carrera personalizado. Te formarás, marcaremos objetivos y llevaremos a cabo un seguimiento para asegurarnos de que lo conseguimos juntos.\n\nEscuchamos tus prioridades y luchamos por ellas.\n\n¡Aquí tu voz importa! ¡Únete a nosotros y sé parte de algo más!\n\nThe world is how we shape it\n\nAdquirimos el compromiso de respetar la diversidad, creando un ambiente de trabajo inclusivo y aplicando políticas que favorezcan la inclusión y promuevan el respeto social y cultural en cuestiones de género, edad, funcional, orientación sexual y religión con igualdad de oportunidades.",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D6C2XZStAiiPWPTf2AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "17219900",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "I_wIcagSq1uLc4hUAAAAAA==",
+      "job_title": "Data Engineer (Snowflake)",
+      "employer_name": "Devoteam",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2JLyQ_1zeodZaMpBDLGT5SDlU1HBGN7oNYoz&s=0",
+      "employer_website": "https://www.devoteam.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/8621413526151364608?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/8621413526151364608?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajas.es - Ofertas De Trabajo",
+          "apply_link": "https://www.trabajas.es/oferta/data-engineer-snowflake-382369d44ad1b15/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/job/data-engineer-snowflake-madrid-jr-spain-3874-11621852/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Kit Empleo",
+          "apply_link": "https://www.kitempleo.es/empleo/289227223/data-engineer-snowflake-madrid?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Devoteam es una consultora europea líder enfocada en estrategia digital, plataformas tecnológicas, ciberseguridad y transformación empresarial a través de la tecnología.\n\nLa Tecnología está en nuestro ADN y creemos en ella como una palanca capaz de impulsar el cambio para mejorar, manteniendo un equilibrio que nos permite ofrecer a nuestra cartera de clientes herramientas tecnológicas de primer nível pero siempre con la cercanía y profesionalidad de un equipo que actúa como guía durante el camino.\n\nDevoteam lleva más de 25 años comprometidos con la tecnología al servicio de las personas. Con más de 10.000 personas en el grupo, en 20 países de Europa, Oriente Medio y África.\n• *Para incorporar en nuestra unidad especializada Data Driven, buscamos un Data Engineer con experiência en la construcción de Pipelines de datos.**\n• *¿QUÉ NECESITAMOS?**\n• *- Experiência en optimización y gestión de grandes volúmenes de datos, transformación y preparación de los mismos**\n• *- Experiência en Snowflake y arquitecturas de datos en la nube.**\n• *- Streamlit**\n• *- Sólidos conocimientos de SQL**\n• *- Conocimientos avanzados de Python para tareas de ingeniería de datos y automatización.**\n• *- Uso de DBT (Data Build Tool)**\n• *¿QUÉ TE OFRECEMOS?**\n• *- Tetrabajo 100%**\n• *- Incorporación a equipo Data altamente cualificado con acceso a proyectos con últimas tecnologías.**\n• *- Formación continua y acceso a certificaciones.**\n- Inglés nível B2 oral y escrito2",
+      "job_is_remote": false,
+      "job_posted_at": "hace 21 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DI_wIcagSq1uLc4hUAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "AG5mnmWgy37s0J4QAAAAAA==",
+      "job_title": "Staff Data Engineer",
+      "employer_name": "Happening",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvveGRgFkX4UAMl24IFls9rHXlrz_fIFSNkbQZ&s=0",
+      "employer_website": "https://www.happening.xyz",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/staff-data-engineer-at-happening-4324908847?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/staff-data-engineer-at-happening-4324908847?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/08b303a2263fb46dd855dbc451c6dea6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/68cf6175f3c13a659d2a33378906834b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/389639091643219968?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3810-f80aa59067f593cc6bcc7ecdfed0bfde?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/staff-data-engineer-jobs/B1F159FB6B98F9B2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-staff-engineer-data-pipelines-xr-akuaro-hiring-now-job-immediately?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "What You’ll Do\n• Build Analytics-Ready Data Assets\n• Design and maintain structured, documented datasets in platforms like Snowflake so teams across the business can self-serve insights and make smarter decisions.\n• Collaborate Across Functions\n• Partner with software engineers, analysts, and stakeholders to translate business requirements into robust, scalable data models.\n• Own the Semantic Layer\n• Use dimensional modeling and modern data architecture principles to simplify access to data and support BI tools, reporting, dashboards but most importantly support data products.\n• Develop and Maintain ELT Pipelines\n• Leverage tools like Airflow, and others to orchestrate reliable data transformations—ensuring data is fresh, reliable, and production-grade.\n• Enable Data Democratization\n• Make data accessible to everyone, regardless of their technical skills. Your work will empower product, ops, marketing, and leadership to explore data confidently and independently.\n\nWhat We’re Looking For\n• Strong SQL and data modeling experience (Kimball, Inmon, or similar)\n• Experience with orchestration tools like Airflow or Dagster\n• Proficiency with analytical databases (Snowflake, BigQuery, etc.)\n• Experience with modern ELT tools\n• Familiarity with version control and CI/CD in a data context\n• Ability to translate business needs into clean, maintainable data sets\n• Strong communication skills—can explain data to humans and code to computers\n• Comfortable working with stakeholders who aren’t technical like Product Managers, Business Experts, etc\n\nWhy Join Us?\n• High Impact\n• Your datasets will be used daily by teams making product decisions, running experiments, and driving performance.\n• Real Scale, Real Problems\n• Handle serious data volumes. We’re talking millions of events per day, multiple sources, and zero fluff.\n• Freedom to Shape\n• Influence our data architecture, tooling, and best practices. You're not just implementing—you’re building.\n• Solid Benefits\n• Competitive compensation & performance-based bonuses\n• Open vacation policy & hybrid work flexibility\n• Health support, wellness perks & team social budget\n\nAbout Happening\n\nHappening is the tech powerhouse behind Superbet Group, building the systems that fuel one of the world’s fastest-growing betting & gaming companies. Our platform is built in-house, from the ground up, with a deep focus on scale, performance, and flexibility. From infrastructure to data to product, we challenge legacy thinking and deliver tech that moves fast and hits hard.\n\nReady to build something serious with us?\n\nLet’s talk!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 2 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DAG5mnmWgy37s0J4QAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "QnsaHG85yo8_MojQAAAAAA==",
+      "job_title": "(Senior) Data Engineer, Data & Analytics, Group Digital - Madrid",
+      "employer_name": "Ingka External",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "IKEA Jobs",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://jobs.ikea.com/de/stellenbeschreibung/madrid/senior-data-engineer-data-and-analytics-group-digital-madrid/24107/88939844512?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "IKEA Jobs",
+          "apply_link": "https://jobs.ikea.com/de/stellenbeschreibung/madrid/senior-data-engineer-data-and-analytics-group-digital-madrid/24107/88939844512?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Joinrs",
+          "apply_link": "https://www.joinrs.com/en/job-offers/542066/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Who you are\n\nHej! Our mission—to create a better everyday life for the many people—is constant. But how we reach them is not.\n\nTo serve and reach more of the many, we must decode the complex DNA of each market and turn it into reliable, real-time intelligence for product teams. That’s a data engineering challenge at scale. We’re looking for a product-obsessed Senior Data Engineer to build the trusted data platforms and pipelines that power the intelligence engine guiding IKEA’s multi-billion euro expansion.\n\nWe believe the best engineers are systems thinkers and product builders at heart. We would be excited to talk to you if this describes you:\n• Your Technical Foundation — You have 5+ years of hands-on building production data systems. You design and operate batch and streaming pipelines on cloud platforms (GCP preferred) using tools like BigQuery, Dataflow/Beam, Pub/Sub (or Kafka), Cloud Composer/Airflow, and dbt. You’re fluent in SQL and write production-grade Python/Scala for data processing and orchestration. You understand data modeling (star/snowflake, vault), partitioning, clustering, and performance at TB–PB scale.\n• How You Solve Problems — You turn ambiguous data needs into robust, observable data products with clear SLAs. You balance speed and rigor, apply 80/20 thinking to prioritize the highest-value work, and design for evolution (schema versioning, data contracts, contract testing). You’re comfortable with messy external data (mobility, demographics, POIs) and geospatial datasets, and you bring strong judgment on trade-offs between batch vs. streaming, precompute vs. on-demand, and storage formats.\n• How You Drive Product Success — You build for users, not just for pipelines. You co-define metrics and semantics with analysts and PMs, instrument event streams, and ship data features that enable scenario simulators, interactive maps, and network planning tools. You partner with Data Scientists to productionize features, models, and feature stores with reproducible pipelines, CI/CD, and monitoring.\n• How You Scale Your Impact — You operate with a founder mindset: automate everything that repeats, codify standards, and raise the bar for reliability and quality (testing, lineage, observability). You champion governance and privacy by design (GDPR, PII handling, access controls), mentor engineers, and cultivate strong cross-functional collaboration across Product, Engineering, and Data Science.\nThis is our wish list! If you don’t recognize yourself in every one of these points, you might still be an excellent candidate for the role. We are looking for exceptional individuals and like to think long-term about investing in people’s development together with us.\n\nThe IKEA culture and values are very much a part of our business and day-to-day work life. For you to thrive and grow with IKEA, it’s important for us that you share our values! You can read more regarding our values and life at IKEA on our website www.ikea.com.\n\nWhat you'll be doing day to day\n\nAs the lead data engineer embedded in a digital product squad, your mission is to deliver trustworthy, timely, and well-modeled data that powers expansion strategy products used by markets worldwide.\n\nThis means you will:\n• Build Expansion360, the expansion data platform — Architect and operate Expansion360 as Ingka’s new, trusted data asset to power prioritized expansion use cases (Location Selection, Store Design, Space Optimization, Investment Management, Project Portfolio Management). Design scalable batch and streaming pipelines on GCP (BigQuery, Dataflow/Beam, Pub/Sub, Composer/dbt) to ingest and harmonize the needed internal and external data to build it. Define canonical models, shared schemas, and data contracts as the single source of truth. Map and govern the needed data domains (store profile & location; sales & cost; market & competition; design & layout; financial & cost; project & process; customer & loyalty; store & market fulfillment capabilities) with SLAs and automated quality checks. Run gap analyses, design acquisition/procurement strategies (third-party data, partnerships, collection pipelines), and close the gaps—backed by robust metadata, lineage, and documentation.\n• Productionize Expansion intelligence — Enable interactive maps and location analytics by enabling geospatial processing at scale (e.g., BigQuery GIS, H3/S2 indexing, isochrones, nearest neighbor joins). Optimize for fast, exploratory queries and heavy analytical workloads.\n• Enable decision and simulation engines — Deliver curated marts and APIs that power scenario planning (e.g., new store P&L, cannibalization/halo, space ROI) and product features (e.g., network optimization simulators, store layout intelligence). Partner with analysts to encode metric definitions and with Data Scientists to serve model inputs/outputs reliably.\n• Engineer for reliability and trust — Implement CI/CD for data (dbt tests, contract tests), observability (data quality SLAs, lineage, anomaly detection), access policies (IAM, row/column security), and cost controls. Own SLAs/SLOs for critical datasets and iterate on performance (partitioning, clustering, materializations).\n• Harden the foundations — Contribute to shared libraries, templates, and infrastructure-as-code (Terraform) to standardize how we build, deploy, and monitor pipelines. Document data contracts and ensure privacy/security best practices are built-in.\n\nOur team within IKEA\n\nYou will work in Data & Analytics alongside talented Data Engineers, Data Scientists, Data Analysts, Stewards, and Architects. You’ll be embedded in cross-functional product teams with Technology, Product, and Design in Expansion—building the tools that enable IKEA to reach more of the many. Our home base is the Madrid Digital Hub, and we operate as one global team delivering global solutions.\n\nWHAT WE CAN OFFER YOU\n\n• An intellectually stimulating, diverse, and open atmosphere working on hard, high-impact problems that matter.\n• Collaboration with world-class peers across Data & Analytics, Product, and Engineering—with space to influence standards and architecture.\n• The opportunity to create a measurable, global impact by powering IKEA’s store network strategy and expansion of products.\n• Modern tooling on Google Cloud Platform and a strong open-source culture.\n• Hardware and OS of your choice.\n• Continuous learning (we aim to spend ~20% of our time on learning).\n• A flexible, friendly, values-led working environment where you can be yourself.\n\nQuestions and support? Let's connect!\n\nDoes this sound like your next challenge? IKEA offers an exciting and empowering work environment in a global workplace, with exceptional opportunities to grow and develop together with us.\n\nIn this recruitment, there is no relocation support provided by Ingka, so we are looking for people already living in or within commuting distance of the location.\n\nIf you have questions regarding the recruitment, please reach out to Annette Björkquist-Åhstedt at annette.bjorkquist-ahstedt@ingka.ikea.com\n\nPlease apply with your application in English; otherwise, we will not be able to process your application.\n\nPlease apply with a CV and cover letter stating who you are and why you think you would be a great fit for the role and IKEA. Note that we can’t process any applications through email. Thank you!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DQnsaHG85yo8_MojQAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "dG1j5jNhcuIDVgW0AAAAAA==",
+      "job_title": "Remote Big Data Engineer",
+      "employer_name": "Logicalis Spain",
+      "employer_logo": null,
+      "employer_website": "https://www.logicalis.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/167943720321155072?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/167943720321155072?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3144-1a7673a17f779b320809f4991a318575?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-remote-aws-big-data-engineer-logicalis-spain-hiring-now?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "En Logicalis Spain estamos buscando un Data Engineer AWS para integrarse en nuestra BU de Data & Analytics. El equipo de Data & Analytics de Logicalis trabaja con clientes nacionales e internacionales, llevando a cabo importantes proyectos de ingeniería de datos, inteligencia artificial y analítica avanzada, estrategia del dato, gobierno, integración y arquitectura, abarcando todo el ciclo de vida del dato.\nSe trata de una oportunidad muy interesante de carrera profesional en modalidad híbrida (3 días presencial / 2 días remoto), con incorporación inicial de 6 meses con Logicalis y posteriormente incorporación en plantilla de nuestro cliente, grupo de comunicación líder en España.\nREQUISITOS TÉCNICOS\n~3 años de experiencia como Data Engineer especializado en desarrollo de ETLs en AWS.\n~ Experiencia en servicios de AWS: Lambdas, Step Functions, Glue...\n~ Experiencia en lenguajes como Scala / Spar k.\n~ Valorable conocimientos de otras tecnologías como Snowflake, Airflow ...\n~ Valorable contar con alguna certificación oficial de AWS.\nBENEFICIOS\nIncorporación inmediata a compañía líder del sector IT con un alto grado de expertise en el área de Data & Analytics dónde nos encontramos en pleno proceso de expansión.\nInternalización a los 6 meses en plantilla de nuestro cliente, importante grupo de comunicación en España.\nEstabilidad laboral a través de contrato indefinido con amplias oportunidades de desarrollo profesional y crecimiento en la compañía.\nModalidad de trabajo híbrido, 3 días presencial y 2 días en remoto en zona norte de Madrid.\nPaquete retributivo muy competitivo acorde a la valía del candidato.\nPosibilidad de acogerse a planes de retribución flexible (tarjeta restaurante, tarjeta transporte y tarjeta guardería).\nSeguro médico y GYMPASS.\nPlanes de formación adaptados a cada perfil ( cursos técnicos, certificaciones oficiales, formación de idiomas ...).\nPortal de descuentos especiales para empleados.\nBuen ambiente de trabajo y entorno muy colaborativo.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 21 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DdG1j5jNhcuIDVgW0AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "GyNyxf7XOC50lUh9AAAAAA==",
+      "job_title": "Data Engineer (100% remote)",
+      "employer_name": "Michael Page",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jSlVLZwmldFtLhfQuVk1g2b8GO7NBj_-AWeb&s=0",
+      "employer_website": "https://www.michaelpage.com",
+      "job_publisher": "Michael Page",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.michaelpage.es/job-detail/data-engineer-100-remote/ref/jn-112025-6880466?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Michael Page",
+          "apply_link": "https://www.michaelpage.es/job-detail/data-engineer-100-remote/ref/jn-112025-6880466?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=ec50ae9061fdf22b&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Tecnoempleo",
+          "apply_link": "https://www.tecnoempleo.com/data-engineer-industrial-iot-apeirum/python-sql-pyspark-c/rf-19a616da524a93074b4c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Oracle",
+          "apply_link": "https://fa-etjb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/job/1990?utm_medium=search+engine&utm_source=google&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Himalayas.app",
+          "apply_link": "https://himalayas.app/companies/unit8-sa/jobs/data-engineer-madrit-spain?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.es/job-listing/data-engineer-madrid-seidor-JV_IC2664239_KO0,20_KE21,27.htm?jl=1009922550790&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-analyst-data-engineer-mongodb-at-babel-4315191556?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Adzuna",
+          "apply_link": "https://www.adzuna.es/details/5475583105?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "• Company belongs to the Fintech environment\n• Python, ETL, AWS and CI/CD expert as a Data Engineering\n\n¿Dónde vas a trabajar?\n\nThis opportunity is with a medium-sized organization within the Financial Services industry. The company is committed to leveraging technology to enhance its services and operations, ensuring it stays at the forefront of its field.\n\nDescripción\n\nThis role will report into the CPTO and will require working closely with Heads of various Business functions.\n\nThe Data Engineer will be responsible for developing and optimizing scalable data pipelines, ensuring data integrity and system performance, and collaborating with cross-functional teams to enable data-driven decision-making across the organization. The position requires strong skills in Python for data engineering and SQL, as well as experience with AWS.\n\nRequired skills:\n• Based in Madrid;\n• Proficiency in Python for scripting, automation and ETL development;\n• Advanced SQL skills, experience with DBT (Data Build Tool or similar) for data transformation and modelling;\n• Hands-on experience with AWS data services such as S3, Glue, Athena, and MWAA;\n• Familiarity with Git and CI/CD workflows;\n• Strong problem solving skills and attention to detail;\n• Excellent collaboration and communication skills across diverse teams;\n• Fluent in English. Fluency in Spanish is a strong plus.\n\n¿A quién buscamos (H/M/D)?\n\nA successful Data Engineer should have:\n• Bachelor's or Master's degree in Computer Science, Engineering or a related field (or equivalent practical experience);\n• Experience with infrastructure-as-code tools like CloudFormation or Terraform;\n• Familiarity with containerization technologies such as Docker and Kubernetes;\n• Exposure to AWS Lake Formation and Lambda for serverless processing;\n• Valuable knowledge of data visualization tools such as QuickSight, Looker or similar\n\n¿Cuáles son tus beneficios?\n• 100% remote. Final client.\n• Opportunities to work in the Financial Services industry with advanced technologies.\n• Professional growth within a medium-sized organization",
+      "job_is_remote": false,
+      "job_posted_at": "hace 11 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DGyNyxf7XOC50lUh9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "0QLSKYZ1mjGfSzbpAAAAAA==",
+      "job_title": "Data Engineer, Madrid",
+      "employer_name": "WayOps",
+      "employer_logo": null,
+      "employer_website": "https://wayops.eu",
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=bb5a0d9d6597ea78&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=bb5a0d9d6597ea78&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/jdp/-1364324166813545986?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/7338466817280573440?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "WhatJobs",
+          "apply_link": "https://es.whatjobs.com/big-data-jobs?id=281352933&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Data Engineer\nEn WayOps buscamos un perfil Data Engineer que quiera desarrollar su carrera profesional formando parte de un equipo Data AI de primer nivel y trabajando en proyectos cloud con las últimas tecnologías.\n\nCONTEXTO RESPONSABILIDADES\n\nLa persona seleccionada se incorporará dentro de nuestro equipo Data AI core, participando en múltiples proyectos de Analítica Avanzada para clientes nacionales e internacionales. Junto al Technical Lead y otros perfiles como Data Architects, Data Scientists o Data Visualizers, el Data Engineer deberá desarrollar código PySpark que permita la transformación de los datos siguiendo el paradigma medallion. Además, será responsable de la ingesta de datos, orquestación de procesos y garantizará la calidad del dato.\n\nEXPERIENCIA CONOCIMIENTOS\n\nEl perfil a incorporar deberá contar con 3-4 años de experiencia como Ingeniero de Datos desarrollando pipelines de transformación de datos con tecnología PySpark, 1-2 años de experiencia en entornos Cloud preferentemente Azure y 1-2 años de experiencia en modelado de datos con herramientas como Lucidchart, orquestación de datos con herramientas como Data Factory y colaboración en el desarrollo de cuadros de mandos con herramientas como Power BI.\n\nSe valorará experiencia previa en proyectos orientados a calidad del dato, así como experiencia en resolución y gestión de incidencias en entornos productivos, conocimientos y experiencia con CI/CD en Azure DevOps y conocimientos en Machine Learning,\n\nSerá necesario tener experiencia previa con tecnologías:\n• Databricks (PySpark, Dataframes, Delta Tables, Unity Catalog, Databricks Connect)\n• Azure (Data Factory, Databricks, Storage, SQL Databases)\n• ETL (ER, Relational-model, Star-model, MDM)\n• Azure DevOps (Boards)\n• Analytics (PowerBI)\n• Ecosistema Hadoop (HDFS, Map/Reduce, Spark, Hive)\n• Herramientas (Visual Studio Code, Git)\n\nAdemás se valorará positivamente contar con experiencia o conocimientos en:\n• Azure (Event Hubs, IoTHub, CosmosDB, Application Insights)\n• Azure DevOps (Pipelines, Repos, Test Plans, Artifacts)\n• Machine Learning (sklearn, mllib, h2o, tensorflow, keras)\n• Spark (GraphX GraphFrames, Structured Streaming, Scala, Optimización)\n• Property Graphs (Neo4j+Cypher, Tinkerpop+Gremlin)\n\nCONTRATACIÓN UBICACIÓN\n\nLa contratación será mediante contrato anual prorrogable como autónomo en jornada completa. El trabajo se desarrollará en remoto preferentemente dentro del horario de oficina del cliente para facilitar la coordinación con el resto del equipo. Banda salarial negociable en función de la experiencia aportada. Incorporación inmediata.\n\nPySpark, azure, ETL,",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D0QLSKYZ1mjGfSzbpAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "msbdUw1THSrD0ywZAAAAAA==",
+      "job_title": "Data Engineer Consulting",
+      "employer_name": "Winning",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jooble",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jooble.org/rjdp/7820523521068988774?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/rjdp/7820523521068988774?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/9074229f51f250644a8cdb0034be79ec?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "At Winning Consulting, we are on the lookout for a Data Engineer to be part of our dynamic team. This role involves working on an exciting project for one of our key clients in the banking sector in Madrid (Hybrid).\n\nDesigning, developing and optimizing of data pipelines using SQL and Databricks.\nImplementing of data ingestion and transformation workflows using Spark in distributed environments.\nEnsuring data governance, lineage, and integrity across all stages fo data architecture.\nCollaborate with teams across Data Engineering, Risk, Technology, and Business areas to delivery data solutions.\nMinimun of 5 years of hands - on experience working with data engineering or data management services or big data environments.\nDegree in Engineering, Computer Science or Mathematics with a clear focus on data and analytics.\nProven expertise in SQL development.\nPractical experience with Databricks, Spark, or equivalent distributed data platforms.\nAdditional training or certifications in data platforms or cloud-based data tools is a plus.\nProficient in Excel, VBA and Microsoft Office.\nHigh level of English, both written and verbal.\n\nWe are a consulting firm offering services in consulting, training, recruitment, and headhunting. We support our clients in finding innovative and sustainable solutions, ranging from applying scientific knowledge to solve complex management challenges to driving digital and technological transformation within organizations.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 4 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DmsbdUw1THSrD0ywZAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "4Rrf-8uavWh9o-JuAAAAAA==",
+      "job_title": "Data Engineer",
+      "employer_name": "Randstad Digital",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu3-451Uin9U2YiOk2l03jIvtSw4aQdy_sx5Fa&s=0",
+      "employer_website": "https://randstaddigital.com",
+      "job_publisher": "Randstad",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.randstad.es/candidatos/ofertas-empleo/oferta/data-engineer-2935796/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Randstad",
+          "apply_link": "https://www.randstad.es/candidatos/ofertas-empleo/oferta/data-engineer-2935796/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Michael Page",
+          "apply_link": "https://www.michaelpage.es/job-detail/data-engineer/ref/jn-112025-6880466?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Antal International",
+          "apply_link": "https://www.antal.com/job/data-engineer-mbr---066?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Careers - Njoyn",
+          "apply_link": "https://cgi.njoyn.com/CORP/xweb/xweb.asp?NTKN=c&clid=21001&page=JobDetails&JobId=J0725-2272&lang=10&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Workday",
+          "apply_link": "https://ayvens.wd3.myworkdayjobs.com/hu-HU/AyvensCareers/job/Madrid-Majadahonda-Norias/Senior-Data-Analyst_JR_10031315-2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-engineer-at-zenital-4336611617?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=887016c5e853dd0d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Huxley",
+          "apply_link": "https://www.huxley.com/en-sa/job/data-engineer/4028230?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Participación en la definición, la recolección, la monitorización, el análisis y su explotación del dato en distintas etapas del ciclo de vida del desarrollo.\nExperiencia en desarrollo de flujos de datos con Python.\nConocimiento en integración con APIs, en tecnología Cloud (preferentemente Google Cloud)\nHerramientas de gestión de código (Git, GitLab).\nConocimiento en modelo y bases de datos (relacionales, no relacionales, Data Warehouse, Data Lake, SQL, BigQuery).\nDefinición de modelos y arquitecturas de datos.\nDesarrollo de aplicaciones, familiarización con arquitecturas de desarrollo MVC, gestión y procesamiento de datos a través de la tecnología.\nMetodología agile (Scrum, Kanban).\nTrabajo en equipo; Capacidad analítica; Capacidad de Aprendizaje y Adaptación a Nuevas Tecnologías. Requisitos del puesto: Experiencia demostrable en Python Formación: Ingeniero Técnico\n\nConocimientos: Data Analyst Developer\nExperiencia: 2 años\n\nTus beneficios: ¿A qué esperas para formar parte de nuestro gran equipo Randstad Digital?, aquí encontrarás motivos para ello: PLAN DE FORMACIÓN CONTINUA, plan de formación anual, acceso a plataforma elearning de formación técnica, plataforma de formación en habilidades¿ ACOMPAÑAMIENTO Y PLAN DE CARRERA, Tendrás un referente de Randstad Digital cerca de ti en todo momento. CONCILIACIÓN, Sabemos que tu vida personal es tan importante como la profesional por eso podrás disfrutar de 23 días de vacaciones y en la mayoría de nuestros proyectos tendrás un horario flexible. COMPROMISO y ESTABILIDAD, Incorporación a empresa en continuo crecimiento que apuesta por las nuevas tecnologías. SALARIO COMPETITIVO acorde a tu experiencia profesional. CONDICIONES contractuales competitivas, Plan de retribución flexible (tarjeta restaurante y cheques guardería) y Randstad Care, plataforma de ofertas y descuentos exclusivos.PLAN TRÁETE UN AMIG@, si nos ayudas a incrementar el equipo, te premiaremos con una compensación económica.Se garantiza la confidencialidad en el proceso de selección.¿Tienes ganas y te ves preparado/a para asumir un nuevo reto como el nuestro?¡Te estamos esperando!çhttps://www.youtube.com/watch?v=ZpazhoepZ4",
+      "job_is_remote": false,
+      "job_posted_at": "hace 17 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D4Rrf-8uavWh9o-JuAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    }
+  ]
+}

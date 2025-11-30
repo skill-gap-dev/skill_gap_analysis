@@ -1,0 +1,496 @@
+{
+  "status": "OK",
+  "request_id": "e683e8cf-045a-4c89-ab74-b15a7decaf10",
+  "parameters": {
+    "query": "data scientist jobs in Cordoba",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "4J91RlqkrdVh9Sc7AAAAAA==",
+      "job_title": "Data Scientist - Genai & Ml Expert - Remoto",
+      "employer_name": "Full On Net",
+      "employer_logo": null,
+      "employer_website": "https://full-on-net.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/5414516339928727552?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/5414516339928727552?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Buscamos Data Scientists con experiencia en machine learning, deep learning y MLOps. Se requiere experiencia en Python y frameworks de IA. Trabajo 100% remoto, con oportunidades de crecimiento profesional.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 21 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D4J91RlqkrdVh9Sc7AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "cdQ6egcvLBL10HwXAAAAAA==",
+      "job_title": "Data Science Data Science Senior Data Scientist (Python) (Remote)",
+      "employer_name": "Amaris Consulting",
+      "employer_logo": null,
+      "employer_website": "https://amaris.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/2066914650699595776?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/2066914650699595776?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Lleva tu carrera al siguiente nivel con Amaris Consulting como Senior Data Scientist!\nSé parte de un equipo internacional, prospera en un grupo global con un volumen de negocios de €800M y más de 1,000 clientes en todo el mundo, en un entorno ágil. El candidato ideal tendrá experiencia sólida en ciencia de datos, forecasting y optimización además de hablar inglés fluido.\n✍️ ¿4 años de experiencia\nSenior Data Scientist.\nExperiencia sólida en proyectos de Forecasting\nExperiencia en integración y modificación de algoritmos\nAirflow, PySpark, AWS, Jenkins, CI/CD y Gitflow .\nExperiencia probada en\nintegración de algoritmos y automatización de procesos.\ninglés\n(Fuertes habilidades de resolución de problemas y capacidad para trabajar tanto de forma independiente como en equipo\n¿integración y modificación de algoritmos\nAutomatizarás flujos de trabajo utilizando Airflow y PySpark, desplegando soluciones en AWS.\ncódigo con Jenkins y Gitflow.\nTrabajarás en estrecha colaboración con otros científicos de datos, ingenieros y stakeholders para asegurar la entrega de soluciones robustas y escalables.\nTe mantendrás actualizado/a con las últimas tendencias y tecnologías en ciencia de datos, forecasting y optimización.\n¿Únete a nuestro dinámico equipo de personas talentosas y descubre un mundo lleno de crecimiento y oportunidades. Crecimiento rápido a través de un camino profesional personalizado y evaluación salarial. El 70% de nuestros líderes senior comenzaron en posiciones de entrada.\nMejora tus habilidades a través de nuestro catálogo de la Academia de Tecnología, plataforma Udemy, clases de idiomas, webinars y talleres.\nToma el control de tu formación con un presupuesto anual personal y certificaciones pagadas por la empresa.\nDisfruta de políticas flexibles, opciones de trabajo remoto y excelentes beneficios sociales como tickets de transporte y restaurante, apoyo para el cuidado infantil y seguro de salud privado.\nCon este fin, damos la bienvenida a las solicitudes de todos los candidatos calificados, independientemente de su género, orientación sexual, raza, etnicidad, credo, edad, estado civil, discapacidad u otras características.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 21 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DcdQ6egcvLBL10HwXAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "eaJkqx7ki8vcWp2tAAAAAA==",
+      "job_title": "Data Scientist / IA / MLOps",
+      "employer_name": "Logicalis Spain",
+      "employer_logo": null,
+      "employer_website": "https://www.logicalis.com",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/1644e218ce3e035a8ee3e13262e81eaf?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/1644e218ce3e035a8ee3e13262e81eaf?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/6540342854370197504?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-c-rdoba-data-scientist-ia-mlops-logicalis-spain-hiring-now-job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/job/data-scientist-ia-mlops-cordoba-logicalis-spain-4186-13444019/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "En Logicalis Spain estamos buscando un equipo de Data Scientist / IA / ML / MLOps formado por perfiles juniors, middles y seniors para integrarse en nuestra BU de Data & Analytics. El equipo de Data & Analytics de Logicalis trabaja con clientes nacionales e internacionales, llevando a cabo importantes proyectos de ingeniería de datos, inteligencia artificial y analítica avanzada, estrategia del dato, gobierno, integración y arquitectura, abarcando todo el ciclo de vida del dato.\n\nREQUISITOS TÉCNICOS\n\nBuscamos perfiles con experiencia en alguna de las siguientes funciones (según seniority) y tecnologías del entorno Data Science / IA / ML / MLOps:\n• Diseñar y desarrollar modelos de machine learning y deep learning.\n• Implementar pipelines de datos y flujos de entrenamiento/despliegue (CI/CD para ML).\n• Colaborar con equipos de ingeniería y producto para integrar modelos en producción.\n• Monitorizar el rendimiento de los modelos y realizar mantenimiento continuo.\n• Participar en la definición de arquitecturas de IA escalables y eficientes.\n• Conocimientos de Python, scikit-learn, pandas, NumPy.\n• Experiencia con algún framework de IA: TensorFlow, PyTorch, Hugging Face.\n• Experiencia en alguna herramienta de MLOps: MLflow, DVC, Kubeflow, Airflow, etc.\n• Conocimientos de Docker, Kubernetes y servicios cloud (AWS, GCP o Azure).\n• Muy valorable contar con alguna certificación relacionada.\n\nBENEFICIOS\n\n> Incorporación inmediata a compañía líder del sector IT con un alto grado de expertise en el área de Data & Analytics dónde nos encontramos en pleno proceso de expansión.\n\n> Estabilidad laboral a través de contrato indefinido con amplias oportunidades de desarrollo profesional y crecimiento en la compañía.\n\n> Modalidad de trabajo 100% remoto, con flexibilidad para ir a nuestras oficinas o las de nuestros clientes en Madrid o Barcelona.\n\n> Paquete retributivo muy competitivo acorde a la valía del candidato.\n\n> Posibilidad de acogerse a planes de retribución flexible (tarjeta restaurante, tarjeta transporte y tarjeta guardería).\n\n> Seguro médico y GYMPASS.\n\n> Planes de formación adaptados a cada perfil (cursos técnicos, certificaciones oficiales, formación de idiomas...).\n\n> Portal de descuentos especiales para empleados.\n\n> Buen ambiente de trabajo y entorno muy colaborativo.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DeaJkqx7ki8vcWp2tAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "49-7JpFU1AgWOnLOAAAAAA==",
+      "job_title": "Data Scientist - Remoto",
+      "employer_name": "Full On Net",
+      "employer_logo": null,
+      "employer_website": "https://full-on-net.com",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/0b8e70db85882f53df94d636a284d49d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/0b8e70db85882f53df94d636a284d49d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/7008446186000482304?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-andalucia-cordoba-cient-fico-de-datos-senior-remoto-amaris-consulting?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Buscamos Data Scientists con experiencia en machine learning, deep learning y MLOps. Se requiere experiencia en Python y frameworks de IA. Trabajo 100% remoto, con oportunidades de crecimiento profesional.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D49-7JpFU1AgWOnLOAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "IrXgE4TAPXcj2XdxAAAAAA==",
+      "job_title": "Data Analysis Scientist - Machine Learning - Remote (Córdoba)",
+      "employer_name": "Alten",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDavv5tpDFsbSWWlqLimCECtoU6FT1_xyrrCUg&s=0",
+      "employer_website": "https://www.alten.com",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/4e97dee0110e519fc633e0dc543aed9f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/4e97dee0110e519fc633e0dc543aed9f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Te gustaría impulsar tu carrera en el sector IT con un proyecto sólido y un equipo de profesionales excepcionales? Si valoras la estabilidad y el crecimiento competente, este es el momento de incorporarte a un entorno donde el talento evoluciona de forma constante. En PSS queremos contar contigo.\n\nActualmente nos encontramos en busqueda de un perfil senior Data Scientist, con experiencia en el desarrollo de soluciones sobre AWS, especialmente con servicios de inteligencia artificial\n\nResponsabilidades principales:\n\n- Diseñar, desarrollar e implementar aplicaciones agénticas basadas en AWS Bedrock.\n\n- Construir y mantener microservicios escalables y seguros dentro de arquitecturas distribuidas.\n\n- Implementar flujos de trabajo agentic utilizando LangChain, LangGraph u otros frameworks similares.\n\n- Aplicar ingeniería de prompts para optimizar el rendimiento y la precisión de modelos LLM.\n\n- Colaborar con equipos de MLOps y DataOps para integrar soluciones de IA en entornos productivos.\n\n- Diseñar y mantener pipelines para orquestación de agentes y gestión del conocimiento contextual.\n\n¿Que te ofrecemos?\n\n-Contrato indefinido que te aporta estabilidad laboral.\n\n- Salario competitivo acorde a tu experiencia.\n\n- Modelo de trabajo: 100% teletrabajo\n\n- Proyecto sólido y de larga duración.\n\n- Plan de carrera y formación continua para impulsar tu crecimiento.\n\n- Retribución flexible con ventajas fiscales (seguro médico privado, tickets restaurante, guardería, transporte…).\n\n- Programa de referidos con incentivos para que traigas a tu talento favorito.\n\n- Acceso exclusivo a nuestro portal de descuentos en tecnología, viajes, moda y más.\n\nEn PSS apostamos por la igualdad de oportunidades y la diversidad.\n\nTodas nuestras vacantes están abiertas a personas con certificado de discapacidad igual o superior al 33%, siempre que sea compatible con el puesto. Fomentamos un entorno laboral inclusivo y libre de discriminación.\n\n#PSSionForPeople",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DIrXgE4TAPXcj2XdxAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "0B3EJbrUZvFOSuaXAAAAAA==",
+      "job_title": "Freelance Data Scientist For Pharmaceutical Industry (Córdoba)",
+      "employer_name": "*Nombre Oculto*",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "Prácticas",
+      "job_employment_types": [],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/2382170c884a3fd37019b1184decd488?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/2382170c884a3fd37019b1184decd488?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Data Scientist for LLMs in Pharma We are seeking a Senior Data Scientist to join our client's team on a freelance basis. This role is an opportunity to contribute to a project applying advanced machine learning and Large Language Models (LLMs) in the pharmaceutical industry. About the Role Develop, fine-tune, and deploy LLM-based solutions Work with Python and ML frameworks such as PyTorch, TensorFlow, and Hugging Face Transformers Design experiments and evaluation frameworks for generative AI systems Evaluate high-quality data processing and scalable pipelines Collaborate with cross-functional stakeholders to deliver production-ready solutions Requirements Proven experience as a Senior Data Scientist, with a focus on LLMs, NLP, and generative AI Strong proficiency in Python and modern ML libraries (PyTorch, TensorFlow, Transformers, etc.) Hands-on experience with model development, fine-tuning, and evaluation Able to work independently and manage end-to-end delivery Background in the pharmaceutical or life sciences sector is a plus Contract Details Location: Barcelona (remote work possible) Contract: Freelance, full-time until the end of the year, with potential extension Start: ASAP",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D0B3EJbrUZvFOSuaXAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "mzdCXF__-mYQ7-w_AAAAAA==",
+      "job_title": "Senior Data Scientist",
+      "employer_name": "JR Spain",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jooble",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jooble.org/jdp/3729737942958265961?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/jdp/3729737942958265961?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/a555efc19b47074819a9dea0c0bd215b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/eb61166a23823c67edc1aed148bb6e9c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "JobLeads",
+          "apply_link": "https://www.jobleads.com/es/job/senior-data-scientist--cordoba--e3ace9fbcff67c681fec89d60753bfde7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/1215759884771917824?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3393-fd3d0ffe2b2c1b517df62ecd6f4eea61?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Sercanto",
+          "apply_link": "https://www.sercanto.es/detail/a/senior-data-scientist_cordoba_189105728?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/job/data-scientist-senior-cordoba-fligoo-4772-261542/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "️ ¿Buscas una nueva oportunidad laboral? En NEXT DIGITAL te estamos buscando ️\n\nNo te voy a aburrir con nuestra historia, pero para que tengas una idea de qué hacemos, llevamos 7 años acompañando a las empresas en su camino de transformación digital y nuestras principales áreas de trabajo son el desarrollo de software y el mundo Big Data.\n\nAh, y trabajamos 100% en remoto (de verdad).\n\nActualmente contamos con un equipo pequeño de Data Science trabajando para uno de nuestros principales clientes y buscamos un perfil para incorporar a este equipo.\n\nEntre las diversas iniciativas a trabajar estarían:\n• Ayudar al cliente a dar valor a los negocios a través de la ciencia de datos\n• Ayuda al área de RRHH del cliente mediante procesos de recomendación\n• Mejorar la planificación\n\n¿Qué competencias técnicas y personales nos gustaría que tuvieses?\n• Experiencia mínima de tres años en varios proyectos de Machine Learning en casos reales\n• Experiencia con herramientas de versionado de control de código (git)\n• Manejo del stack principal de Machine Learning y visualización de Python (pandas, sklearn, numpy, etc.)\n• Experiencia desarrollando con frameworks de GenAI (Langchain, AWS Bedrock, OpenAI)\n• Experiencia trabajando en entornos cloud (AWS, Azure, Google cloud)\n• Nivel alto de SQL\n• Nivel alto Python\n\nEs complicado saber de todo, pero buscamos perfiles como tú, que siempre andas “trasteando” nuevas herramientas y te gustaría aprender más ?\n\n¿Cómo será tu día a día?\n• Trabajarás analizando datos\n• Participarás en reuniones con expertos funcionales\n• Desarrollarás modelos de Machine Learning\n• Realizarás la presentación de resultados a clientes\n• Flexibilidad horaria: El trabajo es 100% en remoto y puedes ajustar tu horario. En Julio, Agosto, y los viernes hay jornada intensiva\n• Aprende cada día: Te ofrecemos meetups, certificaciones pagadas y asistencia a los principales eventos de programación. E inglés, para todos los niveles.\n• Amplio programa de retribución flexible : tarjeta restaurante, tarjeta transporte, cheque guardería, seguro médico e internet\n• Gympass o seguro médico como beneficio extrapara cuidar cuerpo y mente ?\n• Plus de días de descanso: Descansa con 23 días de vacaciones y festivos regionales. En Navidad, te concedemos una semana de descanso libre. También, por cada dos años que cumplas en Next tendrás un día de vacaciones adicional.\n• ¿Salimos?: Como nos gusta pasar tiempo juntos, también organizamos eventos informales y Team Building para conocernos mejor y divertirnos.\n\nSi cumples con los requisitos y sobre todo, si eres una persona con ganas de incorporarte a una empresa dinámica, con mucha cercanía y flexibilidad, no lo dudes e inscríbete\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DmzdCXF__-mYQ7-w_AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "G3ZPAa4TleTlIOSnAAAAAA==",
+      "job_title": "Data Science Senior (Córdoba)",
+      "employer_name": "VML THE COCKTAIL",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/151cd6e5d962590503ab744c88a69cfb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/151cd6e5d962590503ab744c88a69cfb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Quienes somos?\n\nVML The Cocktail es una compañía de transformación creativa, que trabaja con el objetivo de combinar creatividad, diseño, tecnología y datos para crear productos, marcas, servicios y empresas que se relacionan con las personas, diseñando historias para el día de mañana.\n\nTrabajamos en proyectos end to end con nuestros clientes, desde que surge una necesidad hasta todo el desarrollo y la implementación de los mismos. Nos gusta entender a fondo el reto de cada proyecto y, con todo el talento que tenemos en casa, nos aseguramos de llevarlo a cabo con éxito.\n\nEl área de Data & Marketing\n\nDesde Data Marketing, estamos buscando al mejor talento para incorporarse a nuestro equipo. En esta área trabajan más de 200 profesionales abarcando todas las capacidades que engloban el mundo del dato y del marketing digital. Es un área en pleno crecimiento y con grandes retos por delante.\n\n¿Por qué estamos creciendo tanto?\n\n- Como partners del año de Salesforce, estamos a la vanguardia de la tecnología y ofrecemos las soluciones más innovadoras a nuestros clientes\n\n- Nos destacamos en el mercado por nuestro enfoque integral\n\n- Tomamos decisiones estratégicas basadas en datos\n\n- Trabajamos en entornos globales\n\n¿Quieres ser parte de este crecimiento? Esto es lo que buscamos:\n\nEstamos buscando un Data Scientist creativo y orientado a resultados para unirse a nuestro equipo. En este rol, tendrás la ocasión de trabajar con grandes volúmenes de datos, descubrir patrones clave y aportar insights valiosos que impulsarán nuestras decisiones estratégicas.\n\nSi disfrutas resolver problemas complejos, experimentar con algoritmos avanzados y convertir números en historias, ¡queremos conocerte!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DG3ZPAa4TleTlIOSnAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "_CrDwHOUp3mHJATNAAAAAA==",
+      "job_title": "Senior Data Scientist / Genia",
+      "employer_name": "Capgemini",
+      "employer_logo": null,
+      "employer_website": "https://www.capgemini.com",
+      "job_publisher": "Jobtome",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.p3.jobtome.com/empleo/senior-data-scientist-genia/dd3f76ff37825e20c89b2b9add65363c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobtome",
+          "apply_link": "https://es.p3.jobtome.com/empleo/senior-data-scientist-genia/dd3f76ff37825e20c89b2b9add65363c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Elegir Capgemini es elegir la posibilidad de dar forma a tu carrera profesional como desees. Recibirás el apoyo y la inspiración de una comunidad colaborativa de colegas de todo el mundo y podrás reinventar lo que es posible. Únete a nuestro equipo y ayuda a las principales organizaciones del mundo a descubrir el valor de la tecnología y a construir un mundo más sostenible e inclusivo.\n\n¿Te apetece sumarte a nosotros y participar en proyectos multisectoriales en un equipo conformado por profesionales del dato como Data Scientists, Data Engineers o Data Analysts? Nuestro objetivo es ayudar a nuestros clientes en el camino hacia la innovación continua.\n\n¿Qué harás en el proyecto? ¿Cuál será tu rol?\n\nEstamos buscando un Ingeniero de IA y Científico de Datos altamente capacitado y motivado para unirse a nuestro equipo. El candidato ideal tendrá una sólida experiencia en Procesamiento del Lenguaje Natural (NLP) y en el desarrollo de modelos de IA generativa. Además, deberá poseer un alto nivel de inglés, tanto escrito como hablado, para colaborar eficazmente con equipos internacionales.\n\nTu misión será liderar, impulsar y desarrollar técnicamente con autonomía iniciativas en el ámbito de la IA generativa y ML y también:\n• Diseñarás, desarrollarás y realizarás el despliegue de soluciones usando modelos de Machine Learning, Deep Learning y Computer Vision.\n• Desarrollarás proyectos con NLP y LLMs.\n• Gestionarás y manipularás conjuntos de datos: Definición e identificación de variables de aprendizaje, generación de nuevos conjuntos, realización de transformaciones y limpieza .Definirás procesos de Aprendizaje Automático End-to-End.\n• Desarrollarás procesos de entrenamiento mediante diferentes tipos de frameworks (TF, PyTorch, Scikit-learn, etc).\n• Desarrollarás procesos de inferencia en entornos On-premise o Cloud.\n• Realizarás el mantenimiento de modelos existentes de Aprendizaje Automático.\n• Liderarás equipos técnicos de proyecto.\n• Realizarás la mentorización de Data Scientists Junior o en formación.\n• Participarás en propuestas técnicas a nivel nacional e internacional.\n\nPara desenvolverte bien en la posición se requieren conocimientos en/de:\n• Es necesario que aportes Grado en Informática, Matemáticas, Física o Ingenierías similar y puedas desenvolverte bien con:\n• Experiencia en el desarrollo de proyectos en el entorno de la IA generativa trabajando con NLP, LLMs,\n• Experiencia contrastada de más de 3 años en proyectos aplicando técnicas de ML y DL en entornos productivos.\n• Experiencia en la implementación de soluciones de IA en entornos de producción.\n• Conocimientos de DevOps y MLOps.\n• Experiencia en la definición, creación, despliegue y mantenimiento de modelos de ML y DL sobre entornos productivos.\n• Conocimiento sobre Python y/o R en el ámbito de la ciencia de datos.\n• Conocimiento Databricks.\n• Conocimientos avanzados sobre frameworks de Aprendizaje Automático (TF, PyTorch, Scikit-learn, etc).\n• Conocimientos avanzados sobre servicios analíticos cloud sobre AWS, GCP o Azure.\n• Capacidad para trabajar en equipo de manera efectiva.\n• Proactividad a la hora de construir soluciones y aplicar nuevas funcionalidades relacionadas con la tecnología en uso.\n• Además, sería genial si tienes:\n• PhD o Máster en ciencias de computación, ciencia de datos, inteligencia artificial, matemáticas o estadística.\n• Conocimientos avanzados sobre Apache Spark en el ámbito de la ciencia de datos (PySpark).\n• Conocimiento sobre Docker y/o Kubernetes.\n• Conocimiento sobre herramientas de visualización de datos (PowerBI o similares).\n• Certificaciones en AWS, GCP o Azure (u otras plataformas cloud equivalentes para el tratamiento de datos).\n• Experiencia desarrollando y utilizando aplicaciones de tipo SaaS.\n• Conocimiento y aplicación de la ciencia de datos en diferentes sectores e industrias: banca, seguros, telco, retail, etc.\n\nSe valorará positivamente el poseer certificado de discapacidad, en el marco de nuestra política de inclusión y diversidad.\n\nValoraremos todas las candidaturas . Contamos con una amplísima oferta formativa, presencial, online de Certificaciones, etc. Aunque no tengas el 100% de los conocimientos valorados ¡nos encantará conocerte!\n\nNuestro compromiso con la inclusión e igualdad de oportunidades hace que tengamos un Plan de Igualdad y un Código Ético que garantizan el desarrollo profesional de la plantilla y la igualdad de oportunidades en su selección dentro de un entorno libre de discriminación por cuestión de etnia, nacionalidad, origen social, edad, orientación sexual, expresión de género, religión o cualquier otra circunstancia personal, física o social.\n\n¿Qué te gustará de trabajar aquí?\n\nTenemos un catálogo de medidas de Desarrollo y Conciliación muy completo, como son, por ejemplo:\n\n- Un ambiente de trabajo único muy valorado por nuestros profesionales en las evaluaciones periódicas.\n\n- Wellbeing HUB - Incluye políticas y acciones para la salud física (Wellhub) y mental.\n\n- 24 días de vacaciones + 2 asuntos propios + 24 y 31 de diciembre + opción a comprar hasta 7 días de vacaciones al año.\n\n- FlexAbroad: posibilidad de trabajar en remoto desde otro país durante 45 días.\n\n- Plan de Compensación Flexible (seguro médico, transporte, formación, tarjeta restaurante o subvención de comida, guardería…)\n\n- Formación continua, podrás disfrutar de Mylearning y de Capgemini University y de nuestros Campus Digitales y Comunidades profesionales. Tendrás acceso a plataformas como: Coursera, Udemy, Pluralsight, Harvard Manager Mentor, Education First para idiomas (inglés francés, alemán…) ¡entre otras!\n\n- Participación en Acciones de Voluntariado y Acción Social con nuestros Grupos de Sostenibilidad, Inclusión e Igualdad.\n\n- Acompañamiento en tus inicios con el programa de Buddies.\n\n- Seguro de Vida y Accidentes\n\n¿Por qué Capgemini?\n\nCapgemini es líder global en transformando los negocios de los clientes aprovechando todo el poder de la tecnología. Nos guía el propósito de lograr un futuro inclusivo y sostenible a través de la tecnología y de la energía de quienes la desarrollamos. Somos una compañía responsable y diversa, líder internacional en servicios de IT e Ingeniería con más de 360.000 profesionales en más de 50 países. Con una sólida herencia de 55 años y una amplia experiencia en la industria, los clientes confían en Capgemini para abordar la totalidad de sus necesidades comerciales, desde la estrategia y el diseño hasta las operaciones, impulsadas por el rápido y novedoso mundo de la nube, los datos, la IA, la conectividad, el software, las plataformas e ingeniería digitales. El Grupo reportó en 2022 ingresos globales de €22 mil millones.\n\nReescribe tu futuro. ¡Únete al equipo!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 11 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D_CrDwHOUp3mHJATNAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "CB6_FVqHt0twoAiYAAAAAA==",
+      "job_title": "Analista de Datos",
+      "employer_name": "beBeeAnálisis",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx4ZDEoFbmqZaS3OX19CNS4F7Oe1s1V2FbPn3_&s=0",
+      "employer_website": "https://es.bebee.com",
+      "job_publisher": "BeBee",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.bebee.com/job/5ddc02604daf97fbd581de88a933b30b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/5ddc02604daf97fbd581de88a933b30b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/764008215192010752?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://xn--crdoba-bxa.es.expertini.com/job/analista-de-datos-cordoba-fidesol-3874-10142266/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-andalusia-cordova-analista-de-datos-tramas-hiring-now-job-immediately?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Buscar un Data Scientist es la oportunidad de sumar tu talento a una empresa en constante crecimiento y desarrollo.\nDescripción del Puesto\n\nNuestro equipo busca a alguien con experiencia en datos para diseñar, desarrollar y operar activos digitales en Cloud. Serás responsable de integrar múltiples fuentes de datos estructurados y no estructurados, implementar procesos ETL/ELT eficientes utilizando AWS Glue, Lambda, EMR y Kinesis, y garantizar la calidad, trazabilidad y gobernanza de los datos.\nHabilidades y Calificaciones Requeridas\n• Experiencia demostrable con servicios AWS de datos: S3, Glue, Lambda, EMR, Kinesis, Athena, Redshift, CloudFormation/Terraform.\n• Dominio de Python (PySpark deseable) y SQL avanzado.\n• Experiencia con arquitecturas data lake / data warehouse / streaming.\n• Familiaridad con CI/CD (Git, Jenkins, CodePipeline) y metodologías ágiles.\nBeneficios\n• Incorporación a una empresa moderna, en continuo crecimiento, donde vas a disfrutar trabajando y tendrás todas las facilidades para desarrollar tu potencial.\n• Integrarte a un equipo de profesionales altamente cualificados, con un magnífico clima laboral, innovador y dinámico que van a apoyarte para conseguir tus objetivos.\n• Participar en proyectos innovadores con tecnologías actuales.\n• Entorno de trabajo colaborativo y ágil (Scrum/Kanban).\n• Formación continua y oportunidades de crecimiento profesional.\n• Conciliación familiar y teletrabajo.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Córdoba",
+      "job_city": "Córdoba",
+      "job_state": "Córdoba",
+      "job_country": "ES",
+      "job_latitude": 37.8893025,
+      "job_longitude": -4.7792753,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DCB6_FVqHt0twoAiYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    }
+  ]
+}

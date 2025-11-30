@@ -1,0 +1,598 @@
+{
+  "status": "OK",
+  "request_id": "63401388-c8ac-496f-942f-728d5814bc37",
+  "parameters": {
+    "query": "machine learning engineer jobs in Madrid",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "HjTTpNL74aRZutcbAAAAAA==",
+      "job_title": "Machine Learning Engineer - Data Scientist",
+      "employer_name": "Mahou San Miguel",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjQLGCQH7PNt1QvaBIdxUCakIRM_69Om68VmG&s=0",
+      "employer_website": "https://www.mahou-sanmiguel.com",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/machine-learning-engineer-data-scientist-at-mahou-san-miguel-4338909924?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/machine-learning-engineer-data-scientist-at-mahou-san-miguel-4338909924?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Por qué te estamos buscando?\n\nTu misión será impulsar la creación, desarrollo y despliegue de soluciones analíticas y de inteligencia artificial dentro del ecosistema de datos de Mahou San Miguel. El rol combina conocimiento funcional, capacidad analítica y solidez técnica para garantizar que las soluciones de datos generen impacto tangible, escalable y sostenible en toda la organización.\n\nTu día a día en Mahou San Miguel\n• Conectar la estrategia del negocio con el análisis de datos, traduciendo las necesidades de las áreas en soluciones analíticas y modelos predictivos, evaluando su impacto y promoviendo la adopción y mejora continua de los productos de datos desarrollados.\n• Diseñar y desarrollar pipelines de datos garantizando calidad, trazabilidad y escalabilidad.\n• Desarrollar modelos analíticos y predictivos (machine learning, optimización, forecasting) integrados en procesos de negocio críticos: supply chain, ventas, Marketing, operaciones, sostenibilidad, entre otros.\n• Industrializar y monitorizar modelos junto al equipo de MLOps, asegurando su despliegue, gobernanza y mantenimiento en producción.\n• Colaborar con expertos funcionales para traducir necesidades de negocio en soluciones analíticas completas.\n• Contribuir a la evolución del ecosistema de datos de MSM mediante la definición de estándares, buenas prácticas y automatización.\n• Participar en la comunidad de práctica de datos e IA, impulsando la formación, el intercambio de conocimiento y la innovación interna.\n\n¿Qué requisitos debes cumplir?\n• Grado o Máster en Ingeniería, Matemáticas, Estadística, Física o disciplinas afines.\n• Nivel fluido de inglés conversacional\n• Entre 3-5 años de experiencia en proyectos de Data Science o Data Engineering.\n• Experiencia en plataformas Data Science: Azure ML, Vertex AI, Stratio, Palantir Foundry, SageMaker.\n\nConocimientos avanzados de MLOps (Airflow, MLflow, Kubeflow o similares).\n• Experiencia en el desarrollo y despliegue de modelos de ML en entornos productivos.\n• Experiencia con herramientas de versionado, CI/CD, APIs y notebooks.\n• Competencias técnicas:\n• Lenguajes: Python, SQL, PySpark.\n• Frameworks: scikit-learn, MLflow, TensorFlow/PyTorch (valorado).\n• Entornos Cloud: Azure, AWS o GCP.\n• Conocimientos de DataOps y MLOps.\n• Competencias funcionales y personales: - Capacidad para comprender procesos de negocio y transformarlos en soluciones analíticas.\n• Enfoque producto, orientación a valor y entrega continua.\n• Comunicación efectiva y colaboración transversal.\n• Autonomía, proactividad y aprendizaje continuo.\n\nLa diversidad, clave en nuestra estrategia\n\nNuestro compromiso con la diversidad, la inclusión y la igualdad de oportunidades está presente desde nuestro nacimiento en 1890. Nuestra visión, en este sentido, es “construir el futuro a través de la suma de personas únicas, impulsando la diversidad de forma activa como fuente de riqueza en la sociedad”.\n\nPor eso, esta oferta está dirigida a cualquier persona que reúna los requisitos exigidos para el puesto, independientemente de sus características.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DHjTTpNL74aRZutcbAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "JwEpUnVk3qPRLdzHAAAAAA==",
+      "job_title": "Machine Learning Engineer | $200/hr Remote | Mercor",
+      "employer_name": "Crossing Hurdles",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/6063167177421225984?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/6063167177421225984?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/fee04549f1a31776866d274f1558a3fb?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2635-7dfd6ac92c6417a7a7dfa5b7c26d2931?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "- FlexMote",
+          "apply_link": "https://www.flexmote.es/job/machine-learning-engineer-madrid/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Join to apply for the\nMachine Learning Engineer | $200/hr Remote | Mercor\nrole at\nCrossing Hurdles\nAt Crossing Hurdles, we work as a referral partner. We refer candidates to Mercor that collaborates with the world’s leading AI research labs to build and train cutting‑edge AI models.\nOrganization : Mercor\nReferral Partner : Crossing Hurdles\nType : Hourly Contract\nCompensation : $200/hour median average pay (base $90/hour plus lucrative bonuses per approved task)\nLocation : Remote\nDuration : 1 month\nCommitment : 10–40 hours/week, fully remote and asynchronous\nRole Responsibilities\nDevelop and validate coding benchmarks in Go by curating issues, solutions, and test suites from real‑world repositories\nEnsure benchmark tasks include comprehensive unit and integration tests for solution verification\nMaintain consistency and scalability of benchmark task distribution\nProvide structured feedback on solution quality and clarity\nDebug, optimize, and document benchmark code for reliability and reproducibility\nIdeal Qualifications\nStrong experience as a backend software engineer, machine learning engineer, or applied data scientist\nDegree in Software Engineering, Computer Science, or related field\nStrong proficiency in Go programming language\nExperience with debugging, testing, and validating code\nComfortable with technical writing and attention to detail\nApplication process\nUpload resume\nAI interview based on your resume (15 min)\nSeniority level Mid‑Senior level\nEmployment type Contract\nJob function Engineering, Information Technology, and Research\nIndustries Information Services, Computer and Network Security, and Research Services\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 4 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DJwEpUnVk3qPRLdzHAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "XJwltb5hXF9-R9l3AAAAAA==",
+      "job_title": "Machine Learning Engineer – GenAI Projects (Senior)",
+      "employer_name": "Neoris",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzBSTxz_4pCihHIzLWOHzUeSi--NuFK_kNd9A6&s=0",
+      "employer_website": "https://www.neoris.com",
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=f3576bdf2c50f607&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=f3576bdf2c50f607&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.com/job-listing/machine-learning-engineer-%E2%80%93-genai-projects-senior-new-neoris-JV_IC2664239_KO0,53_KE54,60.htm?jl=1009928826374&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "EduCativ",
+          "apply_link": "https://educativ.net/jobs/job/4898674-machine-learning-engineer-madrid-spain/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Sobre NEORIS:\n\nNEORIS, ahora parte de EPAM, es un acelerador digital que ayuda a las compañías a entrar en el futuro. Con más de 20 años de experiencia como Socios Digitales de algunas de las empresas más importantes del mundo, contamos con más de 4,000 profesionales en 11 países.\nNuestra cultura combina la agilidad y creatividad de una startup con la solidez de una empresa global, fomentando la innovación, el aprendizaje continuo y la creación de soluciones de alto impacto para nuestros clientes.\n\nPrincipales responsabilidades:\n• Diseñar y desarrollar soluciones de Machine Learning y Generative AI, implementando integraciones con LLMs mediante Python.\n• Participar en la definición y ejecución de estrategias de prompt engineering en colaboración con equipos de advanced analytics.\n• Desarrollar, mantener y optimizar servicios en AWS (integración, monitoreo, logs, orquestación).\n• Revisar código de otros desarrolladores, promoviendo buenas prácticas, eficiencia y escalabilidad en los desarrollos.\n• Colaborar con equipos multidisciplinarios (Data Science, Arquitectura, DevOps) para garantizar entregables de calidad.\n• Documentar y mantener actualizadas las soluciones técnicas, asegurando la trazabilidad y reproducibilidad de los modelos.\n\nRequerimientos:\n• Experiencia comprobable (mínimo 5 años) en desarrollo de soluciones de Machine Learning o IA aplicada.\n• Experiencia práctica con Python y programación orientada a objetos.\n• Experiencia desarrollando llamadas e integraciones con modelos LLM (OpenAI, Anthropic, AWS Bedrock, etc.).\n• Conocimientos sólidos en servicios AWS: orquestación, integración, monitoreo y gestión de logs.\n• Experiencia revisando código y aplicando estándares de calidad técnica en equipos de desarrollo.\n• Nivel intermedio o superior de inglés (capaz de leer y redactar documentación técnica).\n\nDeseables:\n• Experiencia previa en entornos bancarios o financieros, especialmente en AI Factory de BBVA o proyectos similares.\n• Conocimiento de frameworks de ML y GenAI (LangChain, LlamaIndex, Hugging Face).\n• Certificaciones en AWS o en áreas de IA / Data Engineering.\n• Experiencia colaborando en proyectos ágiles (Scrum / Kanban).\n\nOfrecemos\n• Contrato indefinido con salario competitivo.\n• Modalidad flexible y posibilidad de trabajo remoto.\n• Plan de carrera personalizado y formación continua (certificaciones, inglés, etc.)\n• Participación en proyectos estables con alto componente técnico.\n• Flexibilidad horaria y enfoque en la conciliación.\n• Beneficios sociales adaptados a tus necesidades\n\nTe invitamos a conocernos en www.neoris.com, Facebook, LinkedIn, Twitter o Instagram: @NEORIS\n\n#LI-MM4",
+      "job_is_remote": false,
+      "job_posted_at": "hace 26 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DXJwltb5hXF9-R9l3AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "MFVqHzDFUC-Sr1HZAAAAAA==",
+      "job_title": "Machine Learning Engineer (LLM/AI/ML) - Fixed Term Contract (Madrid)",
+      "employer_name": "European Tech Recruit",
+      "employer_logo": null,
+      "employer_website": "https://eu-recruit.com",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/00819090be4dfc3a15687d7b39d9afed?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/00819090be4dfc3a15687d7b39d9afed?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/1190441705397026816?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/quantum-machine-learning-engineer-jobs/1076B7072E4341EF?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-quantum-machine-learning-engineer-european-tech-recruit?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Machine Learning Engineer (LLM)\n\nA fantastic opportunity for Jr/Mid level Machine Learning Engineer to join fast-growing deep-tech company, who provide hyper-efficient software to integral companies across finance, energy, manufacturing and cybersecurity to gain an edge with quantum computing and artificial intelligence.\n• *This is initially a Fixed Term Contract - Hybrid from Zaragoza, Madrid or Barcelona**\n\nResponsibilities\n\n• Design and develop new techniques to compress Large Language Models based on quantum-inspired technologies to solve challenging use cases in various domains.\n\n• Conduct rigorous evaluations and benchmarks of model performance, identifying areas for improvement, and fine-tuning and optimising LLMs for enhanced accuracy, robustness, and efficiency.\n\n• Use your expertise to assess the strengths and weaknesses of models, propose enhancements, and develop novel solutions to improve performance and efficiency.\n\n• Act as a domain expert in the field of LLMs, understanding domain-specific problems and identifying opportunities for quantum AI-driven innovation.\n\n• Maintain comprehensive documentation of LLM development processes, experiments, and results.\n\n• Participate in code reviews and provide constructive feedback to team members.\n\nRequired Qualifications\n\n• Bachelors/Master's or Ph.D. in Artificial Intelligence, Computer Science, Data Science, or related fields.\n\n• 2+ years of hands-on experience with deep learning models and neural networks, preferably working with Large Language Models and Transformer architectures, or computer vision models.\n\n• 1+ year of hands-on experience using LLM and Transformer models, with excellent command of libraries such as HuggingFace Transformers, Accelerate, Datasets, etc.\"\n\n• Excellent problem-solving, debugging, performance analysis, test design, and documentation skills.\n\n• Excellent programming skills in Python and experience with relevant libraries (PyTorch, HuggingFace, etc.).\n\n• Experience with cloud platforms (ideally AWS), containerization technologies (Docker) and with deploying AI solutions in a cloud environment\n\n• Excellent written and verbal communication skills, with the ability to work collaboratively in a fast-paced team environment and communicate complex ideas effectively.\n\nBy applying to this role you understand that we may collect your personal data and store and process it on our systems. For more information please see our Privacy Notice (https://eu-recruit.com/about-us/privacy-notice/).",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DMFVqHzDFUC-Sr1HZAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "_eQtAb_O56uAlW_9AAAAAA==",
+      "job_title": "Machine Learning Engineers",
+      "employer_name": "CHEP",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShByHTnjAXbj2wUWlRwiG8J7ZoxjOyOkkwu1zi&s=0",
+      "employer_website": null,
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=0d5ce010f54cc77f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=0d5ce010f54cc77f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/kqGgp4nllFepRrO-z2vYPP-HDAky3mgHRegq5CtptNxWWKIJ_I3DYg?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.es/job-listing/machine-learning-engineers-chep-JV_IC2664239_KO0,26_KE27,31.htm?jl=1009877830290&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/c79d6aeb126c7cd23eafd93724bb7bcf?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/jdp/-5546744347138029309?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Levels.fyi",
+          "apply_link": "https://www.levels.fyi/jobs?jobId=105616343776010950&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobtome",
+          "apply_link": "https://es.jobtome.com/empleo/machine-learning-engineers/d3e70e10312d29740fad1c2f00f2e380?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/2015002583583686656?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "CHEP helps move more goods to more people, in more places than any other organization on earth via our 347 million pallets, crates and containers. We employ approximately 13,000 people and operate in 60 countries. Through our pioneering and sustainable share-and-reuse business model, the world’s biggest brands trust us to help them transport their goods more efficiently, safely and with less environmental impact.\n\nWhat does that mean for you? You’ll join an international organization big enough to take you anywhere, and small enough to get you there sooner. You’ll help change how goods get to market and contribute to global sustainability. You’ll be empowered to bring your authentic self to work and be surrounded by diverse and driven professionals. And you can maximize your work-life balance and flexibility through our Hybrid Work Model .\n\nJob Description\n\nKey Responsibilities May Include:\n• Collaborate with data scientists to pilot and scale new algorithms, industrializing machine learning solutions across the organization’s data network.\n• Design, develop, and maintain data pipelines and infrastructure necessary for machine learning projects, ensuring smooth integration with external IT systems for end-to-end solutions.\n• Write scalable, maintainable, and future-proof code by leveraging knowledge of software architecture and design patterns.\n• Develop common components to address challenges in machine learning projects, such as model lifecycle management, feature stores, and data quality evaluation.\n• Provide input on tools and frameworks to improve data quality and ensure the integrity of machine learning solutions.\n• Work in agile, cross-functional teams, collaborating with software/machine learning engineers, data scientists, designers, and product managers to build Brambles’ AI ecosystem.\n• Deliver on project timelines, demonstrating a strong commitment to team goals and backlog completion.\n• Stay updated on emerging machine learning trends and continuously develop technical skills to drive innovation and improve project outcomes.\n\nPosition Purpose\n• Develop computer vision and deep learning applications related to object detection, object segmentation and activity/action detection.\n• Dedicated to delivering Machine Learning projects within the CHEP Supply Chain.\n• Dedicated to driving industry and market exploration into Machine Learning capabilities, assessing, leading feasibility study and applications of how it can be used in CHEP to further enhance our platform inspection capability across all CHEP platforms.\n\nMajor/Key Accountabilities\n• Lead the ideation, prototyping, and development of AI software.\n• Demonstrate expertise in solving computer vision problems.\n• Develop deep learning and traditional machine learning algorithms for CHEP business.\n• Design and develop scalable software architectures.\n• Demonstrate ongoing understanding of Machine Learning technologies in current marketplace and how they can be applied to the CHEP business.\n• Facilitate design and deployment of vision hardware equipment needed for image data gathering.\n• Create and maintain data pipeline architecture for ML algorithm development.\n\nChallenges\n• Utilizing existing hardware and images in addition to new image data gathering techniques to produce innovative image analysis models and algorithms.\n• Development of ML approaches that improve the speed and accuracy of image algorithm development for inspection and quality control methods.\n\nQualifications\n• MS or PhD in Computer Science, Engineering, Mathematics or Statistics, with specialization in computer vision and deep learning.\n• Proficiency in Deep Learning frameworks (Tensorflow, Keras or Pytorch).\n• Proficiency in Python.\n• Proficiency in implementing deep learning architectures for Image classification, Object detection and Object segmentation.\n• Demonstrated experience in scientific research related to Computer vision and Deep learning.\n• Scientific thinking and the ability to invent, implement, and lead technological developments in the field of computer vision and machine learning.\n• Proficiency in CV/ML libraries (OpenCV, Scikit-learn, Numpy, Pandas).\n• Software development experience in multi-threaded applications.\n• Excellent written and spoken communication skills.\n\nExperience\n• Minimum 3 years of industrial experience in developing and deploying Computer Vision and Deep Learning applications in Production at scale.\n• Experience in software development (Python), integration with deep learning algorithms and deployment in production.\n• Experience in multi-facility, international organizations desired.\n• Experience in a diverse multi-cultural corporate environment desired.\n• Successful delivery of machine learning applications to internal or external customers.\n\nSkills and Knowledge\n\nMandatory:\n• Strong Python programming capabilities.\n• Scientific understanding of popular/state-of-the-art deep learning architectures and computer vision algorithms for object detection and object segmentation.\n• Ability to read scientific publications, understand and implement proposed solutions\n• Self-driven and strong problem-solving skills.\n• Teamwork.\n• Strong analytical skills and process focus.\n\nDesirable:\n• Publications in top CV conferences and Journals (CVPR, ICCV, ECCV, NIPS, ICML, PAMI, etc.).\n• Experience with NVIDIA Jetson, ONNX, OpenVINO and TensorRT.\n• Proficiency in Activity Recognition and Object tracking.\n• 3D image algorithms experience.\n• C++ programming capabilities.\n• Ability to work in a Matrix Organization.\n\nLanguages\n\nRequired: English\n\nDesirable: Spanish\n\nRemote Type\n\nHybrid Remote\n\nSkills to succeed in the role\n\nActive Learning, Adaptability, Bitbucket, Cloud Infrastructure (Aws), Code Reviews, Cross-Functional Work, Curiosity, Databricks Platform, Data Infrastructure, Data Science, Digital Literacy, Emotional Intelligence, Empathy, Git, Initiative, Machine Learning, Problem Solving, Python (Programming Language), SQL Tools\n\nWe are an Equal Opportunity Employer, and we are committed to developing a diverse workforce in which everyone is treated fairly, with respect, and has the opportunity to contribute to business success while realizing his or her potential. This means harnessing the unique skills and experience that each individual brings and we do not discriminate against any employee or applicant for employment because of race, color, sex, age, national origin, religion, sexual orientation, gender identity, status as a veteran, and basis of disability or any other federal, state, or local protected class.\n\nIndividuals fraudulently misrepresenting themselves as Brambles or CHEP representatives have scheduled interviews and offered fraudulent employment opportunities with the intent to commit identity theft or solicit money. Brambles and CHEP never conduct interviews via online chat or request money as a term of employment. If you have a question as to the legitimacy of an interview or job offer, please contact us at recruitment@brambles.com.",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D_eQtAb_O56uAlW_9AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "hPsfR6xCMT62etJxAAAAAA==",
+      "job_title": "Machine Learning Engineer - (LLM/Large Language Models) - Hybrid in Madrid",
+      "employer_name": "European Tech Recruit",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPGmOVfgHpcHC5ylch4Y1CgCzpWXyFEjAKqgQh&s=0",
+      "employer_website": "https://eu-recruit.com",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": null,
+      "job_employment_types": [],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/machine-learning-engineer-llm-large-language-models-hybrid-in-madrid-at-european-tech-recruit-4335662339?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/machine-learning-engineer-llm-large-language-models-hybrid-in-madrid-at-european-tech-recruit-4335662339?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/jdp/-5740594892938247394?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/45932b9cf3e11f77b95bdae51935820f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/machine-learning-engineer-llm-ai-jobs/E9C4CE110CB09CB0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/4157519325244162048?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Talent.com",
+          "apply_link": "https://es.talent.com/view?id=3ac8367206d3&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Buscojobs",
+          "apply_link": "https://www.buscojobs.com.es/machine-learning-engineer-llm-large-language-models-hybrid-in-madrid-en-madrid-ID-324919618?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Sercanto",
+          "apply_link": "https://www.sercanto.es/detail/a/machine-learning-engineer-llm-large-language-models-hybrid-in-madrid_madrid_191919046?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Machine Learning Engineer (LLM)\n\nA fantastic opportunity for Jr/Mid level Machine Learning Engineer to join fast-growing deep-tech company, who provide hyper-efficient software to global companies across finance, energy, manufacturing and cybersecurity to gain an edge with quantum computing and artificial intelligence.\n• *This is initially a Fixed Term Contract - Hybrid from Madrid or Barcelona**\n\nResponsibilities\n\n• Design and develop new techniques to compress Large Language Models based on quantum-inspired technologies to solve challenging use cases in various domains.\n\n• Conduct rigorous evaluations and benchmarks of model performance, identifying areas for improvement, and fine-tuning and optimising LLMs for enhanced accuracy, robustness, and efficiency.\n\n• Use your expertise to assess the strengths and weaknesses of models, propose enhancements, and develop novel solutions to improve performance and efficiency.\n\n• Act as a domain expert in the field of LLMs, understanding domain-specific problems and identifying opportunities for quantum AI-driven innovation.\n\n• Maintain comprehensive documentation of LLM development processes, experiments, and results.\n\n• Participate in code reviews and provide constructive feedback to team members.\n\nRequired Qualifications\n\n• Bachelors/Master's or Ph.D. in Artificial Intelligence, Computer Science, Data Science, or related fields.\n\n• 2+ years of hands-on experience with deep learning models and neural networks, preferably working with Large Language Models and Transformer architectures, or computer vision models.\n\n• 1+ year of hands-on experience using LLM and Transformer models, with excellent command of libraries such as HuggingFace Transformers, Accelerate, Datasets, etc.\"\n\n• Excellent problem-solving, debugging, performance analysis, test design, and documentation skills.\n\n• Excellent programming skills in Python and experience with relevant libraries (PyTorch, HuggingFace, etc.).\n\n• Experience with cloud platforms (ideally AWS), containerization technologies (Docker) and with deploying AI solutions in a cloud environment\n\n• Excellent written and verbal communication skills, with the ability to work collaboratively in a fast-paced team environment and communicate complex ideas effectively.\n\nBy applying to this role you understand that we may collect your personal data and store and process it on our systems. For more information please see our Privacy Notice (https://eu-recruit.com/about-us/privacy-notice/).",
+      "job_is_remote": false,
+      "job_posted_at": "hace 18 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DhPsfR6xCMT62etJxAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "SjOaoBWON1i-JY5uAAAAAA==",
+      "job_title": "Groundbreaking Machine Learning Expert",
+      "employer_name": "beBeeInnovator",
+      "employer_logo": null,
+      "employer_website": "https://in.bebee.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/5189743177862479872?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/5189743177862479872?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2635-302de32c17a07e064b68774a792ca4e0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/machine-learning-expert-jobs/66CC91367943BBDC?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-machine-learning-expert-odixcity-consulting-hiring-now-job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://madrid.es.expertini.com/job/machine-learning-expert-madrid-odixcity-consulting-4772-306571/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Quantum Computing Innovator\n\nEmbark on a groundbreaking opportunity to pioneer the fusion of quantum computing and artificial intelligence. Our team is seeking an exceptional Machine Learning Engineer to drive innovation in Large Language Models.\n\nKey Responsibilities:\n• Develop novel compression techniques for Large Language Models leveraging quantum-inspired technologies.\n• Conduct rigorous performance evaluations, identify areas for improvement, and fine-tune LLMs for enhanced accuracy and efficiency.\n• Assess model strengths and weaknesses, propose enhancements, and develop innovative solutions to improve performance.\n• Serve as a domain expert in Large Language Models, understanding domain-specific challenges and identifying opportunities for quantum AI-driven innovation.\n• Maintain comprehensive documentation of LLM development processes, experiments, and results.\n• Participate in code reviews and provide constructive feedback to team members.\n\nRequired Qualifications:\n• Bachelor's/Master's or Ph.D. in Artificial Intelligence, Computer Science, Data Science, or related fields.\n• 2+ years of hands-on experience with deep learning models and neural networks, preferably working with Large Language Models and Transformer architectures, or computer vision models.\n• 1+ year of hands-on experience using LLM and Transformer models, with excellent command of libraries such as HuggingFace Transformers, Accelerate, Datasets, etc.\n• Excellent problem-solving, debugging, performance analysis, test design, and documentation skills.\n• Exceptional programming skills in Python and experience with relevant libraries (PyTorch, HuggingFace, etc.).\n• Experience with cloud platforms (ideally AWS), containerization technologies (Docker) and with deploying AI solutions in a cloud environment.\n• Excellent written and verbal communication skills, with the ability to work collaboratively in a fast-paced team environment and communicate complex ideas effectively.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 21 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DSjOaoBWON1i-JY5uAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "d9MyKeqOkvczNxH5AAAAAA==",
+      "job_title": "Machine learning engineer, madrid",
+      "employer_name": "Epam",
+      "employer_logo": null,
+      "employer_website": "https://www.epam.com",
+      "job_publisher": "Insertia.net",
+      "job_employment_type": "A tiempo completo y Contratista",
+      "job_employment_types": [
+        "FULLTIME",
+        "CONTRACTOR"
+      ],
+      "job_apply_link": "https://www.insertia.net/ver-oferta/daf49bc5-1db6-492f-bb78-290da01b9f9d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Insertia.net",
+          "apply_link": "https://www.insertia.net/ver-oferta/daf49bc5-1db6-492f-bb78-290da01b9f9d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/5510b0e3822bbbebc53a07e7435c8e9a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/rjdp/-5021877352034411066?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Talent.com",
+          "apply_link": "https://es.talent.com/view?id=6e3358484066&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/2219901523222069248?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajas.es - Ofertas De Trabajo",
+          "apply_link": "https://www.trabajas.es/oferta/machine-learning-engineer-madrid-668bde927199924/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3144-45f1ca185feceb57e34bc1fe872f6227?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://madrid.es.expertini.com/job/machine-learning-engineer-madrid-madrid-epam-3269-10894845/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Machine Learning Engineer We are looking for a Machine Learning Engineer to join our team and drive the development of a scalable machine learning framework and tooling. You will play a key role in enabling efficient collaboration between data scientists, data engineers and cloud architects. Youll also help build GenAI-centric tools that improve the ML lifecycle through automation, optimization and observability. RESPONSIBILITIES - Design, build and maintain a robust framework to support machine learning projects at scale - Act as a technical bridge between data science, engineering and cloud infrastructure teams - Collaborate on the development and deployment of GenAI applications and agents such as LLM pipelines and image generation models - Deploy models using containerized and serverless infrastructure such as Docker, Kubernetes and Azure Functions REQUIREMENTS - Proven experience in MLOps and DevOps practices across the ML lifecycle - Hands-on experience with cloud platforms, especially Azure: Azure ML, Functions, Storage - Familiarity with Orchestration of ML pipelines and experiments with MLOps tooling such as MLflow, Vertex AI, Azure Machine Learning, Databricks Workflows and SageMaker - Solid understanding of model deployment using Docker, Kubernetes and serverless technologies - Strong software engineering background: Python, CI/CD, testing frameworks NICE TO HAVE- Experience with GenAI technologies such as Agentic workflows: LangChain, OpenAI tools, custom agents - Working knowledge of the MCP server or similar scalable serving architectures - Exposure to retrieval-augmented generation (RAG) or vector database integrations - Experience working with infrastructure-as-code tools for deploying ML systems on the cloud WE OFFER- Private health insurance - EPAM Employees Stock Purchase Plan - 100 paid sick leave - Referral Program - Professional certification - Language courses Machine Learning, GenAI, MLflow, LangChain, OpenAI Visita: https://www. Tecnoempleo.Com/machine-learning-engineer-epam/machine-learning-genai/rf-1d6c1ddaf297838f4945?lang=es&utm_source=general",
+      "job_is_remote": false,
+      "job_posted_at": "hace 6 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dd9MyKeqOkvczNxH5AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "F7Tyy2jDdZcQaztSAAAAAA==",
+      "job_title": "Machine Learning Engineer - 100% remoto",
+      "employer_name": "Nunegal Consulting",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCllSpBuHjqHHbzYR7hFFV8Myv3mIJbuNoNmbd&s=0",
+      "employer_website": "https://www.nunegal.com",
+      "job_publisher": "Recruit.net",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.recruit.net/job/machine-learning-engineer-remoto-jobs/B338528755FA5E2F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/machine-learning-engineer-remoto-jobs/B338528755FA5E2F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/job/machine-learning-engineer-fully-remote-alcobendas-cofares-3874-11282292/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Cómo es trabajar con ? Cultura de mejora continua : Te integrarás en un proyecto desafiante que potenciará tus conocimientos y experiencia. Crecimiento profesional : Priorizamos la promoción interna y el desarrollo de nuestro equipo. Cercanía : En Nunegal Consulting nos conocemos por el nombre, somos personas, no números. Buen rollo : Somos un equipo colaborativo, nos ayudamos y compartimos conocimientos. ¡Y somos conocidos por nuestro Nunefest! ¿Qué te ofrecemos? Incorporación a una empresa en constante crecimiento. Teletrabajo 100%. Retribución flexible (ticket restaurante, seguro médico). Formación continua. ¡Y mucho más! ¿Cómo será tu día a día? Colaborarás estrechamente con los Data Scientists, ayudándoles a integrar modelos de machine learning de forma sencilla y eficiente. Trabajarás con grandes volúmenes de datos utilizando PySpark, SQL y Python : identificarás problemas, limpiarás datos y prepararás los inputs necesarios para los modelos. Desarrollarás y adaptarás modelos clásicos y probabilísticos según las necesidades del proyecto. Diseñarás un sistema inteligente para supervisar pipelines fallidos mediante agentes con RAG y LLMs, enviando alertas y soluciones automáticas a través de Microsoft Teams. Crearás un framework de MLOps escalable con Azure ML, DevOps y Databricks para facilitar el despliegue de modelos. Trabajarás en un entorno internacional, donde el inglés será el idioma habitual de comunicación. Desplegarás modelos usando docker, kubernetes y tecnologías sin servidor. Sobre ti Experiencia trabajando con herramientas de MLops e IA Generativa. Experiencia con la orquestación de pipelines mediante herramientas de MLOps como MLflow, VertexAI, Sagemaker Solidos conocimientos de despliegues de modelos usando Docker y Kubernetes Experiencia en Python Buen manejo en entornos cloud como Azure, Databricks y Google Cloud. Inglés conversacional alto J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Comunidad de Madrid",
+      "job_city": null,
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.416708799999995,
+      "job_longitude": -3.5812692,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DF7Tyy2jDdZcQaztSAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "n6IbGExOEynVdUVvAAAAAA==",
+      "job_title": "Machine Learning Engineering",
+      "employer_name": "Cabify",
+      "employer_logo": null,
+      "employer_website": "https://cabify.com",
+      "job_publisher": "Jooble",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jooble.org/rjdp/-2136879591691122593?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/rjdp/-2136879591691122593?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2635-ebf7e95b99765b3e35df27c45db098d2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "At Cabify, that’s what we’re doing. Maybe one day cities will be places where nobody needs a private car. We are seeking a passionate and skilled Machine Learning Engineer to join our forward-thinking team.\n\nAs a Machine Learning Engineer, you will be responsible for designing, developing, and deploying machine learning models that drive key business decisions and enhance our product offerings. You will work closely with data scientists, data engineers, and software developers to integrate machine learning solutions into our existing systems.\n\nModel Development : Collaborate with data scientists to design and implement models that address business and product needs.\n\nModel Deployment : Develop and maintain infrastructure for deploying models into production, ensuring scalability and reliability.\n\nData Processing : Work with data engineers to ensure data is clean, well-structured, and accessible for model training and evaluation.\n\nPerformance Optimization : Continuously monitor and optimize model performance, implementing improvements as necessary.\n\nCollaboration : Work closely with cross-functional teams to integrate machine learning solutions into products and services.\n\nInnovation : Stay up-to-date with the latest advancements in machine learning and apply them to improve our solutions.\n\nBachelor's or Master's degree in Computer Science, Engineering, or a related field.\n• 2+ years of experience in machine learning or a related field, not focused in the science layer, more on the technical one.\n• Proficiency in programming languages such as Python.\n• Experience with machine learning frameworks and libraries (e.g., MLflow mainly if possible, but can be TensorFlow, PyTorch).\n• Familiarity with cloud platforms (e.g., AWS, GCP) and containerisation technologies (e.g., Docker, Kubernetes).\n• We’re a company full of motivated people and we never want that to change. Here are some more reasons why it rocks to be part of our high-performance team.\n• ##Opportunities to work on cutting-edge projects and advance your career in machine learning.\n• ##Continuous learning and development opportunities to enhance your expertise in machine learning.\n• ##Our office is located in Madrid\n\n⌚Flexible work environment & hours.\n\n&##At Cabify, diversity fuels our Product & Engineering teams. We actively recruit talent beyond traditional channels, embracing individuals from diverse backgrounds and supporting initiatives like Women Tech Dating , Contrata Diferente and our Internal Diversity Committee.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 7 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dn6IbGExOEynVdUVvAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    }
+  ]
+}
