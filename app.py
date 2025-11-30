@@ -940,6 +940,54 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                     
                     st.divider()
                     
+                    st.subheader("Skill Co-occurrence Heatmap")
+                    st.caption("Shows which skills frequently appear together (top 20 skills)")
+                    if len(G.nodes()) > 0:
+                        top_skills_for_heatmap = importance_df["skill"].head(20).tolist() if not importance_df.empty else centrality_df["node"].head(20).tolist()
+                        
+                        if top_skills_for_heatmap and len(top_skills_for_heatmap) > 1:
+                            cooccurrence_matrix = []
+                            for skill1 in top_skills_for_heatmap:
+                                row = []
+                                for skill2 in top_skills_for_heatmap:
+                                    if skill1 == skill2:
+                                        row.append(0)
+                                    elif G.has_edge(skill1, skill2):
+                                        weight = G[skill1][skill2].get('weight', 1)
+                                        row.append(weight)
+                                    else:
+                                        row.append(0)
+                                cooccurrence_matrix.append(row)
+                            
+                            fig_cooc = go.Figure(data=go.Heatmap(
+                                z=cooccurrence_matrix,
+                                x=top_skills_for_heatmap,
+                                y=top_skills_for_heatmap,
+                                colorscale='Viridis',
+                                text=[[f"{val}" if val > 0 else "" for val in row] for row in cooccurrence_matrix],
+                                texttemplate="%{text}",
+                                textfont={"size": 8},
+                                hoverongaps=False,
+                                colorbar=dict(title="Co-occurrences", tickfont=dict(color='#e0e0e0'))
+                            ))
+                            fig_cooc.update_layout(
+                                height=600,
+                                title="Skill Co-occurrence Matrix",
+                                xaxis_title="Skills",
+                                yaxis_title="Skills",
+                                plot_bgcolor="rgba(0,0,0,0)",
+                                paper_bgcolor="rgba(0,0,0,0)",
+                                font=dict(color="#e0e0e0"),
+                                title_font=dict(color="#b8e994", size=18),
+                                xaxis=dict(tickangle=-45, tickfont=dict(size=9)),
+                                yaxis=dict(tickfont=dict(size=9))
+                            )
+                            st.plotly_chart(fig_cooc, use_container_width=True)
+                        else:
+                            st.info("Not enough skills for co-occurrence analysis")
+                    
+                    st.divider()
+                    
                     if communities:
                         st.subheader("Skill Communities")
                         community_counts = Counter(communities.values())

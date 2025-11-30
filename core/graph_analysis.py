@@ -394,37 +394,115 @@ def plot_skill_network(graph: nx.Graph, communities: Dict[str, int], highlight_s
         return None
     
     try:
-        net = Network(height="700px", width="100%", bgcolor="#1a1a2e", font_color="white", directed=False)
-        net.from_nx(graph)
+        net = Network(height="800px", width="100%", bgcolor="#1a1a2e", font_color="white", directed=False)
+        
+        has_weights = any("weight" in graph[u][v] for u, v in graph.edges())
         
         highlight_skills_set = set(highlight_skills) if highlight_skills else set()
-        colors = ["#3498db", "#e74c3c", "#2ecc71", "#f39c12", "#9b59b6", "#1abc9c", "#ecf0f1", "#34495e"]
+        colors = ["#3498db", "#e74c3c", "#2ecc71", "#f39c12", "#9b59b6", "#1abc9c", "#ecf0f1", "#34495e", "#e67e22", "#16a085"]
         
-        for node in net.nodes:
-            node_id = node["id"]
-            
-            if communities and node_id in communities:
-                comm_id = communities[node_id]
-                node["color"] = colors[comm_id % len(colors)]
-            
-            if node_id in highlight_skills_set:
-                node["size"] = 30
-                node["borderWidth"] = 3
-                node["borderColor"] = "#b8e994"
-            else:
-                node["size"] = 20
-                node["borderWidth"] = 2
+        pos = nx.spring_layout(graph, k=2, iterations=100, seed=42)
         
-        for edge in net.edges:
-            weight = edge.get("weight", 1)
-            edge["width"] = max(1, min(weight * 0.5, 5))
-            edge["color"] = {"color": "#888", "highlight": "#b8e994"}
+        for node_id in graph.nodes():
+            x, y = pos[node_id]
+            
+            try:
+                degree = graph.degree(node_id, weight='weight') if has_weights else graph.degree(node_id)
+            except:
+                degree = graph.degree(node_id)
+            
+            neighbors = list(graph.neighbors(node_id))
+            comm_id = communities.get(node_id, 0) if communities else 0
+            
+            is_bridge = node_id in highlight_skills_set
+            node_color = colors[comm_id % len(colors)] if communities else "#3498db"
+            
+            node_size = 35 if is_bridge else max(20, min(30, int(15 + degree * 2)))
+            
+            title = f"{node_id}"
+            title += f" - Degree: {degree}"
+            title += f" - Connections: {len(neighbors)}"
+            if communities:
+                title += f" - Community: {comm_id}"
+            if has_weights:
+                total_weight = sum(graph[node_id][n].get('weight', 1) for n in neighbors)
+                title += f" - Total Weight: {total_weight:.1f}"
+            if is_bridge:
+                title += " - ⭐ Bridge Skill"
+            
+            net.add_node(
+                node_id,
+                label=node_id[:15] + "..." if len(node_id) > 15 else node_id,
+                title=title,
+                x=x * 1000,
+                y=y * 1000,
+                size=node_size,
+                color=node_color,
+                borderWidth=4 if is_bridge else 2,
+                borderColor="#b8e994" if is_bridge else "#ffffff",
+                font={"size": 16, "face": "Arial", "color": "white"},
+                shape="dot"
+            )
+        
+        edge_weights_list = []
+        for u, v, data in graph.edges(data=True):
+            weight = data.get('weight', 1) if has_weights else 1
+            edge_weights_list.append(weight)
+        
+        if edge_weights_list:
+            min_weight = min(edge_weights_list)
+            max_weight = max(edge_weights_list)
+            weight_range = max_weight - min_weight if max_weight > min_weight else 1
+        else:
+            min_weight = max_weight = 1
+            weight_range = 1
+        
+        for u, v, data in graph.edges(data=True):
+            weight = data.get('weight', 1) if has_weights else 1
+            
+            edge_width = max(1, min(8, 1 + (weight - min_weight) / weight_range * 7)) if weight_range > 0 else 2
+            
+            edge_title = f"{u} ↔  {v} Co-occurrences: {int(weight)}"
+            
+            net.add_edge(
+                u, v,
+                width=edge_width,
+                title=edge_title,
+                color={"color": "rgba(136, 136, 136, 0.6)", "highlight": "#b8e994"},
+                smooth={"type": "continuous", "roundness": 0.5}
+            )
         
         net.set_options("""
         {
           "physics": {
-            "enabled": true,
-            "stabilization": {"iterations": 100}
+            "enabled": false,
+            "stabilization": {"enabled": false}
+          },
+          "interaction": {
+            "hover": true,
+            "tooltipDelay": 100,
+            "hideEdgesOnDrag": false,
+            "hideNodesOnDrag": false
+          },
+          "nodes": {
+            "font": {
+              "size": 16,
+              "face": "Arial",
+              "color": "white"
+            },
+            "scaling": {
+              "min": 10,
+              "max": 40
+            }
+          },
+          "edges": {
+            "smooth": {
+              "type": "continuous",
+              "roundness": 0.5
+            },
+            "shadow": {
+              "enabled": false
+            }
           }
         }
         """)
