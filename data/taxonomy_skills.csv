@@ -1,18 +1,45 @@
-skill,category
-Python,programming
-SQL,programming
-R,programming
-Excel,analytics
-Power BI,analytics
-Tableau,analytics
-Machine Learning,ml
-Statistics,ml
-Git,tools
-AWS,cloud
-Azure,cloud
-Spark,bigdata
-Hadoop,bigdata
-Communication,soft
-Teamwork,soft
-Pandas,programming
-Numpy,programming
+skill,category,synonyms,language
+Python,programming,"python3|py|python programming|python development",en
+SQL,programming,"sql queries|structured query language|mysql|postgresql|postgres|sql server|oracle sql",en
+R,programming,"r programming|r language|r studio|rstudio",en
+Excel,analytics,"microsoft excel|excel spreadsheets|excel vba|vba",en
+Power BI,analytics,"powerbi|power bi|microsoft power bi|powerbi dashboards",en
+Tableau,analytics,"tableau desktop|tableau server|tableau prep|tableau visualization",en
+Machine Learning,ml,"ml|machine learning algorithms|deep learning|neural networks|ai|artificial intelligence",en
+Statistics,ml,"statistical analysis|statistics|statistical modeling|statistical methods|estadística|estadística descriptiva",en
+Git,tools,"git version control|github|gitlab|version control|git workflow",en
+AWS,cloud,"amazon web services|amazon aws|aws services|ec2|s3|lambda",en
+Azure,cloud,"microsoft azure|azure cloud|azure services|azure data factory",en
+Spark,bigdata,"apache spark|spark sql|pyspark|spark streaming",en
+Hadoop,bigdata,"apache hadoop|hadoop ecosystem|hdfs|mapreduce",en
+Communication,soft,"communication skills|verbal communication|written communication|comunicación|comunicación efectiva",en
+Teamwork,soft,"team collaboration|collaboration|team player|trabajo en equipo|colaboración",en
+Pandas,programming,"pandas library|python pandas|pd|pandas dataframe",en
+Numpy,programming,"numpy|python numpy|np|numerical python",en
+Java,programming,"java programming|java development|java ee|spring|java spring",en
+JavaScript,programming,"js|javascript|node.js|nodejs|react|vue|angular|typescript|ts",en
+Docker,cloud,"docker containers|docker|containerization|kubernetes|k8s",en
+Kubernetes,cloud,"k8s|kubernetes|container orchestration|kubectl",en
+Scikit-learn,ml,"sklearn|scikit-learn|scikit learn|machine learning library",en
+TensorFlow,ml,"tensorflow|tf|deep learning framework|keras",en
+PyTorch,ml,"pytorch|torch|deep learning|neural networks pytorch",en
+MongoDB,bigdata,"mongodb|nosql|document database|mongo",en
+PostgreSQL,programming,"postgres|postgresql|postgres database|sql database",en
+Linux,tools,"linux|unix|bash|shell scripting|command line",en
+Jupyter,analytics,"jupyter notebooks|jupyter|ipython|notebooks",en
+Matplotlib,analytics,"matplotlib|plotting|data visualization|python plotting",en
+Seaborn,analytics,"seaborn|statistical visualization|python visualization",en
+Scrum,soft,"scrum methodology|agile scrum|scrum master|agile|agile methodology",en
+Project Management,soft,"project management|pm|project planning|gestion de proyectos|gestión de proyectos",en
+Data Visualization,analytics,"data viz|visualization|dashboards|reporting|visualización de datos",en
+ETL,bigdata,"etl|extract transform load|data pipeline|data integration",en
+Airflow,bigdata,"apache airflow|airflow|workflow management|data orchestration",en
+Kafka,bigdata,"apache kafka|kafka|streaming data|event streaming",en
+Redshift,cloud,"amazon redshift|redshift|data warehouse|aws redshift",en
+Snowflake,cloud,"snowflake|data warehouse|cloud data platform",en
+BigQuery,cloud,"google bigquery|bigquery|gcp|google cloud platform",en
+Problem Solving,soft,"problem solving|analytical thinking|critical thinking|resolución de problemas",en
+Leadership,soft,"leadership|team leadership|management|liderazgo",en
+Time Management,soft,"time management|organization|prioritization|gestión del tiempo",en
+English,soft,"english|english language|fluent english|inglés|inglés fluido",en
+Spanish,soft,"spanish|spanish language|español|castellano",en

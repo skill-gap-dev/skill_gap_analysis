@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#e74c3c", "font": {"color": "white"}, "id": "BigQuery", "label": "BigQuery", "shape": "dot", "size": 15}, {"borderWidth": 3, "color": "#e74c3c", "font": {"color": "white"}, "id": "Data Visualization", "label": "Data Visualization", "shape": "dot", "size": 30}, {"borderWidth": 3, "color": "#e74c3c", "font": {"color": "white"}, "id": "Machine Learning", "label": "Machine Learning", "shape": "dot", "size": 30}, {"borderWidth": 3, "color": "#e74c3c", "font": {"color": "white"}, "id": "Problem Solving", "label": "Problem Solving", "shape": "dot", "size": 30}, {"borderWidth": 3, "color": "#e74c3c", "font": {"color": "white"}, "id": "Python", "label": "Python", "shape": "dot", "size": 30}, {"color": "#e74c3c", "font": {"color": "white"}, "id": "R", "label": "R", "shape": "dot", "size": 15}, {"borderWidth": 3, "color": "#e74c3c", "font": {"color": "white"}, "id": "SQL", "label": "SQL", "shape": "dot", "size": 30}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Communication", "label": "Communication", "shape": "dot", "size": 15}, {"borderWidth": 3, "color": "#3498db", "font": {"color": "white"}, "id": "English", "label": "English", "shape": "dot", "size": 30}, {"borderWidth": 3, "color": "#3498db", "font": {"color": "white"}, "id": "Excel", "label": "Excel", "shape": "dot", "size": 30}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Power BI", "label": "Power BI", "shape": "dot", "size": 15}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Spanish", "label": "Spanish", "shape": "dot", "size": 15}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Azure", "label": "Azure", "shape": "dot", "size": 15}, {"borderWidth": 3, "color": "#2ecc71", "font": {"color": "white"}, "id": "Leadership", "label": "Leadership", "shape": "dot", "size": 30}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Scrum", "label": "Scrum", "shape": "dot", "size": 15}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Time Management", "label": "Time Management", "shape": "dot", "size": 15}, {"borderWidth": 3, "color": "#3498db", "font": {"color": "white"}, "id": "PyTorch", "label": "PyTorch", "shape": "dot", "size": 30}, {"color": "#3498db", "font": {"color": "white"}, "id": "Scikit-learn", "label": "Scikit-learn", "shape": "dot", "size": 15}, {"color": "#3498db", "font": {"color": "white"}, "id": "Teamwork", "label": "Teamwork", "shape": "dot", "size": 15}, {"borderWidth": 3, "color": "#3498db", "font": {"color": "white"}, "id": "TensorFlow", "label": "TensorFlow", "shape": "dot", "size": 30}, {"color": "#3498db", "font": {"color": "white"}, "id": "Pandas", "label": "Pandas", "shape": "dot", "size": 15}, {"color": "#f39c12", "font": {"color": "white"}, "id": "ETL", "label": "ETL", "shape": "dot", "size": 15}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Project Management", "label": "Project Management", "shape": "dot", "size": 15}]);
+                  edges = new vis.DataSet([{"cooccurrence_count": 2, "from": "BigQuery", "to": "Data Visualization", "width": 0.5}, {"cooccurrence_count": 2, "from": "BigQuery", "to": "Machine Learning", "width": 0.5}, {"cooccurrence_count": 2, "from": "BigQuery", "to": "Problem Solving", "width": 0.5}, {"cooccurrence_count": 2, "from": "BigQuery", "to": "Python", "width": 0.5}, {"cooccurrence_count": 2, "from": "BigQuery", "to": "R", "width": 0.5}, {"cooccurrence_count": 2, "from": "BigQuery", "to": "SQL", "width": 0.5}, {"cooccurrence_count": 2, "from": "Data Visualization", "to": "Machine Learning", "width": 0.5}, {"cooccurrence_count": 2, "from": "Data Visualization", "to": "Problem Solving", "width": 0.5}, {"cooccurrence_count": 4, "from": "Data Visualization", "to": "Python", "width": 0.5}, {"cooccurrence_count": 2, "from": "Data Visualization", "to": "R", "width": 0.5}, {"cooccurrence_count": 4, "from": "Data Visualization", "to": "SQL", "width": 0.5}, {"cooccurrence_count": 1, "from": "Data Visualization", "to": "Communication", "width": 0.5}, {"cooccurrence_count": 2, "from": "Data Visualization", "to": "English", "width": 0.5}, {"cooccurrence_count": 1, "from": "Data Visualization", "to": "Excel", "width": 0.5}, {"cooccurrence_count": 2, "from": "Data Visualization", "to": "Power BI", "width": 0.5}, {"cooccurrence_count": 2, "from": "Data Visualization", "to": "Spanish", "width": 0.5}, {"cooccurrence_count": 1, "from": "Data Visualization", "to": "Azure", "width": 0.5}, {"cooccurrence_count": 1, "from": "Data Visualization", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "Data Visualization", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "Data Visualization", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 2, "from": "Machine Learning", "to": "Problem Solving", "width": 0.5}, {"cooccurrence_count": 3, "from": "Machine Learning", "to": "Python", "width": 0.5}, {"cooccurrence_count": 2, "from": "Machine Learning", "to": "R", "width": 0.5}, {"cooccurrence_count": 2, "from": "Machine Learning", "to": "SQL", "width": 0.5}, {"cooccurrence_count": 1, "from": "Machine Learning", "to": "English", "width": 0.5}, {"cooccurrence_count": 1, "from": "Machine Learning", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "Machine Learning", "to": "PyTorch", "width": 0.5}, {"cooccurrence_count": 1, "from": "Machine Learning", "to": "Scikit-learn", "width": 0.5}, {"cooccurrence_count": 1, "from": "Machine Learning", "to": "Teamwork", "width": 0.5}, {"cooccurrence_count": 1, "from": "Machine Learning", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 3, "from": "Problem Solving", "to": "Python", "width": 0.5}, {"cooccurrence_count": 2, "from": "Problem Solving", "to": "R", "width": 0.5}, {"cooccurrence_count": 3, "from": "Problem Solving", "to": "SQL", "width": 0.5}, {"cooccurrence_count": 1, "from": "Problem Solving", "to": "English", "width": 0.5}, {"cooccurrence_count": 1, "from": "Problem Solving", "to": "Excel", "width": 0.5}, {"cooccurrence_count": 1, "from": "Problem Solving", "to": "Pandas", "width": 0.5}, {"cooccurrence_count": 1, "from": "Problem Solving", "to": "PyTorch", "width": 0.5}, {"cooccurrence_count": 1, "from": "Problem Solving", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 2, "from": "Python", "to": "R", "width": 0.5}, {"cooccurrence_count": 6, "from": "Python", "to": "SQL", "width": 0.5}, {"cooccurrence_count": 1, "from": "Python", "to": "Communication", "width": 0.5}, {"cooccurrence_count": 4, "from": "Python", "to": "English", "width": 0.5}, {"cooccurrence_count": 2, "from": "Python", "to": "Excel", "width": 0.5}, {"cooccurrence_count": 2, "from": "Python", "to": "Power BI", "width": 0.5}, {"cooccurrence_count": 2, "from": "Python", "to": "Spanish", "width": 0.5}, {"cooccurrence_count": 1, "from": "Python", "to": "Pandas", "width": 0.5}, {"cooccurrence_count": 2, "from": "Python", "to": "PyTorch", "width": 0.5}, {"cooccurrence_count": 2, "from": "Python", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 2, "from": "Python", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "Python", "to": "Scikit-learn", "width": 0.5}, {"cooccurrence_count": 1, "from": "Python", "to": "Teamwork", "width": 0.5}, {"cooccurrence_count": 1, "from": "Python", "to": "Azure", "width": 0.5}, {"cooccurrence_count": 1, "from": "Python", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "Python", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 2, "from": "R", "to": "SQL", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "Communication", "width": 0.5}, {"cooccurrence_count": 3, "from": "SQL", "to": "English", "width": 0.5}, {"cooccurrence_count": 2, "from": "SQL", "to": "Excel", "width": 0.5}, {"cooccurrence_count": 2, "from": "SQL", "to": "Power BI", "width": 0.5}, {"cooccurrence_count": 2, "from": "SQL", "to": "Spanish", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "Pandas", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "PyTorch", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "Azure", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "SQL", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 1, "from": "ETL", "to": "Project Management", "width": 0.5}, {"cooccurrence_count": 1, "from": "Communication", "to": "English", "width": 0.5}, {"cooccurrence_count": 1, "from": "Communication", "to": "Excel", "width": 0.5}, {"cooccurrence_count": 1, "from": "Communication", "to": "Power BI", "width": 0.5}, {"cooccurrence_count": 1, "from": "Communication", "to": "Spanish", "width": 0.5}, {"cooccurrence_count": 2, "from": "English", "to": "Excel", "width": 0.5}, {"cooccurrence_count": 2, "from": "English", "to": "Power BI", "width": 0.5}, {"cooccurrence_count": 2, "from": "English", "to": "Spanish", "width": 0.5}, {"cooccurrence_count": 1, "from": "English", "to": "Pandas", "width": 0.5}, {"cooccurrence_count": 2, "from": "English", "to": "PyTorch", "width": 0.5}, {"cooccurrence_count": 2, "from": "English", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 2, "from": "English", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "English", "to": "Scikit-learn", "width": 0.5}, {"cooccurrence_count": 1, "from": "English", "to": "Teamwork", "width": 0.5}, {"cooccurrence_count": 1, "from": "English", "to": "Azure", "width": 0.5}, {"cooccurrence_count": 1, "from": "English", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "English", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 1, "from": "Excel", "to": "Power BI", "width": 0.5}, {"cooccurrence_count": 1, "from": "Excel", "to": "Spanish", "width": 0.5}, {"cooccurrence_count": 1, "from": "Excel", "to": "Pandas", "width": 0.5}, {"cooccurrence_count": 1, "from": "Excel", "to": "PyTorch", "width": 0.5}, {"cooccurrence_count": 1, "from": "Excel", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 2, "from": "Power BI", "to": "Spanish", "width": 0.5}, {"cooccurrence_count": 1, "from": "Power BI", "to": "Azure", "width": 0.5}, {"cooccurrence_count": 1, "from": "Power BI", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "Power BI", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "Power BI", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 1, "from": "Spanish", "to": "Azure", "width": 0.5}, {"cooccurrence_count": 1, "from": "Spanish", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "Spanish", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "Spanish", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 1, "from": "Pandas", "to": "PyTorch", "width": 0.5}, {"cooccurrence_count": 1, "from": "Pandas", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 2, "from": "PyTorch", "to": "TensorFlow", "width": 0.5}, {"cooccurrence_count": 1, "from": "PyTorch", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "PyTorch", "to": "Scikit-learn", "width": 0.5}, {"cooccurrence_count": 1, "from": "PyTorch", "to": "Teamwork", "width": 0.5}, {"cooccurrence_count": 1, "from": "TensorFlow", "to": "Leadership", "width": 0.5}, {"cooccurrence_count": 1, "from": "TensorFlow", "to": "Scikit-learn", "width": 0.5}, {"cooccurrence_count": 1, "from": "TensorFlow", "to": "Teamwork", "width": 0.5}, {"cooccurrence_count": 1, "from": "Leadership", "to": "Scikit-learn", "width": 0.5}, {"cooccurrence_count": 1, "from": "Leadership", "to": "Teamwork", "width": 0.5}, {"cooccurrence_count": 1, "from": "Leadership", "to": "Azure", "width": 0.5}, {"cooccurrence_count": 1, "from": "Leadership", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "Leadership", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 1, "from": "Scikit-learn", "to": "Teamwork", "width": 0.5}, {"cooccurrence_count": 1, "from": "Azure", "to": "Scrum", "width": 0.5}, {"cooccurrence_count": 1, "from": "Azure", "to": "Time Management", "width": 0.5}, {"cooccurrence_count": 1, "from": "Scrum", "to": "Time Management", "width": 0.5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

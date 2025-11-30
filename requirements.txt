@@ -1,12 +1,21 @@
 streamlit
 requests
 pandas
-dotenv
-requests
-bs4
-spacy>=3.7.0,<3.8.0 
+python-dotenv
+beautifulsoup4
+spacy>=3.7.0,<3.8.0
 
-# Si teneis el Python 3.13 en Windows y os tarda mucho el pip install -r requirements.txt no lo instaleis desde el requirements.txt haced: 
+# Data analysis and visualization
+numpy
+scikit-learn
+plotly
+networkx
+pyvis
+python-louvain
 
-# pip install spacy --only-binary :all:
+# Optional but recommended
+matplotlib
+seaborn
+
+# Note: After installing, download the spaCy model:
 # python -m spacy download xx_ent_wiki_sm
