@@ -1,0 +1,213 @@
+{
+  "status": "OK",
+  "request_id": "44b04b40-42ac-4f63-a143-0989ac1ae690",
+  "parameters": {
+    "query": "Engineer jobs in Madrid",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "employment_types": [
+      "INTERN"
+    ],
+    "job_requirements": [
+      "no_experience"
+    ],
+    "radius": 50,
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "cvn--P12pQkKYwfsAAAAAA==",
+      "job_title": "Next-Generation Telecommunications Engineering Internship in Madrid",
+      "employer_name": "Spain Internship",
+      "employer_logo": null,
+      "employer_website": "https://spain-internship.com",
+      "job_publisher": "Spain Internship",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://spain-internship.com/internships/next-generation-telecommunications-engineering-internship-in-madrid/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Spain Internship",
+          "apply_link": "https://spain-internship.com/internships/next-generation-telecommunications-engineering-internship-in-madrid/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Location: Multiple locations across Spain | Type: Part-Time Internship\n\nAbout Us\nJoin a leading player in the telecommunications industry, with over 20 years of experience providing cutting-edge solutions. As a trusted systems integrator, we specialize in delivering high value-added services, particularly focusing on advanced network architectures. Our work spans across mobile networks, IP, MPLS, and cloud-native technologies, making us a key partner in the ever-evolving world of telecommunications.\n\nRole Overview\nThis internship presents an exciting opportunity for aspiring engineers and IT professionals to dive into the heart of telecommunications innovation. Based in Madrid, you will gain hands-on experience working with the latest in 5G network transformation, from architecture to deployment. You’ll actively contribute to real-world projects, working closely with experienced engineers and gaining valuable skills in both network management and programming.\n\nKey Responsibilities\n\nAssist in the design, deployment, and configuration of mobile network architecture (3G, 4G, LTE, 5G).\nSupport the administration and maintenance of IP and MPLS networks, ensuring smooth operation and reliability.\nWork with operating systems (Windows/Linux) and databases (Oracle) to optimize network performance.\nEngage in programming and scripting tasks, particularly using Python, to enhance system functionality.\nCollaborate with teams on laboratory and live 5G projects, gaining exposure to real-time solutions and innovations.\nContribute to the development and testing of cutting-edge telecom technologies in a dynamic, hands-on environment.\n\nCandidate Requirements\n\nStrong interest in telecommunications and mobile network technology, especially in 5G networks.\nProficiency in Python programming, with a solid understanding of scripting for automation and data processing.\nFamiliarity with operating systems (Windows/Linux) and database management (Oracle) is a plus.\nDesire to learn and engage with both theoretical and practical aspects of network architecture and design.\nAbility to work independently and collaboratively in a team-oriented, dynamic environment.\nExcellent problem-solving skills and attention to detail, with a proactive approach to tasks and challenges.\nFluent in English; proficiency in Spanish is an advantage but not essential.\n\nBy the End of Your Internship\nUpon completion of this internship, you will have gained invaluable expertise in a range of critical technologies, preparing you for a successful career in telecommunications and IT. You will have the opportunity to work on live projects, develop advanced skills, and build a strong foundation for your future in the telecom industry.\n\nHands-on experience with 5G network architecture and deployment.\nProficiency in programming and scripting, especially in Python for network automation.\nIn-depth understanding of mobile and IP/MPLS networks, from configuration to troubleshooting.\nExposure to network intelligence, cloud-native technologies, and 5G network transformation.\n\nWhat We Offer\n\nGain expertise in the latest telecommunications technologies, working on live 5G projects.\nOpportunity for a permanent contract based on performance and internship success.\nSupportive work environment where learning and innovation are at the core of your experience.\nExposure to real-world network management and cloud-native environments.",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dcvn--P12pQkKYwfsAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "17207200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "Sk-GVGZK8I4beomSAAAAAA==",
+      "job_title": "Ai Engineering Intern - Remote - No Experience Required",
+      "employer_name": "LearnWise AI",
+      "employer_logo": null,
+      "employer_website": "https://www.learnwise.ai",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/2298071714715664384?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/2298071714715664384?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Kit Empleo",
+          "apply_link": "https://www.kitempleo.es/empleo/292690988/accounting-intern-no-experience-required-espana?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/amp/job/es-accounting-intern-no-experience-required-homeclub-hiring-now-job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/job/accounting-intern-no-experience-required-spain-revelyst-1739-8305118/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "AI Engineering Intern needed to work on AI systems, reliability, and product behavior, with a focus on LLMs and retrieval pipelines.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 14 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "España",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DSk-GVGZK8I4beomSAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "1yhBpQFkAcqSgUenAAAAAA==",
+      "job_title": "Customer Experience Technical Engineering Internship  (Madrid or Barcelona)",
+      "employer_name": "Signify",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTGdrB3oAaNS78WCYUcmOdlQHilBrpKQoCD1_E&s=0",
+      "employer_website": "https://www.signify.com",
+      "job_publisher": "Built In",
+      "job_employment_type": "Prácticas",
+      "job_employment_types": [],
+      "job_apply_link": "https://builtin.com/job/customer-experience-support-internship-beca/7134234?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Built In",
+          "apply_link": "https://builtin.com/job/customer-experience-support-internship-beca/7134234?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/customer-experience-technical-engineering-internship-madrid-or-barcelona-at-signify-4337138388?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/097258f3a4c957aa24068f83bb18828f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Talentify",
+          "apply_link": "https://www.talentify.io/job/customer-experience-support-internship-madrid-or-barcelona-barcelona-catalonia-es-signify-360963?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Job TitleCustomer Experience Technical Engineering Internship (Madrid or Barcelona)\n\nJob Description\n\nWe are Signify, formerly Philips Lighting.\n\nWe’re the world leader in lighting for professionals, consumers and for the Internet of Things. Our passion for sustainability makes us one of the top 10 greenest companies in the world.\n\nSee #SignifyLife through the eyes of our employees!\n\nWorking as a Customer Experience Technical Engineering Internship at Signify is dynamic. You‘ll be part of the costumer satisfaction team . We’re greater together through peer learning in our globally diverse team, with different backgrounds and nationalities.\n\nWe’re looking for a Customer Experience Technical Engineering Internship who’ll be responsible for market professional services .\n\nWhat you’ll do\n• Ensures timely and correct execution of service obligations in accordance with the contracts.\n• Analyses and solves application failures, supports upgrades.\n• Analyses & solve complaints. Keeps customers informed\n• Keeps complaint data base up to date\n• Drives feedback loops towards Systems & Service Centers/BG.\n• Fulfills documentations for service related issues and resolutions.\n• Support projects\n\nWhat you’ll need\n• Bachelor of Engineering in Electronics / Mechanical / Computer Sciences or Masters in Technology\n• Experience in the service domain with strong knowledge of lighting applications or other systems\n• Experience working on knowledge of trouble shooting and maintenance\n• Strong Customer focus and empathetic listening approach\n• Delivers on commitments and possesses strong learning agility\n\nWhat you’ll get in return…\n• You’ll work with top technology partners, learn new skills and grow your career. Your work will make a huge - and high-tech - impact. If you are looking for a challenge, you will find it at Signify.\n• Competitive salary depending on experience\n• Extensive set of tools to drive your career, such as a personalized learning platform, free training and coaching\n• Healthy work-life balance and flexible working hours\n\nWhat we promise\n\nWe’re committed to the continuous development of our employees, using our learning to shape the future of light and create a sustainable future.\n\nJoin the undisputed leader in the lighting industry and be part of our diverse global team. #WeAreSignify #SignifyLife\n\nAny and all information you share with us as part of your application procedure will be assessed during the application process\n\nPlease be informed that unless our vacancy explicitly references a third party recruitment agency, Signify does not engage with third-party agencies. Applications should be made directly to our career site.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 21 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D1yhBpQFkAcqSgUenAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "17211200",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "BUXcTJl03R6hw0L-AAAAAA==",
+      "job_title": "Electrification Expertise Intern",
+      "employer_name": "beBeeElectrification",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jobilize",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobilize.com/job/es-madrid-electrification-expertise-intern-bebeeelectrification-hiring?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-electrification-expertise-intern-bebeeelectrification-hiring?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Electrical Engineering Intern\n\nAre you a student of Electrical Engineering or Industrial Engineering looking to gain hands-on experience in the field?\n\nWe are seeking an ambitious and detail-oriented intern to join our Construction and Engineering teams.\n\nMission Objectives:\n• Biomethane Plant Projects Support: Assist the Construction and Engineering departments in managing biomethane plant projects from start to finish.\n• Project Development: Collaborate with project managers and engineers to design, plan, and execute projects efficiently.\n\nResponsibilities:\n• Tender Document Review: Carefully review technical proposals and tender documents to ensure they meet our requirements.\n• Project Collaboration: Work closely with project managers and engineers to develop project plans, timelines, and budgets.\n\nRequirements:\n• Education: Currently studying Electrical Engineering or Industrial Engineering.\n• Technical Skills: Proficient in Office, AutoCAD, or similar software.\n• Language: B2 English level is highly desirable.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": null,
+      "job_state": null,
+      "job_country": null,
+      "job_latitude": null,
+      "job_longitude": null,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DBUXcTJl03R6hw0L-AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "55301800",
+      "job_onet_job_zone": null
+    }
+  ]
+}
