@@ -1,9 +1,15 @@
 import logging
-import streamlit as st
-import pandas as pd
 from collections import Counter
+
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import streamlit as st
+
+try:
+    import PyPDF2
+except ImportError:  # pragma: no cover - handled at runtime in UI
+    PyPDF2 = None
 
 from core.api_client import load_or_fetch_jobs
 from core.skills_extraction import clean_html, extract_skills, skills_list, detect_seniority, get_best_apply_link
@@ -321,8 +327,57 @@ custom_skills = []
 if custom_skills_input:
     custom_skills = [s.strip() for s in custom_skills_input.split(",") if s.strip()]
 
-# Combine selected and custom skills
-all_user_skills = list(user_skills) + custom_skills
+# Optional CV upload to auto-detect skills
+st.sidebar.subheader("Or upload your CV (PDF)")
+cv_file = st.sidebar.file_uploader(
+    "Upload your CV (PDF only)",
+    type=["pdf"],
+    help="We will extract skills automatically from your CV using the same taxonomy.",
+)
+
+cv_skills = []
+if cv_file is not None:
+    if PyPDF2 is None:
+        st.sidebar.error(
+            "PyPDF2 is not installed. Run `pip install PyPDF2` to enable CV parsing."
+        )
+    else:
+        try:
+            reader = PyPDF2.PdfReader(cv_file)
+            text_chunks = []
+            for page in reader.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text_chunks.append(page_text)
+            cv_text = "\n".join(text_chunks)
+            if cv_text.strip():
+                cv_skills = extract_skills(cv_text)
+                if cv_skills:
+                    st.sidebar.caption(
+                        f"Detected **{len(cv_skills)} skills** in your CV based on the taxonomy."
+                    )
+                    # Show a short preview so the user can decide what to add/adjust manually
+                    preview = ", ".join(sorted(cv_skills)[:10])
+                    st.sidebar.markdown(
+                        f"_Example skills from CV_: {preview}"
+                        + (" …" if len(cv_skills) > 10 else "")
+                    )
+                    with st.sidebar.expander("Show all detected CV skills", expanded=False):
+                        st.markdown(", ".join(sorted(cv_skills)))
+                    st.sidebar.caption(
+                        "You can complement or correct this list using the selector and custom skills above."
+                    )
+                else:
+                    st.sidebar.caption(
+                        "No skills from the taxonomy were detected in your CV text."
+                    )
+            else:
+                st.sidebar.caption("Could not read text from the uploaded PDF.")
+        except Exception as e:  # pragma: no cover - runtime only
+            st.sidebar.error(f"Error reading CV PDF: {e}")
+
+# Combine selected, custom and CV skills (unique)
+all_user_skills = sorted(set(list(user_skills) + custom_skills + cv_skills))
 
 if not all_user_skills:
     st.sidebar.info(
@@ -1201,7 +1256,7 @@ else:
             <div class="recommendation-card">
                 <h4>2. Add Your Skills</h4>
                 <p>Select the skills that best describe you from the list in the sidebar.</p>
-                <p>You can also type <strong>custom skills</strong> (any language, any category).</p>
+                <p>You can also type <strong>custom skills</strong> or upload your <strong>CV (PDF)</strong> to detect skills automatically.</p>
             </div>
             """,
             unsafe_allow_html=True,
