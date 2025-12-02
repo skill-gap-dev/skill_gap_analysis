@@ -123,4 +123,4 @@ See [docs/STATE_OF_THE_ART.md](docs/STATE_OF_THE_ART.md) for a comprehensive ana
 - Álvaro Martín Ruiz
 - Iker Rosales Saiz
 
-**Web Analytics — 2024/2025**
+**Web Analytics — 2025/2026**
