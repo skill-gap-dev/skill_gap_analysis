@@ -648,7 +648,57 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                 title_font=dict(color="#b8e994", size=18)
             )
             st.plotly_chart(fig, use_container_width=True)
-            
+
+            # Simple radar chart: Your profile vs Market demand (top skills)
+            if all_user_skills:
+                st.subheader("Your Profile vs Market Demand (Top Skills)")
+                top_skills = [skill for skill, _ in skill_freq.most_common(8)]
+                max_freq = max(skill_freq.values()) if skill_freq else 1
+
+                market_values = [skill_freq[skill] / max_freq for skill in top_skills]
+                user_values = [1.0 if skill in all_user_skills else 0.0 for skill in top_skills]
+
+                # Close the loop for polar plot
+                market_values_loop = market_values + [market_values[0]]
+                user_values_loop = user_values + [user_values[0]]
+                skills_loop = top_skills + [top_skills[0]]
+
+                fig_radar = go.Figure()
+                fig_radar.add_trace(go.Scatterpolar(
+                    r=user_values_loop,
+                    theta=skills_loop,
+                    fill="toself",
+                    name="You",
+                    line_color="#b8e994",
+                    fillcolor="rgba(184, 233, 148, 0.3)",
+                ))
+                fig_radar.add_trace(go.Scatterpolar(
+                    r=market_values_loop,
+                    theta=skills_loop,
+                    fill="toself",
+                    name="Market",
+                    line_color="#ffffff",
+                    fillcolor="rgba(255, 255, 255, 0.15)",
+                ))
+                fig_radar.update_layout(
+                    polar=dict(
+                        radialaxis=dict(
+                            visible=True,
+                            range=[0, 1],
+                            gridcolor="#3a3a4e",
+                        ),
+                        bgcolor="rgba(0,0,0,0)",
+                    ),
+                    showlegend=True,
+                    height=450,
+                    plot_bgcolor="rgba(0,0,0,0)",
+                    paper_bgcolor="rgba(0,0,0,0)",
+                    font=dict(color="#e0e0e0"),
+                    title_font=dict(color="#b8e994", size=18),
+                    legend=dict(font=dict(color="#e0e0e0")),
+                )
+                st.plotly_chart(fig_radar, use_container_width=True)
+
             # Missing skills
             st.subheader("Top Missing Skills")
             if missing:
