@@ -1,0 +1,610 @@
+{
+  "status": "OK",
+  "request_id": "44ab9954-3d3b-4c74-a3b5-bca6c15c5649",
+  "parameters": {
+    "query": "Marketing  jobs in Madrid",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "employment_types": [
+      "INTERN"
+    ],
+    "radius": 65,
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "SCTPCYRhTCIL96FYAAAAAA==",
+      "job_title": "2026 Marketing Intern ESP",
+      "employer_name": "Amazon EU SARL (Spain Branch)",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJpHPsPCtT7v0dsfLzY7WalItl5ZK269S36ESB&s=0",
+      "employer_website": null,
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=f54133b31dc9cfa6&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=f54133b31dc9cfa6&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/2026-marketing-intern-esp-at-amazon-4338817137?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Adzuna",
+          "apply_link": "https://www.adzuna.es/details/5511875069?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/05e32109d2469a01974798c0b28d4da8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.com/job-listing/junior-digital-marketing-intern-becario-refinery89-JV_IC2664239_KO0,39_KE40,50.htm?jl=1009955128354&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/uB8FBZWhES4VLRdwWMO1iUBcNZLQtRFqu1bsAP8qtRCATYt6JyLEJA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Levels.fyi",
+          "apply_link": "https://www.levels.fyi/jobs?jobId=111970754332893894&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "MyGwork",
+          "apply_link": "https://mygwork.com/jobs/amazon-2026-marketing-intern-esp?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "DESCRIPTION\n\nJob Summary\nAt Amazon, we are working to be the most customer-centric company on earth.\nAmazon is looking for passionate, versatile and curious Marketing Interns to work with us on improvement and innovation projects to support the growth of our European network. To get there, we need exceptionally talented, bright, and driven people. As an intern, you will have the opportunity to gain hands-on experience in developing and executing marketing strategies, while working alongside a collaborative team. This is a chance for you to take on meaningful projects, apply your skills, and expand your knowledge of the marketing field.\nNote: You must have the right to work in the country of employment by the start date.\n\nKey job responsibilities\nKey Job Responsibilities\n• This internship provides an opportunity to collaborate with cross-functional teams, demonstrate project management skills in a competitive and dynamic business climate.\n• Brand strategy: Assist with implementing the global brand strategy, adapting it to the local market and support the creation of effective content and marketing assets to engage customers and prospect\n• Run marketing campaigns and other growth initiatives: Assist with implementing the global brand strategy, adapting it to the local market and support the creation of effective content and marketing assets to engage customers and prospect\n• Support the team in recommending and executing network improvements.\n• Contribute with innovative long-term and lasting solutions beneficial for the entire team.\n\nA day in the life\nIntern Community:\n• As an Amazon Intern, you'll be part of a vibrant, supportive community that empowers your growth and development. You'll collaborate with interns from around the world, networking and participating in social events to broaden your perspectives. You can also join specialized groups focused on areas like sustainability to explore your diverse interests.\n\nSupport:\n• The internship program provides a robust support system, including weekly intern office hours, dedicated IT and HR support, and a program team committed to your success. This ensures you have the guidance and assistance needed to thrive.\n\nLearning Sessions:\n• Exclusive learning sessions will further enhance your skills, granting you access to Amazon's cutting-edge learning platforms and the expertise of industry leaders. These structured development opportunities will prepare you for the next step in your career.\n\nOpportunities:\n• Upon successful completion of the internship, you may be considered for a graduate role or a second internship, allowing you to continue your journey with Amazon. Additionally, you'll enjoy a competitive monthly salary, relocation support, and access to a range of employee benefits.\n\nInternship Start Dates across the year:\n• We are hiring interns to start on standardized dates from January through July.\n\nBASIC QUALIFICATIONS\n• Enrolled in a Bachelor's or Master’s Degree in Marketing, Communications or similar discipline.\n• Proficient in spoken and written English and the local language of the country you are applying for (Common European Framework of Reference C1).\n• Eligible to complete a full-time internship lasting between 3 to 6 months.\n\nPREFERRED QUALIFICATIONS\n• Strong problem-solving and analytical skills, with the ability to identify process improvements and innovative solutions.\n• Analytical skills and ability to work in Microsoft Excel (e.g., complex formulas, pivot tables, macros)\n• Understanding of digital marketing channels (such as email, digital display, SEO, PPC.) and tools (including email, web analytics, CRM, and marketing automation platforms)\n• Excellent communication and teamwork skills, able to collaborate effectively with others.\n• Demonstrated curiosity, proactivity, and willingness to take on challenges in an ambiguous, fast-paced environment.\n\nAmazon is an equal opportunities employer. We believe passionately that employing a diverse workforce is central to our success. We make recruiting decisions based on your experience and skills. We value your passion to discover, invent, simplify and build. Protecting your privacy and the security of your data is a longstanding top priority for Amazon. Please consult our Privacy Notice (https://www.amazon.jobs/en/privacy_page) to know more about how we collect, use and transfer the personal data of our candidates.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 16 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DSCTPCYRhTCIL96FYAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "55301800",
+      "job_onet_job_zone": null
+    },
+    {
+      "job_id": "5tErMv4Xuw2rqFXfAAAAAA==",
+      "job_title": "Becario Marketing",
+      "employer_name": "OKUANT",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1sHL55sqJiVzSLv5IW7mi7Bn7xHdOBooavZks&s=0",
+      "employer_website": null,
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/becario-marketing-at-okuant-4340364728?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/becario-marketing-at-okuant-4340364728?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/1c115b97027e3e1b838a2d92614b78fe?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/883787774971346944?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-2635-5621717c94f13150c2fa00b527be9766?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Wijobs.es",
+          "apply_link": "https://www.wijobs.es/empleos/okuant/becario-marketing/e63c1472-c077-4ec6-8298-1e84b0d7ed60?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Somos expertos en oportunidades inmobiliarias.\n\nCompañía independiente especializada en la adquisición y venta de carteras inmobiliarias. Nuestra tecnología y conocimiento del mercado nos permite detectar y valorar oportunidades en tiempo real. Nuestro objetivo es proporcionar la máxima rentabilidad aprovechando las oportunidades inmobiliarias que detectamos en el mercado\n\nPrecisamos incorporar un estudiante en prácticas, con perfil polivalente que dé soporte directo al Dpto. de Marketing\n\nLas funciones del puesto serían:\n\n-Tareas de análisis, reporting de datos y seguimiento de resultados\n\n-Publicaciones y dar soporte en el día a día al Dpto.\n\n-Reporting de datos (necesitamos muy buen nivel de excel)\n\n-Soporte en el desarrollo de estrategias de marketing para potenciar las ventas.\n\nPerfil del candidato:\n• FP Grado Medio o superior en gestión Administrativa o Marketing\n• Nivel Excel Avanzado, habituad@ a trabajar con diferentes programas informáticos y reportes semanales.\n• Se valorará que tenga experiencia previa en otras prácticas\n• Persona organizada, entusiasta y acostumbrada a trabajar en entornos dinámicos y con volúmenes de trabajo alto.\n• Persona con perfil polivalente y proactiva.\n• A nivel personal, buscamos una persona con clara orientación al resultado, elevada capacidad analítica y altas dotes de comunicación y de síntesis\n\nCondiciones ofertadas:\n\n• Incorporación inmediata a media jornada o completa.\n\n• Oportunidad de desarrollo profesional, formando parte de una compañía joven.\n\n• Contrato en prácticas por duración de 6 meses a través de la Universidad, con posibilidad de continuidad y estabilidad. Prácticas remuneradas",
+      "job_is_remote": false,
+      "job_posted_at": "hace 22 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D5tErMv4Xuw2rqFXfAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "y9IUJrs-_1z-DkwdAAAAAA==",
+      "job_title": "Programa de Talento Joven - Marketing Digital",
+      "employer_name": "Qualentum",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNte_TzXbWrBMrdDEa8Kf6FUWwpKmkxWicr6VF&s=0",
+      "employer_website": "https://www.qualentum.com",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "Prácticas",
+      "job_employment_types": [],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/programa-de-talento-joven-marketing-digital-at-qualentum-4348300389?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/programa-de-talento-joven-marketing-digital-at-qualentum-4348300389?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/45292be64d2239133bfcad05e42c0630?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/a8bffb1a32101b5644348545a5f3e3c1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/3592375571247529984?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/auxiliares-de-optica-al-mes-jobs/BA185BE79F962FEB?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3810-12b2f7512440d63aa2c74e0ee732f9df?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/job/becario-de-administracion-de-empresa-eur600-al-mes-sin-experiencia-madrid-calter-ingenieria-1739-8362670/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Kit Empleo",
+          "apply_link": "https://www.kitempleo.es/empleo/294405749/practicante-de-seleccion-eur600-al-mes-sin-experiencia-madrid?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Lánzate al futuro que imaginas. Empieza hoy.\n\nEn Qualentum, (empresa del Grupo Proeduca / UNIR) creemos que los primeros pasos no deberían ser inseguros, sino poderosos.\n\nPor eso, abrimos las puertas a jóvenes con vocación tecnológica y digital y muchas ganas de crecer, para vivir una experiencia única combinando una formación especializada con prácticas reales en el grupo Proeduca.\n\nEntrarás en el grupo líder de educación online de habla hispana, con presencia internacional y más de 7.000 profesionales, en el que la innovación y la tecnología son cruciales.\n\nAquí no vienes a mirar. Vienes a hacer.\n\nUna experiencia real, para un futuro real\n• 🧠Invertimos en ti: apostamos -de verdad- por el talento que sumamos al equipo. Apostamos por ti. Te matricularemos en nuestro Título Propio Universitario de Data Analytics, diseñado específicamente para potenciar tu perfil y tu empleabilidad.\n• 🛠️ Proyectos reales, experiencia real: durante tus prácticas aplicarás a diario los conocimientos adquiridos en la formación desde el primer día.\n• 🧭 Mentoría: te acompañaremos durante todo el proceso para que puedas sacar todo tu potencial\n• 🔁 Flexibilidad real: modelo híbrido y horarios que se adaptan a tus formaciones para que no tengas que hacer malabares.\n• 💸 Ayuda al estudio: creemos en el esfuerzo y lo recompensamos\n• 🚀 No es un plan de beca, es el comienzo de un plan de carrera.\n\n¿Qué harás en el día a día?\n• Ayudarás a crear y gestionar campañas de marketing digital (email marketing, redes sociales, etc.).\n• Analizarás datos y métricas para saber cómo están funcionando nuestras campañas.\n• Colaborarás en investigaciones de mercado y análisis de la competencia.\n• Contribuirás a la creación de materiales de marketing y apoyo en otras tareas del departamento.\n\n¿Quién eres tú?\n• Alguien que ha terminado un Grado en Marketing, Comunicación, Publicidad, ADE o un FP en alguna de estas áreas\n• Una mente analítica, curiosa, con sensibilidad técnica y capacidad para aprender rápido.\n• Una persona que quiere construir y sumar en equipo.\n• Alguien que sabe que los detalles importan.\n\n¿Quieres formar parte?\n\nNo buscamos solo currículums. Buscamos intención, ganas, y potencial.\n\nSi te reconoces en estas líneas, si sientes que esto podría ser el inicio de algo importante para ti… estamos deseando conocerte.\n\nEste proceso de selección será gestionado por Qualentum, spinoff del Grupo PROEDUCA, especializada en la identificación y atracción del mejor talento digital.\n\nEl Grupo EDUCATIVO está firmemente comprometido con la igualdad de oportunidades y la diversidad, logrando con ello crear un entorno libre de toda discriminación.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 2 horas",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dy9IUJrs-_1z-DkwdAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "-5Q0_GCCDCk3gM3jAAAAAA==",
+      "job_title": "Marketing Practicante",
+      "employer_name": "beBeeMKTG",
+      "employer_logo": null,
+      "employer_website": "https://us.bebee.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/5350827128889802752?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/5350827128889802752?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Prácticas en Marketing\n\nBuscamos a un talentoso candidato para formar parte de nuestro equipo.\n• Generación de contenido para canales digitales y tradicionales.\n• Gestión de redes sociales y herramientas de marketing digital.\n• Organización de eventos y actividades promocionales.\n\nLa posición requiere estar cursando últimos años de Marketing, Publicidad o Periodismo. Es necesario tener un nivel de inglés medio y posibilidad de firmar convenio de prácticas a jornada completa.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 5 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D-5Q0_GCCDCk3gM3jAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "2xyj1YLlFsXWI_21AAAAAA==",
+      "job_title": "Prácticas de Marketing Digital",
+      "employer_name": "BETOP",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHlSs0EJ0ac0XbL7qiRcd_amJmpxu0ZiF2F9vI&s=0",
+      "employer_website": null,
+      "job_publisher": "Fashion Jobs",
+      "job_employment_type": "Prácticas",
+      "job_employment_types": [],
+      "job_apply_link": "https://es.fashionjobs.com/empleo/Practicas-de-marketing-digital,11035097.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Fashion Jobs",
+          "apply_link": "https://es.fashionjobs.com/empleo/Practicas-de-marketing-digital,11035097.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/a3594815edb03d70799f257d579972bd?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3810-0bbba1589e0de7a540322d26e505d0dd?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "JobLeads",
+          "apply_link": "https://www.jobleads.com/es/job/practicas-de-marketing-digital--madrid--e9fc372e7bd00b2bbd23cc2fde67f875b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/8461323018239475712?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://madrid.es.expertini.com/job/practicas-de-marketing-digital-madrid-betop-1961-108128045/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Somos la agencia digital 360º | 2.0 especializados en MODA y LIFESTYLE\n\nDetrás de un gran sueño siempre hay personas creativas, inconformistas, arriesgadas, profesionales, perseverantes y con ganas de cambiar y aportar algo nuevo.\n\nEsta agencia no es una agencia más, es la AGENCIA 2.0 donde proporcionamos las herramientas necesarias para que tu idea, negocio o SUEÑO crezca y se haga realidad, tal y como tenías planeado en tu cabeza.\n\nNo nos gustan las grandes cosas sino, hacerlas grandes nosotros. Creación de contenido\n• Apoyo en sesiones de fotos y vídeos.\n• Búsqueda de referencias creativas y tendencias.\n• Redacción de copys para redes sociales.\n• Preparación de propuestas de contenido para clientes.\nCommunity Management\n• Programación y publicación de contenido en redes sociales.\n• Monitorización de comentarios y mensajes.\n• Elaboración de informes mensuales con métricas básicas.\nMarketing de influencers\n• Búsqueda y selección de perfiles adecuados para campañas.\n• Contacto con influencers y gestión de envíos.\n• Seguimiento de publicaciones y recopilación de resultados.\nEventos\n• Apoyo en la organización logística.\n• Coordinación con proveedores y colaboradores.\n• Presencia en eventos cuando sea necesario (horario flexible).\nAdministración y soporte general\n• Gestión de calendarios y tareas.\n• Coordinación interna con el equipo.\n• Conocimiento de Instagram, TikTok y otras plataformas sociales.\n• Habilidad para redactar textos creativos.\n• Organización y capacidad para trabajar con varias marcas a la vez.\n• Actitud proactiva, creativa y resolutiva.\n• Valorable: conocimientos de Canva, edición básica de vídeo o fotografía, y herramientas como Notion, Metricool o Meta Business Suite.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 11 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D2xyj1YLlFsXWI_21AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "dCL-3q-ORVEDZA4NAAAAAA==",
+      "job_title": "Practicante De Marketing Madrid",
+      "employer_name": "Confidential Careers",
+      "employer_logo": null,
+      "employer_website": "https://confidential.careers",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "Prácticas",
+      "job_employment_types": [],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/1ff8febbeb7883715bc816e8607b8dfa?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/1ff8febbeb7883715bc816e8607b8dfa?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Te apasiona el marketing digital, las redes sociales y la creación de contenido? ¡Esta posibilidad es para ti!\n\nSobre el rol\n\nBuscamos a una persona curiosa, creativa y con ganas de aprender para apoyar al departamento de Marketing en diversas iniciativas fundamental, especialmente en gestión de redes sociales, creación de contenido y acciones de comunicación interna y externa.\n\nTu trabajo contribuirá directamente a la visibilidad y posicionamiento de nuestra marca entre distintos públicos.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 6 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DdCL-3q-ORVEDZA4NAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "qz_dzi97kl6Nw3ptAAAAAA==",
+      "job_title": "Prácticas en Lead Generation y Marketing Inbound",
+      "employer_name": "WayOps",
+      "employer_logo": null,
+      "employer_website": "https://wayops.eu",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/826590973936009216?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/826590973936009216?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3206-ee94037943178bd46de8cec086d45dd8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Una empresa en crecimiento en Madrid busca incorporar un perfil de Lead Generation en prácticas. Los candidatos ideales son estudiantes de Grado o Máster en áreas de Desarrollo de negocio o Marketing. Las responsabilidades incluyen construir funnels de Inbound Marketing y colaborar en campañas de Email Marketing. Se ofrece un programa de formación intensivo con el CEO. Se valoran positivamente habilidades de organización y experiencia en Hubspot.\n#J-18808-Ljbffr",
+      "job_is_remote": false,
+      "job_posted_at": "hace 4 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dqz_dzi97kl6Nw3ptAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "41401400",
+      "job_onet_job_zone": null
+    },
+    {
+      "job_id": "QE587Ku206xL70AqAAAAAA==",
+      "job_title": "Prácticas Marketing Industria",
+      "employer_name": "Sika S.A.U.",
+      "employer_logo": null,
+      "employer_website": "https://www.sika.com",
+      "job_publisher": "SimplyHired",
+      "job_employment_type": "A tiempo completo y Prácticas",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.simplyhired.es/job/47Jm3u-83Mn7nC4GdhuuKmfvS4ogj3cj-BrVogXmmz_4of-VgNyQRg?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/47Jm3u-83Mn7nC4GdhuuKmfvS4ogj3cj-BrVogXmmz_4of-VgNyQRg?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Sika S.A.U.\n\nAlcobendas (Madrid)\n\nT/2025/48996\n\nSolicita ya el acceso a una beca de prácticas en Sika S.A.U.\n\n¿Qué ofrece la empresa?\n• 1 plaza de prácticas en Sika S.A.U. de 12 meses para incorporarse en febrero 2026\n• Bolsa de ayuda de 960,00€ brutos mensuales\n• 7h. diarias en Jornada completa\n• Centro de prácticas en España: Alcobendas (Madrid)\n• La beca incluye matrícula en Máster de Formación Permanente en Productividad, Gestión Adaptativa e Innovación (Universidad Nebrija)\n\n¿Qué perfil busca la empresa?\n• Estudiante de grado universitario a falta de TFG/PFC o Estudiante de grado universitario a falta de 1 asignatura o Estudiante de grado universitario a falta de 2 asignaturas o Estudiante de grado universitario a falta de 3 asignaturas o Titulado/a de grado universitario o Titulado/a de grado con máster universitario\n• Titulado FP grado superior\n\nPlan de formación propuesto\nDescripción\n\nLa división de Industria ofrece una oportunidad de prácticas para colaborar en el desarrollo de la estrategia de marketing aplicada al negocio de la Distribución Industrial, tanto en canal convencional como en e-commerce. La persona seleccionada participará en investigaciones de mercado, análisis de negocio y apoyo a iniciativas estratégicas del equipo corporativo y regional.\n\nObjetivos Formativos\n• Desarrollar habilidades en la investigación de mercados y la identificación de nuevas oportunidades de negocio dentro del sector de Distribución Industrial.\n• Adquirir experiencia práctica en la aplicación de estrategias de marketing para los canales convencional y e-commerce.\n\nFunciones\n• Coordinar acciones con el departamento de marketing y equipos de aplicación del negocio.\n• Implementar campañas del equipo regional EMEA Industry y realizar seguimiento con el área comercial y clientes.\n• Apoyar en el desarrollo de producto corporativo y en la implementación de la estrategia de marketing definida por los equipos corporativos y regionales.\n• Analizar datos de mercado y contribuir a la toma de decisiones vinculadas al plan de marketing y sus acciones derivadas.\n• Recopilar, analizar y presentar datos en Salesforce para la elaboración de informes.\n• Preparar presentaciones de producto utilizando PowerPoint, Canva, herramientas de IA u otros recursos digitales.\n• Dar apoyo en el seguimiento y análisis del desempeño de la red comercial y de los Customer Group.\n• Colaborar en la recopilación y análisis de métricas clave para evaluar el rendimiento del equipo y de los proyectos.\n• Participar en reuniones de planificación para definir tareas y prioridades dentro de los proyectos en curso.\n\nProyecto Final SBF\n\nEl proyecto final consistirá en desarrollar el Plan de Marketing 2027 para la División de Industria, incluyendo:\n• Evaluación de los distintos negocios de la división.\n• Identificación y detalle de las iniciativas en las que se realizará inversión.\n• Definición de acciones por línea de negocio y estimación de costes.\n• Análisis del impacto previsto, planificación temporal (timing) y recursos internos necesarios.\n\nRequisitos Formación académica\n• Estudiantes próximos a finalizar Grado en Marketing, ADE, Diseño Industrial o estudios similares.\n• También se valorarán estudiantes de Máster en Marketing con interés en desarrollarse en el sector industrial.\n\nIdiomas\n• Inglés fluido (B2/C1).\n• Se valorarán otros idiomas adicionales.\n\nConocimientos y habilidades técnicas\n• Manejo del paquete Office, especialmente Excel (nivel medio).\n• Valorable experiencia en la creación de presentaciones (PPT, Canva).\n• Conocimientos de herramientas de IA y diseño.\n• Capacidad para realizar análisis de datos de mercado.\n• Disponibilidad para viajar puntualmente.\n\nCompetencias\n• Proactividad e iniciativa.\n• Alta capacidad de organización y orientación a resultados.\n• Habilidades de comunicación e influencia.\n• Trabajo en equipo.\n• Capacidad analítica y orientación a la mejora continua.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 1 día",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Alcobendas",
+      "job_city": null,
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.5371361,
+      "job_longitude": -3.6370715,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DQE587Ku206xL70AqAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "TIhYah_6iCj_ST-yAAAAAA==",
+      "job_title": "Prácticas Marketing digital en Madrid",
+      "employer_name": "Zooplus Services ESP SL",
+      "employer_logo": null,
+      "employer_website": "https://corporate.zooplus.com",
+      "job_publisher": "Talentoteca",
+      "job_employment_type": "Prácticas",
+      "job_employment_types": [],
+      "job_apply_link": "https://www.talentoteca.es/finder/details/75052793/practicas-marketing-digital-en-madrid?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Talentoteca",
+          "apply_link": "https://www.talentoteca.es/finder/details/75052793/practicas-marketing-digital-en-madrid?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=2563b62571492d94&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/nzwnJV69x3huUywfXHGNKWSd3eUQ5nAlbtXKPVLBqbpd8pnfJfDPDw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Insertia.net",
+          "apply_link": "https://www.insertia.net/ver-oferta/8ff02551-4488-4410-b6f5-8b1899639cb5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/4295930521873022976?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3393-e26660488d4987f9ece445e24c9cf879?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajas.es - Ofertas De Trabajo",
+          "apply_link": "https://www.trabajas.es/oferta/practicas-en-marketing-digital-12ca74fb9f4f787/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-madrid-pr-cticas-en-marketing-digital-bebeedesarrollo-hiring-now?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Zooplus es una compañía líder en comercio electrónico especializada en productos para mascotas. Fundada en Alemania en 1999, la empresa se ha consolidado como uno de los referentes europeos del sector, ofreciendo una amplia gama de productos y servicios a través de su tienda online. Zooplus Services ESP SL, su filial en España, forma parte de este ecosistema internacional, aportando valor en áreas estratégicas como la experiencia de usuario, tecnología y marketing digital.\n\nEl estudiante se incorporará al equipo de Experience & Optimization, un área clave para la mejora continua de la experiencia digital de los usuarios. Este departamento trabaja en estrecha colaboración con áreas de producto, marketing y tecnología, liderando iniciativas de testing, optimización y análisis orientadas a mejorar las tasas de conversión en el entorno web de Zooplus.\n\n📚 Objetivos Formativos\n\nDurante su estancia, el estudiante:\n• Aprenderá a diseñar, ejecutar y analizar experimentos A/B como herramienta clave en la toma de decisiones basada en datos.\n• Aplicará metodologías de optimización de conversión (CRO) y conocimientos de comportamiento del consumidor en contextos reales.\n• Desarrollará competencias en el análisis de datos, utilizando Excel y otras herramientas para evaluar la efectividad de las pruebas.\n• Mejorará su capacidad de trabajo en equipo, interactuando con perfiles multidisciplinares (marketing, tech, producto).\n• Adquirirá experiencia en herramientas de gestión de proyectos, como Jira y Confluence, y en la elaboración de documentación y reportes.\n\n👩‍🏫 Mentorización y Seguimiento\n\nEl estudiante contará con el acompañamiento de un tutor empresarial, Sergio Palomino Sánchez, Team Lead del equipo de Digital Experimentation & Optimization.\n\nSe establecerán objetivos formativos desde el inicio, con revisiones periódicas para valorar avances y ofrecer retroalimentación. Esta estructura garantizará una experiencia 100% formativa y adaptada al ritmo de aprendizaje del estudiante.\n\n🎓 Perfil del Candidato\n\n📌 Titulaciones compatibles:\n• Marketing Digital\n• Ciencias de la Computación\n• Administración y Dirección de Empresas (ADE)\n• Estadística o áreas afines\n\n📌 Habilidades requeridas:\n• Capacidad analítica y de síntesis\n• Interés por la optimización digital y la experiencia de usuario\n• Trabajo en equipo y proactividad\n\n📌 Idiomas:\n• Inglés C1\n\n📌 Herramientas valoradas:\n• Dominio medio-avanzado de Microsoft Excel, PowerPoint y Word\n\n🌟 Valor Formativo\n\nEsta práctica es una oportunidad única para que el estudiante se forme en un entorno internacional y digitalmente innovador, aplicando sus conocimientos en proyectos reales de optimización de experiencia web. El programa fomenta el aprendizaje activo, el pensamiento crítico y la colaboración multidisciplinar, elementos clave para su desarrollo profesional futuro.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 8 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DTIhYah_6iCj_ST-yAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "n-pRyHfjwB1t_LdBAAAAAA==",
+      "job_title": "Marketing Specialist Intern",
+      "employer_name": "UNLIMITECK COMPANY BUILDER SL",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJOBHErQqTGXau5URL4bTM-zET6L3G5noppn_&s=0",
+      "employer_website": null,
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo y Prácticas",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=6219fbd9998821f9&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=6219fbd9998821f9&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Domestika",
+          "apply_link": "https://www.domestika.org/es/jobs/110371-marketing-specialist-intern-madrid-espana?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/zLvvQ86mswN7IBUQ13tgiByu6oqik2CDKAU9yB0P4Dmb1OkDFMCHcQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/marketing-specialist-intern-at-thecube-4278569309?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/jdp/6262562653456633631?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.es/job-listing/marketing-specialist-intern-unlimiteck-company-builder-sl-JV_KO0,27_KE28,57.htm?jl=1009829120986&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3144-a81fb932d45ebf7698796877cfbce29d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobtome",
+          "apply_link": "https://es.jobtome.com/empleo/marketing-specialist-intern/025c586687ca49ffc0f868e74254e025?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "En TheCUBE estamos en búsqueda de un Marketing Specialist Intern apasionado por la comunicación y la creación de estrategias efectivas que fortalezcan nuestra presencia en múltiples plataformas y medios. Si eres una persona creativa, proactiva y te entusiasma idear y ejecutar iniciativas para conectar con nuestro mercado objetivo, ¡nos encantaría conocerte!\n\nTheCUBE se ha consolidado como uno de los corporate venture builders de referencia en Europa, destacándose por su capacidad para idear, testar y lanzar nuevas ventures con éxito. Colaboramos estrechamente con las corporaciones más importantes del mundo, en múltiples sectores como FMCG, construcción, energía, movilidad, salud, y muchos más. Les ayudamos no solo a crear startups desde cero, sino también a ejecutar programas de innovación que transforman sus sectores.\n\nTu misión como Marketing Specialist Intern\n\nComo parte integral del equipo de marketing de TheCUBE, ayudarás a conectar y expandir nuestra presencia y la de nuestras ventures, alcanzando los mercados objetivo de manera efectiva. Tus responsabilidades incluirán:\n• Diseño de creatividades (posts, stories, reels, presentaciones…) con herramientas como Canva, Paquete Adobe, CapCut o similares.\n• Apoyo en la gestión de redes sociales: programación de contenido, publicación, interacción con la comunidad y seguimiento de resultados.\n• Soporte en campañas de comunicación para TheCUBE y proyectos de innovación: aportar ideas, dar seguimiento y preparar materiales.\n• Apoyo a los Venture Developers en la creación de contenido y materiales para nuevas startups (landing pages, pitch decks, etc.).\n• Uso de herramientas de inteligencia artificial para mejorar la productividad en tareas de diseño, redacción y análisis.\n\nLo que buscamos en ti\n• Interés y conocimientos básicos en marketing y comunicación.\n• Inglés nivel intermedio o superior, para facilitar la comunicación con colaboradores internacionales.\n• Conocimientos en estrategias de comunicación y relaciones públicas.\n• Deseo de aprender sobre la ideación y ejecución de campañas en medios digitales y tradicionales.\n• Interés en desarrollar habilidades analíticas para interpretar datos y aplicar insights en estrategias.\n• Estudiante de grado en Marketing, Comunicación, Relaciones Públicas o carreras afines.\n• Actitud proactiva, innovadora, orientada a resultados y amante de los retos.\n• Habilidades de trabajo en equipo y disposición para apoyar a los venture developers.\n• Posibilidad de firmar un convenio con una institución educativa.\n\nLo que te ofrecemos\n• Un contrato de prácticas que te permitirá ganar experiencia en un entorno dinámico y en constante crecimiento.\n• Un entorno innovador donde cada día es una oportunidad para aprender e impactar.\n• Oportunidades de desarrollo profesional desde el primer día.\n• Un equipo genial con el que colaborar y disfrutar mientras aprendes.\n• Acceso a herramientas tecnológicas de última generación para potenciar tu creatividad e impacto.\n• Beca remunerada + tarjeta restaurante.\n• Horario: Lunes a Viernes: Jornada completa (40 horas semanales).\n• Duración: 6 meses.\n• Alta posibilidad de incorporación con contrato indefinido tras terminar las prácticas con beneficios adicionales de la empresa.\n\nEn TheCUBE, valoramos el potencial, el aprendizaje y el crecimiento. Sabemos que, estadísticamente, muchas mujeres no aplican si no cumplen con el 100% de los requisitos, pero si este rol te entusiasma, te animamos a postularte. ¡Estamos deseando conocerte y ayudarte a empezar tu carrera en marketing!",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Madrid",
+      "job_city": "Madrid",
+      "job_state": "Madrid",
+      "job_country": "ES",
+      "job_latitude": 40.4167279,
+      "job_longitude": -3.7032905,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dn-pRyHfjwB1t_LdBAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "13116100",
+      "job_onet_job_zone": "4"
+    }
+  ]
+}

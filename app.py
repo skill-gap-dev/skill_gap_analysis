@@ -253,6 +253,14 @@ role = st.sidebar.text_input("Role", value="", placeholder="e.g., data analyst, 
 location = st.sidebar.text_input("Location", "Madrid")
 country = st.sidebar.text_input("Country code", "es")
 
+# Quick UX hint for new users
+with st.sidebar.expander("Quick tips", expanded=False):
+    st.markdown(
+        "- **Step 1**: Enter a role and location\n"
+        "- **Step 2**: Add some of your skills\n"
+        "- **Step 3**: Click **Search Jobs** and explore the tabs"
+    )
+
 date_posted = st.sidebar.selectbox("Posted date", ["all", "today", "3days", "week", "month"])
 remote = st.sidebar.checkbox("Only remote?")
 work_from_home = True if remote else None
@@ -271,19 +279,41 @@ job_requirements = st.sidebar.multiselect(
 )
 job_requirements_str = ",".join(job_requirements) if job_requirements else None
 
-radius = st.sidebar.number_input("Radius (km)", min_value=0.0, value=0.0)
-radius_val = radius if radius > 0 else None
+# Interactive radius selection
+st.sidebar.subheader("Search Radius")
+radius_mode = st.sidebar.radio(
+    "How wide do you want to search?",
+    ["Only this city", "Up to 20 km", "Up to 50 km", "Custom"],
+    index=0,
+)
+
+if radius_mode == "Only this city":
+    radius_val = None  # API will use just the city
+elif radius_mode == "Up to 20 km":
+    radius_val = 20.0
+elif radius_mode == "Up to 50 km":
+    radius_val = 50.0
+else:
+    custom_radius = st.sidebar.slider(
+        "Custom radius (km)", min_value=0, max_value=200, value=20, step=5
+    )
+    radius_val = float(custom_radius) if custom_radius > 0 else None
+
+st.sidebar.caption(
+    "Tip: smaller radius focuses on your city; larger radius explores nearby cities "
+    "or relocation opportunities."
+)
 
 st.sidebar.header("Your Skills")
 st.sidebar.caption("Select skills from any category: technical, soft skills, languages, tools, etc.")
 user_skills = st.sidebar.multiselect("Select your skills", options=skills_list, help="Choose from technical skills, soft skills, languages, design tools, and more")
 
-# Custom skills input
-st.sidebar.subheader("Add Custom Skills")
+# Custom skills input (to allow any kind of skill)
+st.sidebar.subheader("Add Custom Skills (optional)")
 custom_skills_input = st.sidebar.text_input(
     "Enter custom skills (comma-separated)",
     placeholder="e.g., Customer Service, Sales, Photography",
-    help="Add skills that are not in the list above"
+    help="Add skills that are not in the list above",
 )
 
 # Parse custom skills
@@ -294,41 +324,48 @@ if custom_skills_input:
 # Combine selected and custom skills
 all_user_skills = list(user_skills) + custom_skills
 
-# Skill levels
-st.sidebar.subheader("Skill Levels")
+if not all_user_skills:
+    st.sidebar.info(
+        "Add some skills above so the app can calculate your skill gap and "
+        "show personalized recommendations."
+    )
+
+# Skill levels are currently not used in the analysis; keep an empty dict for compatibility
 skill_levels = {}
-if all_user_skills:
-    st.sidebar.markdown("**Set your proficiency level for each skill:**")
-    level_options = {
-        "Beginner": 1,
-        "Intermediate": 2,
-        "Advanced": 3,
-        "Expert": 4
-    }
-    
-    for skill in all_user_skills:
-        level_label = st.sidebar.selectbox(
-            f"{skill}",
-            options=list(level_options.keys()),
-            index=1,  # Default to Intermediate
-            key=f"level_{skill}"
-        )
-        skill_levels[skill] = level_options[level_label]
 
 if st.sidebar.button("Search Jobs", type="primary", use_container_width=True):
+    # Basic validation to avoid confusing empty searches
+    if not role.strip():
+        st.warning("Please enter at least a role before searching for jobs.")
+        st.stop()
+
+    if not location.strip():
+        st.warning("Please enter a location before searching for jobs.")
+        st.stop()
+
     with st.spinner("Fetching and analyzing jobs..."):
         try:
             data = load_or_fetch_jobs(
-                role, location, country,
+                role,
+                location,
+                country,
                 date_posted=date_posted,
                 work_from_home=work_from_home,
                 employment_types=employment_types_str,
                 job_requirements=job_requirements_str,
-                radius=radius_val
+                radius=radius_val,
             )
         except Exception as e:
-            logger.error(f"Error fetching jobs: {str(e)}")
-            st.error(f"Error fetching jobs: {str(e)}")
+            error_msg = str(e)
+            logger.error(f"Error fetching jobs: {error_msg}")
+            if "502" in error_msg:
+                st.error(
+                    "The external job API is temporarily unavailable (502 Bad Gateway). "
+                    "Please try again in a few minutes or adjust the search filters "
+                    "(role, location, radius)."
+                )
+            else:
+                st.error(f"Error fetching jobs from API: {error_msg}")
             st.stop()
 
         job_results = data.get("data", [])
@@ -455,10 +492,44 @@ if 'df' in st.session_state and not st.session_state.df.empty:
             st.metric("High Match Jobs (≥50%)", high_match)
         with col4:
             user_skills_count = len(all_user_skills) if all_user_skills else 0
-            avg_level = sum(skill_levels.values()) / len(skill_levels) if skill_levels else 0
-            level_label = ["Beginner", "Intermediate", "Advanced", "Expert"][int(avg_level) - 1] if avg_level > 0 else "N/A"
-            st.metric("Your Skills", f"{user_skills_count}", delta=level_label)
-        
+            st.metric("Your Skills", f"{user_skills_count}")
+
+        # Highlight the single best match as a prominent card
+        if not df.empty:
+            top_job = df.iloc[0]
+            best_match_value = top_job.get(
+                "weighted_match_ratio", top_job.get("match_ratio", None)
+            )
+            if isinstance(best_match_value, (int, float, float)):
+                best_match_pct = f"{best_match_value:.0%}"
+            else:
+                best_match_pct = "N/A"
+
+            apply_link = top_job.get("apply_link")
+            apply_html = ""
+            if apply_link:
+                apply_html = (
+                    f'<a href="{apply_link}" target="_blank" '
+                    f'style="display:inline-block;margin-top:0.5rem;'
+                    f'padding:8px 16px;border-radius:6px;border:2px solid #b8e994;'
+                    f'background:linear-gradient(135deg,#0f3460 0%,#16213e 100%);'
+                    f'color:#ffffff;text-decoration:none;font-weight:700;'
+                    f'text-transform:uppercase;letter-spacing:0.05em;font-size:0.8rem;">'
+                    f'View & Apply</a>'
+                )
+
+            st.markdown(
+                f"""
+                <div class="recommendation-card">
+                    <h4>Top Match for You</h4>
+                    <p><strong>Role:</strong> {top_job.get('title', 'N/A')} at {top_job.get('company', 'N/A')}</p>
+                    <p><strong>Location:</strong> {top_job.get('city', 'N/A')} &nbsp;|&nbsp; <strong>Match:</strong> {best_match_pct}</p>
+                    {apply_html}
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
         st.divider()
         
         # Quick stats
@@ -534,7 +605,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
     
     with tab2:
         st.header("Skills Analysis")
-        
+
         if all_skills_flat:
             # Most demanded skills
             st.subheader("Most Demanded Skills")
@@ -547,6 +618,16 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                 }
                 for skill, count in skill_freq.most_common(15)
             ])
+
+            # Short textual summary of coverage vs market demand
+            covered_skills = skill_df[skill_df["you_have"] == "Yes"]["skill"].nunique()
+            demanded_skills = skill_df["skill"].nunique()
+            missing_skills = demanded_skills - covered_skills
+
+            st.markdown(
+                f"**You currently cover {covered_skills} / {demanded_skills} of the top market skills** "
+                f"shown below. You're missing **{missing_skills} skills** that appear frequently in job offers."
+            )
             
             fig = px.bar(
                 skill_df,
@@ -568,63 +649,23 @@ if 'df' in st.session_state and not st.session_state.df.empty:
             )
             st.plotly_chart(fig, use_container_width=True)
             
-            # Radar chart
-            st.subheader("Your Profile vs Ideal Profile")
-            if all_user_skills:
-                ideal_skills = [skill for skill, _ in skill_freq.most_common(10)]
-                comparison_skills = list(set(list(all_user_skills) + ideal_skills))[:10]
-                
-                if comparison_skills:
-                    if skill_levels:
-                        user_values = [skill_levels.get(skill, 0) / 4.0 if skill in all_user_skills else 0 
-                                      for skill in comparison_skills]
-                    else:
-                        user_values = [1 if skill in all_user_skills else 0 for skill in comparison_skills]
-                    
-                    ideal_values = []
-                    max_freq = max(skill_freq.values()) if skill_freq else 1
-                    for skill in comparison_skills:
-                        freq = skill_freq.get(skill, 0)
-                        ideal_values.append(freq / max_freq if max_freq > 0 else 0)
-                    
-                    fig_radar = go.Figure()
-                    fig_radar.add_trace(go.Scatterpolar(
-                        r=user_values,
-                        theta=comparison_skills,
-                        fill='toself',
-                        name='Your Profile',
-                        line_color='#b8e994',
-                        fillcolor='rgba(184, 233, 148, 0.3)'
-                    ))
-                    fig_radar.add_trace(go.Scatterpolar(
-                        r=ideal_values,
-                        theta=comparison_skills,
-                        fill='toself',
-                        name='Ideal Profile (Market Demand)',
-                        line_color='#ffffff',
-                        fillcolor='rgba(255, 255, 255, 0.2)'
-                    ))
-                    fig_radar.update_layout(
-                        polar=dict(
-                            radialaxis=dict(visible=True, range=[0, 1], gridcolor="#3a3a4e"),
-                            bgcolor="rgba(0,0,0,0)"
-                        ),
-                        showlegend=True,
-                        title="Skill Profile Comparison",
-                        height=500,
-                        plot_bgcolor="rgba(0,0,0,0)",
-                        paper_bgcolor="rgba(0,0,0,0)",
-                        font=dict(color="#e0e0e0"),
-                        title_font=dict(color="#b8e994", size=18),
-                        legend=dict(font=dict(color="#e0e0e0"))
-                    )
-                    st.plotly_chart(fig_radar, use_container_width=True)
-            
             # Missing skills
             st.subheader("Top Missing Skills")
             if missing:
                 missing_df = pd.DataFrame(missing).head(10)
                 missing_df["priority"] = missing_df["priority"].astype(int)
+
+                # Make skills clickable to quickly search for learning resources
+                st.caption("Click a skill name to search for courses and learning resources.")
+                for _, row in missing_df.iterrows():
+                    skill_name = row["skill"]
+                    priority = int(row["priority"])
+                    count = row["count"]
+                    search_url = f"https://www.google.com/search?q={skill_name.replace(' ', '+')}+course"
+                    st.markdown(
+                        f"- [{skill_name}]({search_url}) — "
+                        f"demand in jobs: **{count}**, priority: **{priority}**"
+                    )
                 
                 fig_missing = px.bar(
                     missing_df,
@@ -919,6 +960,10 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                         if not importance_df.empty:
                             top_importance = importance_df[["skill", "importance_score", "frequency", "degree", "betweenness"]].head(15)
                             top_importance.columns = ["Skill", "Importance", "Frequency", "Degree", "Betweenness"]
+                            # Highlight user's skills with a star icon
+                            top_importance["Skill"] = top_importance["Skill"].apply(
+                                lambda s: f"⭐ {s}" if s in all_user_skills else s
+                            )
                             top_importance["Importance"] = top_importance["Importance"].apply(lambda x: f"{x:.3f}")
                             top_importance["Degree"] = top_importance["Degree"].apply(lambda x: f"{x:.3f}")
                             top_importance["Betweenness"] = top_importance["Betweenness"].apply(lambda x: f"{x:.3f}")
@@ -934,6 +979,9 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                                 "Skill": bridge_skills_list,
                                 "Rank": range(1, len(bridge_skills_list) + 1)
                             })
+                            bridge_df["Skill"] = bridge_df["Skill"].apply(
+                                lambda s: f"⭐ {s}" if s in all_user_skills else s
+                            )
                             st.dataframe(bridge_df, use_container_width=True, hide_index=True)
                         else:
                             st.info("No bridge skills detected")
@@ -959,10 +1007,16 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                                         row.append(0)
                                 cooccurrence_matrix.append(row)
                             
+                            x_labels = [
+                                f"⭐ {s}" if s in all_user_skills else s
+                                for s in top_skills_for_heatmap
+                            ]
+                            y_labels = x_labels
+
                             fig_cooc = go.Figure(data=go.Heatmap(
                                 z=cooccurrence_matrix,
-                                x=top_skills_for_heatmap,
-                                y=top_skills_for_heatmap,
+                                x=x_labels,
+                                y=y_labels,
                                 colorscale='Viridis',
                                 text=[[f"{val}" if val > 0 else "" for val in row] for row in cooccurrence_matrix],
                                 texttemplate="%{text}",
@@ -995,7 +1049,13 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                             {
                                 "Community": f"Community {comm_id}",
                                 "Skills Count": count,
-                                "Top Skills": ", ".join([skill for skill, cid in communities.items() if cid == comm_id][:8])
+                                "Top Skills": ", ".join(
+                                    [
+                                        (f"⭐ {skill}" if skill in all_user_skills else skill)
+                                        for skill, cid in communities.items()
+                                        if cid == comm_id
+                                    ][:8]
+                                )
                             }
                             for comm_id, count in community_counts.most_common()
                         ])
@@ -1032,6 +1092,9 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                             st.subheader("Top Skills by Centrality")
                             top_centrality = centrality_df[["node", "degree", "betweenness", "weighted_degree"]].head(10)
                             top_centrality.columns = ["Skill", "Degree", "Betweenness", "Weighted Degree"]
+                            top_centrality["Skill"] = top_centrality["Skill"].apply(
+                                lambda s: f"⭐ {s}" if s in all_user_skills else s
+                            )
                             top_centrality["Degree"] = top_centrality["Degree"].apply(lambda x: f"{x:.3f}")
                             top_centrality["Betweenness"] = top_centrality["Betweenness"].apply(lambda x: f"{x:.3f}")
                             st.dataframe(top_centrality, use_container_width=True, hide_index=True)
@@ -1051,17 +1114,6 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                         else:
                             st.warning("Could not generate network visualization")
                     
-                    if all_user_skills:
-                        st.divider()
-                        st.subheader("Network-Based Skill Recommendations")
-                        recommendations = get_skill_recommendations(G, all_user_skills, top_n=10)
-                        if not recommendations.empty:
-                            recommendations.columns = ["Recommended Skill", "Score", "Reason"]
-                            recommendations["Score"] = recommendations["Score"].apply(lambda x: f"{x:.3f}")
-                            st.dataframe(recommendations, use_container_width=True, hide_index=True)
-                        else:
-                            st.info("No recommendations available based on network analysis")
-                
                 else:
                     st.info("Not enough skills data for network analysis")
                     
@@ -1072,30 +1124,52 @@ if 'df' in st.session_state and not st.session_state.df.empty:
             st.info("💡 Enable 'Graph Analysis' in the sidebar to see skill network insights and visualizations.")
 
 else:
-    # Welcome screen
-    st.info("**Get started:** Fill in the search parameters in the sidebar and click 'Search Jobs' to begin your skill gap analysis.")
-    
-    # Show example
-    st.markdown("### How it works:")
+    # Welcome screen - more visual and guided
+    st.markdown("### Welcome to SkillGap")
+    st.markdown(
+        "Discover how well you match real job offers, what skills you're missing, "
+        "and how to prioritize your upskilling roadmap."
+    )
+
     col1, col2, col3 = st.columns(3)
+
     with col1:
-        st.markdown("""
-        **1. Search Jobs**
-        - Enter your target role
-        - Set location and filters
-        - Click Search
-        """)
+        st.markdown(
+            """
+            <div class="recommendation-card">
+                <h4>1. Search Jobs</h4>
+                <p>Pick a <strong>role</strong>, <strong>location</strong>, country and search radius in the sidebar.</p>
+                <p>Optionally, start from an <strong>example scenario</strong> to see instant results.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
     with col2:
-        st.markdown("""
-        **2. Add Your Skills**
-        - Select from the list
-        - Add custom skills
-        - Set proficiency levels
-        """)
+        st.markdown(
+            """
+            <div class="recommendation-card">
+                <h4>2. Add Your Skills</h4>
+                <p>Select the skills that best describe you from the list in the sidebar.</p>
+                <p>You can also type <strong>custom skills</strong> (any language, any category).</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
     with col3:
-        st.markdown("""
-        **3. Analyze & Improve**
-        - View skill gaps
-        - Get recommendations
-        - Track your progress
-        """)
+        st.markdown(
+            """
+            <div class="recommendation-card">
+                <h4>3. Analyze & Improve</h4>
+                <p>Explore the tabs to see your <strong>skill gap</strong>, best matching jobs, and a learning roadmap.</p>
+                <p>Enable <strong>Graph Analysis</strong> for network insights on skills.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    st.markdown(
+        "**Get started:** choose a role and location in the sidebar, "
+        "optionally load an example scenario, then click **Search Jobs**."
+    )
