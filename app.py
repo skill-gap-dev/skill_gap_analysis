@@ -1008,7 +1008,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
     with tab5:
         if enable_graph_analysis:
             st.header("Skill Network Analysis")
-            
+            st.caption("⭐ indicates skills that you have (in tables, lists, labels and the network graph).")
             try:
                 G = build_skill_cooccurrence_graph(df)
                 
@@ -1061,7 +1061,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                     
                     with col1:
                         st.subheader("Top Skills by Importance Score")
-                        st.caption("Combines frequency, centrality, and network position")
+                        st.caption("Combines frequency, centrality, and network position. ⭐ marks skills you have.")
                         if not importance_df.empty:
                             top_importance = importance_df[["skill", "importance_score", "frequency", "degree", "betweenness"]].head(15)
                             top_importance.columns = ["Skill", "Importance", "Frequency", "Degree", "Betweenness"]
@@ -1078,7 +1078,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                     
                     with col2:
                         st.subheader("Bridge Skills")
-                        st.caption("Skills that connect different communities (high betweenness)")
+                        st.caption("Skills that connect different communities (high betweenness). ⭐ marks skills you have.")
                         if bridge_skills_list:
                             bridge_df = pd.DataFrame({
                                 "Skill": bridge_skills_list,
@@ -1094,7 +1094,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                     st.divider()
                     
                     st.subheader("Skill Co-occurrence Heatmap")
-                    st.caption("Shows which skills frequently appear together (top 20 skills)")
+                    st.caption("Shows which skills frequently appear together (top 20 skills). ⭐ marks skills you have.")
                     if len(G.nodes()) > 0:
                         top_skills_for_heatmap = importance_df["skill"].head(20).tolist() if not importance_df.empty else centrality_df["node"].head(20).tolist()
                         
@@ -1207,7 +1207,12 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                     if show_network_viz:
                         st.divider()
                         st.subheader("Interactive Network Graph")
-                        net = plot_skill_network(G, communities, bridge_skills_list[:10])
+                        net = plot_skill_network(
+                            G,
+                            communities,
+                            highlight_skills=bridge_skills_list[:10],
+                            user_skills=all_user_skills,
+                        )
                         if net:
                             try:
                                 net.save_graph("network.html")

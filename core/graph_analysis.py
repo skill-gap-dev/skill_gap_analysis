@@ -372,7 +372,12 @@ def find_bridge_skills(graph: nx.Graph, top_n: int = 10) -> List[str]:
     return [skill for skill, _ in sorted_skills[:top_n]]
 
 
-def plot_skill_network(graph: nx.Graph, communities: Dict[str, int], highlight_skills: List[str] = None):
+def plot_skill_network(
+    graph: nx.Graph,
+    communities: Dict[str, int],
+    highlight_skills: List[str] = None,
+    user_skills: List[str] = None,
+):
     """
     Create an interactive network visualization using pyvis.
     
@@ -380,6 +385,7 @@ def plot_skill_network(graph: nx.Graph, communities: Dict[str, int], highlight_s
         graph: NetworkX skill co-occurrence graph
         communities: Dictionary mapping skill -> community_id
         highlight_skills: List of skills to highlight (e.g., bridge skills)
+        user_skills: List of user skills to highlight differently in the graph
         
     Returns:
         pyvis Network object or None
@@ -399,6 +405,7 @@ def plot_skill_network(graph: nx.Graph, communities: Dict[str, int], highlight_s
         has_weights = any("weight" in graph[u][v] for u, v in graph.edges())
         
         highlight_skills_set = set(highlight_skills) if highlight_skills else set()
+        user_skills_set = set(user_skills) if user_skills else set()
         colors = ["#3498db", "#e74c3c", "#2ecc71", "#f39c12", "#9b59b6", "#1abc9c", "#ecf0f1", "#34495e", "#e67e22", "#16a085"]
         
         pos = nx.spring_layout(graph, k=2, iterations=100, seed=42)
@@ -415,9 +422,13 @@ def plot_skill_network(graph: nx.Graph, communities: Dict[str, int], highlight_s
             comm_id = communities.get(node_id, 0) if communities else 0
             
             is_bridge = node_id in highlight_skills_set
+            is_user_skill = node_id in user_skills_set
+
+            # Color by community (do not change color/shape for user skills to preserve community identity)
             node_color = colors[comm_id % len(colors)] if communities else "#3498db"
             
-            node_size = 35 if is_bridge else max(20, min(30, int(15 + degree * 2)))
+            # Slightly bigger size for bridge skills; user skills keep same size to avoid confusion in communities
+            node_size = 40 if is_bridge else max(20, min(30, int(15 + degree * 2)))
             
             title = f"{node_id}"
             title += f" - Degree: {degree}"
@@ -429,19 +440,25 @@ def plot_skill_network(graph: nx.Graph, communities: Dict[str, int], highlight_s
                 title += f" - Total Weight: {total_weight:.1f}"
             if is_bridge:
                 title += " - ⭐ Bridge Skill"
+            if is_user_skill:
+                title += " - ⭐ User Skill"
             
             net.add_node(
                 node_id,
-                label=node_id[:15] + "..." if len(node_id) > 15 else node_id,
+                label=(
+                    f"⭐ {node_id[:13]}..." if len(node_id) > 15 else f"⭐ {node_id}"
+                )
+                if is_user_skill
+                else (node_id[:15] + "..." if len(node_id) > 15 else node_id),
                 title=title,
                 x=x * 1000,
                 y=y * 1000,
                 size=node_size,
                 color=node_color,
                 borderWidth=4 if is_bridge else 2,
-                borderColor="#b8e994" if is_bridge else "#ffffff",
+                borderColor="#ffffff",
                 font={"size": 16, "face": "Arial", "color": "white"},
-                shape="dot"
+                shape="dot",
             )
         
         edge_weights_list = []
