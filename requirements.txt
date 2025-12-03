@@ -10,7 +10,8 @@ networkx>=3.0
 python-louvain>=0.16
 scikit-learn>=1.0.0
 pyvis>=0.3.0 
-PyPDF2>=3.0.0 
+PyPDF2>=3.0.0
+sentence-transformers>=2.2.0 
 
 # Si teneis el Python 3.13 en Windows y os tarda mucho el pip install -r requirements.txt no lo instaleis desde el requirements.txt haced: 
 

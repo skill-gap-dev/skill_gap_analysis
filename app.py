@@ -14,7 +14,7 @@ except ImportError:  # pragma: no cover - handled at runtime in UI
 
 from core.api_client import load_or_fetch_jobs
 from core.skills_extraction import clean_html, extract_skills, extract_custom_skills, skills_list, detect_seniority, get_best_apply_link
-from core.analysis import compute_skill_gap, cluster_jobs, interpret_clusters
+from core.analysis import compute_skill_gap, cluster_jobs, interpret_clusters, cluster_skills_dynamic
 from core.graph_analysis import (
     build_skill_cooccurrence_graph,
     compute_centralities,
@@ -564,6 +564,10 @@ if st.sidebar.button("Search Jobs", type="primary", use_container_width=True):
         for skills in df["skills_detected"]:
             all_skills_flat.extend(skills if isinstance(skills, list) else [])
         
+        # Dynamic skill clustering using embeddings
+        unique_skills = sorted(list(set(all_skills_flat)))
+        skill_clusters = cluster_skills_dynamic(unique_skills, max_clusters=8)
+        
         # Ensure all skills have a level (default to "Expert" if not set)
         complete_skill_levels = {}
         for skill in all_user_skills:
@@ -583,6 +587,7 @@ if st.sidebar.button("Search Jobs", type="primary", use_container_width=True):
         st.session_state.skill_levels = complete_skill_levels
         st.session_state.missing = missing
         st.session_state.all_skills_flat = all_skills_flat
+        st.session_state.skill_clusters = skill_clusters
 
 # Check if we have data to display
 if 'df' in st.session_state and not st.session_state.df.empty:
@@ -591,6 +596,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
     skill_levels = st.session_state.skill_levels.copy() if st.session_state.skill_levels else {}
     missing = st.session_state.missing
     all_skills_flat = st.session_state.all_skills_flat
+    skill_clusters = st.session_state.get('skill_clusters', {})
     
     # Show skill levels UI even after searching (so users can adjust)
     if all_user_skills:
@@ -847,6 +853,68 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                 )
                 st.plotly_chart(fig_radar, use_container_width=True)
 
+            # Dynamic Skill Clusters
+            if 'skill_clusters' in st.session_state and st.session_state.skill_clusters:
+                st.subheader("Dynamic Skill Clusters")
+                st.caption("Skills grouped by semantic similarity using embeddings. Each cluster represents skills that are contextually related.")
+                
+                skill_clusters = st.session_state.skill_clusters
+                
+                # Group skills by cluster
+                cluster_groups = {}
+                for skill, cluster_id in skill_clusters.items():
+                    if cluster_id not in cluster_groups:
+                        cluster_groups[cluster_id] = []
+                    cluster_groups[cluster_id].append(skill)
+                
+                # Display clusters
+                num_clusters = len(cluster_groups)
+                cols = st.columns(min(3, num_clusters))
+                
+                for idx, (cluster_id, skills) in enumerate(sorted(cluster_groups.items())):
+                    with cols[idx % len(cols)]:
+                        st.markdown(f"""
+                        <div class="recommendation-card">
+                            <h4>Cluster {cluster_id}</h4>
+                            <p>{', '.join(skills[:8])}{'...' if len(skills) > 8 else ''}</p>
+                            <p><em>{len(skills)} skills</em></p>
+                        </div>
+                        """, unsafe_allow_html=True)
+                
+                # Create a visualization of skill clusters
+                if len(cluster_groups) > 1:
+                    cluster_data = []
+                    for cluster_id, skills in sorted(cluster_groups.items()):
+                        for skill in skills:
+                            skill_freq = Counter(all_skills_flat)
+                            cluster_data.append({
+                                "skill": skill,
+                                "cluster": f"Cluster {cluster_id}",
+                                "frequency": skill_freq.get(skill, 0),
+                                "you_have": "Yes" if skill in all_user_skills else "No"
+                            })
+                    
+                    cluster_df = pd.DataFrame(cluster_data)
+                    
+                    # Bar chart showing skills by cluster
+                    fig_clusters = px.bar(
+                        cluster_df,
+                        x="cluster",
+                        y="frequency",
+                        color="you_have",
+                        title="Skill Distribution by Cluster",
+                        labels={"frequency": "Total Frequency", "cluster": "Cluster"},
+                        color_discrete_map={"Yes": "#b8e994", "No": "#e74c3c"}
+                    )
+                    fig_clusters.update_layout(
+                        height=400,
+                        plot_bgcolor="rgba(0,0,0,0)",
+                        paper_bgcolor="rgba(0,0,0,0)",
+                        font=dict(color="#e0e0e0"),
+                        title_font=dict(color="#b8e994", size=18)
+                    )
+                    st.plotly_chart(fig_clusters, use_container_width=True)
+            
             # Missing skills
             st.subheader("Top Missing Skills")
             if missing:
@@ -955,7 +1023,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
         
         with col_page:
             page_input = st.number_input(
-                "Página",
+                "Page",
                 min_value=1,
                 max_value=total_pages,
                 value=st.session_state.job_matches_page,
@@ -1017,7 +1085,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
         """)
         
         # Add headers
-        headers = list(paginated_df.columns) + ["Aplicar"]
+        headers = list(paginated_df.columns) + ["Apply"]
         for header in headers:
             html_parts.append(f'<th style="padding: 12px; text-align: left; font-weight: 700; border-bottom: 2px solid #3a3a4e;">{header}</th>')
         
@@ -1037,7 +1105,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
             # Add Apply button - get from original display_df using the original index
             apply_link = display_df.loc[original_idx, "apply_link"] if "apply_link" in display_df.columns else None
             if pd.notna(apply_link) and apply_link:
-                button_html = f'<a href="{apply_link}" target="_blank" class="apply-button-link">Aplicar</a>'
+                button_html = f'<a href="{apply_link}" target="_blank" class="apply-button-link">Apply</a>'
             else:
                 button_html = '<span style="color: #a0a0a0;">N/A</span>'
             html_parts.append(f'<td style="padding: 12px;">{button_html}</td>')
@@ -1050,7 +1118,7 @@ if 'df' in st.session_state and not st.session_state.df.empty:
         
         # Show pagination info at bottom
         if total_pages > 1:
-            st.caption(f"Mostrando trabajos {start_idx + 1} a {end_idx} de {total_rows}")
+            st.caption(f"Showing jobs {start_idx + 1} to {end_idx} of {total_rows}")
         
         # Clustering analysis
         if "cluster" in df.columns and df["cluster"].nunique() > 1:
