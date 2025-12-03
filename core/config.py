@@ -6,7 +6,7 @@ DATA_DIR.mkdir(exist_ok=True)
 
 TAXONOMY_PATH = DATA_DIR / "taxonomy_skills.csv"
 
-MAX_NUM_PAGES = 1  # evitar gastar cuota
+MAX_NUM_PAGES = 3  # evitar gastar cuota
 
 VALID_DATE_POSTED = {"all", "today", "3days", "week", "month"}
 VALID_EMPLOYMENT_TYPES = {"FULLTIME", "PARTTIME", "CONTRACTOR", "INTERN"}

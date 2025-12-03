@@ -95,6 +95,40 @@ def extract_skills(description):
     return sorted(list(found_skills))
 
 
+def extract_custom_skills(description, custom_skills):
+    """
+    Extract custom skills from job description using text matching.
+    
+    Args:
+        description: Job description text
+        custom_skills: List of custom skill names to search for
+    
+    Returns:
+        List of custom skills found in the description
+    """
+    if not custom_skills or not description:
+        return []
+    
+    description_lower = description.lower()
+    found_custom_skills = []
+    
+    for skill in custom_skills:
+        if not skill or not skill.strip():
+            continue
+        
+        # Normalize the skill name for matching
+        skill_normalized = normalize_token(skill)
+        skill_lower = skill.lower()
+        
+        # Check if skill appears in description (case-insensitive)
+        # Use word boundaries to avoid partial matches
+        # For example, "Python" should match "Python" but not "Pythonic"
+        pattern = r'\b' + re.escape(skill_lower) + r'\b'
+        if re.search(pattern, description_lower):
+            found_custom_skills.append(skill)
+    
+    return found_custom_skills
+
 def detect_seniority(job_title, job_description=""):
     """
     Detect seniority level from job title and description.
@@ -116,14 +150,15 @@ def detect_seniority(job_title, job_description=""):
     ]
     
     senior_keywords = [
-        "senior", "sénior", "sr.", "sr ", "lead", "líder", "principal",
-        "staff", "expert", "architect", "director", "head of",
-        "manager", "managing", "chief"
+        "senior", "sénior", "sr.", "sr ", "principal",
+        "staff", "director", "head of",
+        "manager", "managing", "chief", "4+ years", "5+ years",
+        "6+ years", "7+ years", "8+ years", "9+ years", "10+ years"
     ]
     
     mid_keywords = [
         "mid", "mid-level", "mid level", "intermediate", "medio",
-        "experienced", "2+ years", "3+ years", "4+ years"
+        "experienced", "2+ years", "3+ years", "1-2 years", "2-3 years"
     ]
     
     # Count matches
@@ -131,13 +166,13 @@ def detect_seniority(job_title, job_description=""):
     senior_count = sum(1 for keyword in senior_keywords if keyword in text)
     mid_count = sum(1 for keyword in mid_keywords if keyword in text)
     
-    # Determine level (priority: senior > mid > junior)
-    if senior_count > 0:
-        return "senior"
-    elif mid_count > 0:
+    # Determine level (priority: mid > junior > senior)
+    if mid_count > 0:
         return "mid"
     elif junior_count > 0:
         return "junior"
+    elif senior_count > 0:
+        return "senior"
     else:
         return "unknown"
 

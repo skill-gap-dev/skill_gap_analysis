@@ -13,7 +13,7 @@ except ImportError:  # pragma: no cover - handled at runtime in UI
     PyPDF2 = None
 
 from core.api_client import load_or_fetch_jobs
-from core.skills_extraction import clean_html, extract_skills, skills_list, detect_seniority, get_best_apply_link
+from core.skills_extraction import clean_html, extract_skills, extract_custom_skills, skills_list, detect_seniority, get_best_apply_link
 from core.analysis import compute_skill_gap, cluster_jobs, interpret_clusters
 from core.graph_analysis import (
     build_skill_cooccurrence_graph,
@@ -436,6 +436,9 @@ if all_user_skills and 'df' not in st.session_state:
     skill_levels = render_skill_levels_ui(all_user_skills, skill_levels, key_suffix="_pre")
 
 if st.sidebar.button("Search Jobs", type="primary", use_container_width=True):
+    # Reset pagination when starting a new search
+    st.session_state.job_matches_page = 1
+    
     # Basic validation to avoid confusing empty searches
     if not role.strip():
         st.warning("Please enter at least a role before searching for jobs.")
@@ -480,6 +483,14 @@ if st.sidebar.button("Search Jobs", type="primary", use_container_width=True):
         for job in job_results:
             desc = clean_html(job.get("job_description", ""))
             skills = extract_skills(desc)
+            
+            # Also search for custom skills in the description
+            if custom_skills:
+                found_custom_skills = extract_custom_skills(desc, custom_skills)
+                skills.extend(found_custom_skills)
+                # Remove duplicates while preserving order
+                skills = list(dict.fromkeys(skills))
+            
             title = job.get("job_title", "")
             seniority = detect_seniority(title, desc)
             apply_link = get_best_apply_link(job)
@@ -879,11 +890,27 @@ if 'df' in st.session_state and not st.session_state.df.empty:
     with tab3:
         st.header("Job Matches")
         
-        # Format skills_detected for display
+        # Initialize pagination state
+        if 'job_matches_page' not in st.session_state:
+            st.session_state.job_matches_page = 1
+        
+        # Format skills_detected for display (truncate if too long for better performance with 100+ jobs)
         display_df = df.copy()
-        display_df["skills_detected"] = display_df["skills_detected"].apply(
-            lambda x: ", ".join(x) if isinstance(x, list) else str(x)
-        )
+        
+        def format_skills_list(skills, max_length=150):
+            """Format skills list, truncating if too long"""
+            if isinstance(skills, list):
+                skills_str = ", ".join(skills)
+            else:
+                skills_str = str(skills)
+            
+            if len(skills_str) > max_length:
+                # Truncate and add ellipsis
+                truncated = skills_str[:max_length].rsplit(',', 1)[0] + "..."
+                return truncated
+            return skills_str
+        
+        display_df["skills_detected"] = display_df["skills_detected"].apply(format_skills_list)
         display_df["match_ratio"] = display_df["match_ratio"].apply(lambda x: f"{x:.1%}")
         
         # Select relevant columns for display (excluding apply_link, will add as button)
@@ -898,7 +925,53 @@ if 'df' in st.session_state and not st.session_state.df.empty:
         # Format weighted_match_ratio for display
         if "weighted_match_ratio" in display_df_display.columns:
             display_df_display["weighted_match_ratio"] = display_df_display["weighted_match_ratio"].apply(lambda x: f"{x:.1%}")
-            display_df_display = display_df_display.rename(columns={"weighted_match_ratio": "weighted_match"})
+        
+        # Column name mapping to English (more descriptive)
+        column_mapping = {
+            "title": "Job Title",
+            "company": "Company",
+            "city": "City",
+            "seniority": "Seniority",
+            "match_ratio": "Match Ratio",
+            "weighted_match_ratio": "Weighted Match Ratio",
+            "n_skills_user_has": "Skills You Have",
+            "n_skills_job": "Skills Required",
+            "skills_detected": "Skills Detected"
+        }
+        
+        # Rename columns
+        display_df_display = display_df_display.rename(columns=column_mapping)
+        
+        # Pagination settings
+        rows_per_page = 10
+        total_rows = len(display_df_display)
+        total_pages = max(1, (total_rows + rows_per_page - 1) // rows_per_page)
+        
+        # Display pagination info and controls
+        col_info, col_page = st.columns([2, 2])
+        
+        with col_info:
+            st.caption(f"Showing {total_rows} jobs in total")
+        
+        with col_page:
+            page_input = st.number_input(
+                "Página",
+                min_value=1,
+                max_value=total_pages,
+                value=st.session_state.job_matches_page,
+                key="page_input_job_matches",
+                label_visibility="collapsed"
+            )
+            if page_input != st.session_state.job_matches_page:
+                st.session_state.job_matches_page = page_input
+                st.rerun()
+            st.caption(f"Page {st.session_state.job_matches_page} of {total_pages}")
+        
+        # Calculate pagination slice
+        start_idx = (st.session_state.job_matches_page - 1) * rows_per_page
+        end_idx = min(start_idx + rows_per_page, total_rows)
+        paginated_df = display_df_display.iloc[start_idx:end_idx]
+        paginated_original_df = display_df.iloc[start_idx:end_idx]
         
         # Add CSS for button styling
         st.markdown("""
@@ -923,6 +996,14 @@ if 'df' in st.session_state and not st.session_state.df.empty:
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(184, 233, 148, 0.4);
         }
+        .job-table {
+            font-size: 0.9rem;
+        }
+        .job-table td {
+            max-width: 200px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
         </style>
         """, unsafe_allow_html=True)
         
@@ -930,29 +1011,33 @@ if 'df' in st.session_state and not st.session_state.df.empty:
         html_parts = []
         html_parts.append("""
         <div style="overflow-x: auto;">
-        <table style="width: 100%; border-collapse: collapse; background-color: #2a2a3e; color: #ffffff; margin: 1rem 0;">
+        <table class="job-table" style="width: 100%; border-collapse: collapse; background-color: #2a2a3e; color: #ffffff; margin: 1rem 0;">
         <thead>
             <tr style="background-color: #1a1a2e; color: #b8e994;">
         """)
         
         # Add headers
-        headers = list(display_df_display.columns) + ["Apply"]
+        headers = list(paginated_df.columns) + ["Aplicar"]
         for header in headers:
             html_parts.append(f'<th style="padding: 12px; text-align: left; font-weight: 700; border-bottom: 2px solid #3a3a4e;">{header}</th>')
         
         html_parts.append("</tr></thead><tbody>")
         
         # Add rows
-        for idx, row in display_df_display.iterrows():
+        for i, (display_idx, row) in enumerate(paginated_df.iterrows()):
+            # Get the original index from the original dataframe
+            original_idx = paginated_original_df.index[i]
             html_parts.append('<tr style="border-bottom: 1px solid #3a3a4e;">')
-            for col in display_df_display.columns:
+            for col in paginated_df.columns:
                 value = str(row[col]) if pd.notna(row[col]) else ""
+                # Escape HTML to prevent XSS
+                value = value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
                 html_parts.append(f'<td style="padding: 12px;">{value}</td>')
             
-            # Add Apply button
-            apply_link = display_df.loc[idx, "apply_link"] if "apply_link" in display_df.columns else None
+            # Add Apply button - get from original display_df using the original index
+            apply_link = display_df.loc[original_idx, "apply_link"] if "apply_link" in display_df.columns else None
             if pd.notna(apply_link) and apply_link:
-                button_html = f'<a href="{apply_link}" target="_blank" class="apply-button-link">Apply</a>'
+                button_html = f'<a href="{apply_link}" target="_blank" class="apply-button-link">Aplicar</a>'
             else:
                 button_html = '<span style="color: #a0a0a0;">N/A</span>'
             html_parts.append(f'<td style="padding: 12px;">{button_html}</td>')
@@ -962,6 +1047,10 @@ if 'df' in st.session_state and not st.session_state.df.empty:
         
         # Render the table
         st.markdown("".join(html_parts), unsafe_allow_html=True)
+        
+        # Show pagination info at bottom
+        if total_pages > 1:
+            st.caption(f"Mostrando trabajos {start_idx + 1} a {end_idx} de {total_rows}")
         
         # Clustering analysis
         if "cluster" in df.columns and df["cluster"].nunique() > 1:
