@@ -1,0 +1,578 @@
+{
+  "status": "OK",
+  "request_id": "bf0d2aea-4c3b-4e0e-bbc0-67198f1d10db",
+  "parameters": {
+    "query": "data scientist jobs in Granada",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "all",
+    "employment_types": [
+      "FULLTIME",
+      "PARTTIME"
+    ],
+    "radius": 20,
+    "country": "es",
+    "language": "es"
+  },
+  "data": [
+    {
+      "job_id": "rJppp-Zi0xHpsNBOAAAAAA==",
+      "job_title": "Data Scientist Python",
+      "employer_name": "Full On Net",
+      "employer_logo": null,
+      "employer_website": "https://full-on-net.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/8161080992950386688?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/8161080992950386688?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "JobMESH",
+          "apply_link": "https://jobmesh.es/job/fb060a5e-39f4-452d-93ec-5fbc2a6d3908?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Tienes experiencia como Data Scientis - GenAI & ML Expert ? ¡Sigue leyendo!\n\nDesde RR.HH. de Full On Net, buscamos Data Scientist con experiencia en AI para formar parte de un equipo multidisciplinar en uno de nuestros proyectos internacionales con AICO .\n\nProgramación y Desarrollo\n\nDominio de Python : Dominio avanzado de bibliotecas de aprendizaje automático como scikit-learn , pandas , numpy y matplotlib\n\nFrameworks de LLM : Amplia experiencia con LangChain , LlamaIndex y Transformers de Hugging Face\n\nIntegración de APIs : Experiencia práctica con las principales APIs de modelos de lenguaje (OpenAI, Anthropic, Google, Azure OpenAI)\n\nTecnologías de Bases de Datos : Bases de datos vectoriales, bases de datos tradicionales e integración con almacenes de datos\n\nEspecialización en Aprendizaje Automático e Inteligencia Artificial\n\nAprendizaje Profundo : Conocimiento avanzado de arquitecturas transformer y mecanismos de atención\n\nExperiencia en PLN : Sólida formación en procesamiento de lenguaje natural y comprensión de documentos\n\nImplementación de RAG : Diseño y optimización de sistemas de generación aumentada por recuperación ( Retrieval-Augmented Generation )\n\nAjuste Fino de Modelos : Experiencia en adaptación de modelos a dominios específicos y técnicas de ajuste fino\n\nInfraestructura y Nube\n\nPlataformas en la Nube : Dominio de AWS con enfoque en servicios de IA/ML\n\nContenerización : Uso de Docker y Kubernetes para el despliegue de modelos de aprendizaje automático\n\nHerramientas de MLOps : Experiencia con MLflow, Weights & Biases u otras herramientas de seguimiento de experimentos\n\nIntegración DevOps : Implementación de pipelines CI/CD para flujos de trabajo de aprendizaje automático\n\nDominio avanzado de la comunicación escrita y verbal en inglés ( requisito indispensable )\n\n¿Qué ofrecemos?\n\nBanda salarial acorde puesto y experiencia\n\nContrato indefinido\n\nHorario flexible\n\nTeletrabajo Full time\n\nRetribución flexible\n\nClases de ingles\n\nPlataforma de formación\n\n¿Te sigue interesando? ¡Pues inscríbete!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DrJppp-Zi0xHpsNBOAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "ZR_DAQ021FLvyidoAAAAAA==",
+      "job_title": "Data Scientist - Remoto",
+      "employer_name": "PSS Tecnologías de la Información",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/435305365777678336?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/435305365777678336?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/job/azure-data-scientist-remoto-granada-full-on-net-1739-8294707/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-andalucia-granada-azure-data-scientist-remoto-full-on-net-hiring?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Te gustaría impulsar tu carrera en el sector IT con un proyecto sólido y un equipo de profesionales excepcionales? Si valoras la estabilidad y el crecimiento profesional, este es el momento de incorporarte a un entorno donde el talento evoluciona de forma constante. En PSS queremos contar contigo.\n\nActualmente nos encontramos en busqueda de un perfil senior Data Scientist, con experiencia en el desarrollo de soluciones sobre AWS, especialmente con servicios de inteligencia artificial\n\nResponsabilidades principales:\n• Diseñar, desarrollar e implementar aplicaciones agénticas basadas en AWS Bedrock.\n• Construir y mantener microservicios escalables y seguros dentro de arquitecturas distribuidas.\n• Implementar flujos de trabajo agentic utilizando LangChain, LangGraph u otros frameworks similares.\n• Aplicar ingeniería de prompts para optimizar el rendimiento y la precisión de modelos LLM.\n• Colaborar con equipos de MLOps y DataOps para integrar soluciones de IA en entornos productivos.\n• Diseñar y mantener pipelines para orquestación de agentes y gestión del conocimiento contextual.\n\n¿Que te ofrecemos?\n\n-Contrato indefinido que te aporta estabilidad laboral.\n- Salario competitivo acorde a tu experiencia.\n- Modelo de trabajo: 100% teletrabajo\n- Proyecto sólido y de larga duración.\n- Plan de carrera y formación continua para impulsar tu crecimiento.\n- Retribución flexible con ventajas fiscales (seguro médico privado, tickets restaurante, guardería, transporte…).\n- Programa de referidos con incentivos para que traigas a tu talento favorito.\n- Acceso exclusivo a nuestro portal de descuentos en tecnología, viajes, moda y más.\n\nEn PSS apostamos por la igualdad de oportunidades y la diversidad.\nTodas nuestras vacantes están abiertas a personas con certificado de discapacidad igual o superior al 33%, siempre que sea compatible con el puesto. Fomentamos un entorno laboral inclusivo y libre de discriminación.\n\n#PSSionForPeople",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DZR_DAQ021FLvyidoAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "48Tnt_8Bx16qnwhMAAAAAA==",
+      "job_title": "Data Scientist (AI / GenAI / Agentic AI) **Granada - Granada, Granada, Andalucía, España",
+      "employer_name": "Grupo Digital",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6251b4HB1dMtcY1Y6jDGk4Dv5Ta-TpRK4Qewx&s=0",
+      "employer_website": "https://grupodigital.eu",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.linkedin.com/jobs/view/data-scientist-ai-genai-agentic-ai-granada-granada-granada-andaluc%C3%ADa-espa%C3%B1a-at-grupo-digital-4315276309?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-scientist-ai-genai-agentic-ai-granada-granada-granada-andaluc%C3%ADa-espa%C3%B1a-at-grupo-digital-4315276309?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/3277604358790840320?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Trabajas.es - Ofertas De Trabajo",
+          "apply_link": "https://www.trabajas.es/oferta/data-scientist-ai-genai-agentic-ai-granada-granada-granada-andalucia-espana-c701d231a3bc21f/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Talent.com",
+          "apply_link": "https://es.talent.com/view?id=45aeee751444&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://granada.es.expertini.com/job/data-scientist-ai-genai-agentic-ai-granada-granada-granada-andalucia-espana-granada-grupo-digital-36-10100857/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "- FlexMote",
+          "apply_link": "https://www.flexmote.es/job/data-scientist-ai-genai-agentic-ai-granada-granada/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Description\n• Data Scientist (AI / GenAI / Agentic AI)\n• Join a leading innovation hub in Artificial Intelligence, Generative AI, and Agentic AI.\n• Work on high-impact projects that shape the future of technology across our organization.Condiciones\n\nProject Description\n• We are the central think tank and center of excellence for all areas of our technology unit with Data Science, AI and GenAI in terms of knowledge, projects and providing enablers.\n• We have an overarching program with multiple sub-projects that span the whole lifecycle from Plan via Build to Run and operate processes, tools and projects.\n\nWhat You'll Do\n• Participate in top-level AI and GenAI innovation projects with real corporate impact.\n• Develop and productionize reusable AI “enablers” to streamline future initiatives.\n• Implement end-to-end AI solutions, from modeling to deployment in production.\n• Collaborate with international teams in a highly dynamic and technical environment.\n\nQualifications\n\nMust have skills:\n• Python\n• Cloud experience\n• Experience with Data Science / AI project in corporate environment unless 2 years in that role\n• Deep experience in one of the following: (Agentic AI, computer vision, predictive AI)\n• Very good command in English\n• Very good communication and collaboration skills\n• Experience in implementing AI projects, ideally End-to-End productive systems\n\nNice To Have Skills\n• Experience in the Telecom sector.\n• German language proficiency\n\nWhat do we offer you?\n• International, positive, dynamic and motivated work environment.\n• Hybrid work model (telecommuting/on-site).\n• Flexible schedule.\n• Continuous training: Certification preparation, access to Coursera, weekly English and German classes...\n• Flexible compensation plan: medical insurance, restaurant tickets, day care, transportation allowances...\n• Life and accident insurance.\n• More than 26 working days of vacation per year.\n• Social fund.\n• Free service in specialists (doctors, physiotherapists, nutritionists, psychologists, lawyers...).\n• 100% of salary in case of medical leave.\n\nen cuanto a nosotros ... Grupo Digital\n\nSomos un equipo de más de 150 profesionales tecnológicos, en el que encontraras proyectos estables, en los principales clientes nacionales e internacionales, desarrollando soluciones de desarrollo aplicaciones, arquitectura de sistemas, Inteligencia Artificial, Cloud, Ciberseguridad, Big Data etc..\n\namplia informacion en nuestra web www.grupodigital.eu\n\nMinimum Requirements\n\n#Data Scientist\n\n#AI\n\n#GenAI\n\n#Agentic AI",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D48Tnt_8Bx16qnwhMAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "9S_iL-EmoC62hCrGAAAAAA==",
+      "job_title": "Data Scientist (AI / GenAI / Agentic AI) **Granada",
+      "employer_name": "Grupo Digital",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSApKyqmA7SQP5Tg6dAFkHvN8p22OEPHp92nGbQ&s=0",
+      "employer_website": "https://grupodigital.eu",
+      "job_publisher": "Indeed",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.indeed.com/viewjob?jk=22766b87fbf94504&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=22766b87fbf94504&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Grupo Digital",
+          "apply_link": "https://ofertasempleo.grupodigital.eu/jobs/data-scientist-ai-genai-agentic-ai-granada?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/Dq1Uu4GIRxIilFU32m-qWoHolpW2PGxh8aufZ5g1WZeyQ2r1mKw2bA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.es/job-listing/data-scientist-ai-genai-agentic-ai-granada-grupo-digital-JV_IC2614045_KO0,42_KE43,56.htm?jl=1009909468394&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.com/job-listing/data-scientist-ai-genai-agentic-ai-granada-grupo-digital-JV_IC2614045_KO0,42_KE43,56.htm?jl=1009909468394&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/9027766274721054720?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Iberempleos",
+          "apply_link": "https://www.iberempleos.es/oferta-empleo/granada/data-scientist-ai-genai-agentic-ai-granada-7758529?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Descripción:\n\nData Scientist (AI / GenAI / Agentic AI)\n\nJoin a leading innovation hub in Artificial Intelligence, Generative AI, and Agentic AI.\n\nWork on high-impact projects that shape the future of technology across our organization.Condiciones\n\nProject Description:\n\nWe are the central think tank and center of excellence for all areas of our technology unit with Data Science, AI and GenAI\n\nin terms of knowledge, projects and providing enablers.\n\nWe have an overarching program with multiple sub-projects that span the whole lifecycle from Plan via Build to Run and operate processes, tools and projects.\n\nWhat you’ll do\n• Participate in top-level AI and GenAI innovation projects with real corporate impact.\n• Develop and productionize reusable AI “enablers” to streamline future initiatives.\n• Implement end-to-end AI solutions, from modeling to deployment in production.\n• Collaborate with international teams in a highly dynamic and technical environment.\n\nQualifications\n\nMust have skills:\n• Python\n• Cloud experience\n• Experience with Data Science / AI project in corporate environment unless 2 years in that role\n• Deep experience in one of the following: (Agentic AI, computer vision, predictive AI)\n• Very good command in English\n• Very good communication and collaboration skills\n• Experience in implementing AI projects, ideally End-to-End productive systems\n\nNice to have skills:\n• Experience in the Telecom sector.\n• German language proficiency\n\nWhat do we offer you?\n• International, positive, dynamic and motivated work environment.\n• Hybrid work model (telecommuting/on-site).\n• Flexible schedule.\n• Continuous training: Certification preparation, access to Coursera, weekly English and German classes...\n• Flexible compensation plan: medical insurance, restaurant tickets, day care, transportation allowances...\n• Life and accident insurance.\n• More than 26 working days of vacation per year.\n• Social fund.\n• Free service in specialists (doctors, physiotherapists, nutritionists, psychologists, lawyers...).\n• 100% of salary in case of medical leave.\n\nen cuanto a nosotros ... Grupo Digital\n\nSomos un equipo de más de 150 profesionales tecnológicos, en el que encontraras proyectos estables, en los principales clientes nacionales e internacionales, desarrollando soluciones de desarrollo aplicaciones, arquitectura de sistemas, Inteligencia Artificial, Cloud, Ciberseguridad, Big Data etc..\n\namplia informacion en nuestra web www.grupodigital.eu\n\nRequisitos:\n\n#Data Scientist\n\n#AI\n\n#GenAI\n\n#Agentic AI",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D9S_iL-EmoC62hCrGAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "bgXlFpiWe6AVx5lHAAAAAA==",
+      "job_title": "Data Scientist - Genai & Ml Expert",
+      "employer_name": "Full On Net",
+      "employer_logo": null,
+      "employer_website": "https://full-on-net.com",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/203dd6ff9e257e123665b2781607a141?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/203dd6ff9e257e123665b2781607a141?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/7960599925392146432?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://granada.es.expertini.com/job/data-scientist-genai-ml-expert-granada-full-on-net-4186-13864973/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-andalusia-granada-data-scientist-genai-ml-expert-full-on-net-hiring?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Tienes experiencia como Data Scientis - GenAI & ML Expert ? ¡Sigue leyendo!\n\nDesde RR.HH. de Full On Net, buscamos Data Scientist con experiencia en AI para formar parte de un equipo multidisciplinar en uno de nuestros proyectos internacionales con AICO .\n\nProgramación y Desarrollo\n• Dominio de Python : Dominio avanzado de bibliotecas de aprendizaje automático como scikit-learn, pandas, numpy y matplotlib\n• Frameworks de LLM : Amplia experiencia con LangChain, LlamaIndex y Transformers de Hugging Face\n• Integración de APIs : Experiencia práctica con las principales APIs de modelos de lenguaje (OpenAI, Anthropic, Google, Azure OpenAI)\n• Tecnologías de Bases de Datos : Bases de datos vectoriales, bases de datos tradicionales e integración con almacenes de datos\n\nEspecialización en Aprendizaje Automático e Inteligencia Artificial\n• Aprendizaje Profundo : Conocimiento avanzado de arquitecturas transformer y mecanismos de atención\n• Experiencia en PLN : Sólida formación en procesamiento de lenguaje natural y comprensión de documentos\n• Implementación de RAG : Diseño y optimización de sistemas de generación aumentada por recuperación (Retrieval-Augmented Generation)\n• Ajuste Fino de Modelos : Experiencia en adaptación de modelos a dominios específicos y técnicas de ajuste fino\n\nInfraestructura y Nube\n• Plataformas en la Nube : Dominio de AWS con enfoque en servicios de IA/ML\n• Contenerización : Uso de Docker y Kubernetes para el despliegue de modelos de aprendizaje automático\n• Herramientas de MLOps : Experiencia con MLflow, Weights & Biases u otras herramientas de seguimiento de experimentos\n• Integración DevOps : Implementación de pipelines CI/CD para flujos de trabajo de aprendizaje automático\n\nDominio avanzado de la comunicación escrita y verbal en inglés (requisito indispensable )\n\n¿Qué ofrecemos?\n• Banda salarial acorde puesto y experiencia\n• Contrato indefinido\n• Horario flexible\n• Teletrabajo Full time\n• Retribución flexible\n• Clases de ingles\n• Plataforma de formación\n\n¿Te sigue interesando? ¡Pues inscríbete!",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DbgXlFpiWe6AVx5lHAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "P1sh9kC_za-e679iAAAAAA==",
+      "job_title": "Data scientist (marketing)",
+      "employer_name": "Intelequia",
+      "employer_logo": null,
+      "employer_website": "https://intelequia.com",
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/3612634485306163200?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/3612634485306163200?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Quieres un desafío profesional en una consultora IT de primer nivel? ¡Esta es tu oportunidad! En Intelequia, nos encontramos en búsqueda de talento innovador y apasionado por las tecnologías de vanguardia para unirse a nuestro equipo.\nCon más de 15 años de experiencia en el sector y reconocidos como una de las mejores empresas de tecnología para trabajar en España, según Great Place To Work, estamos especializados en servicios TIC en la nube, operando a nivel nacional e internacional y abarcando áreas como Ciberseguridad, Data e Inteligencia Artificial, Desarrollo de Aplicaciones Empresariales e Infraestructura Cloud.\nNuestra misión es acompañar a nuestros clientes en cada etapa de sus proyectos de IT, liderando sus iniciativas y ofreciendo soluciones innovadoras, inteligentes y seguras que impulsen su crecimiento y eficiencia en un entorno tecnológico cada vez más competitivo.\nSi estás dispuesto a asumir nuevos retos y formar parte de un equipo comprometido con la excelencia, ¡queremos conocerte!\n¿Un/a Data Scientist, con al menos 5 años de experiencia en el sector.\nRealizar análisis exploratorios de datos para comprender patrones y tendencias.\nConstruir y entrenar modelos de machine learning para resolver problemas de negocio y predecir resultados.\nImplementar los modelos de machine learning en sistemas de producción.\nInterpretar y comunicar los resultados del análisis de datos a stakeholders tanto técnicos como no técnicos.\nMantenerse actualizado sobre las últimas técnicas y herramientas en ciencia de datos.\nPython o R.\nBibliotecas de machine learning: TensorFlow, PyTorch, Scikit-Learn.\nEstadística avanzada y técnicas de machine learning.\nAnálisis exploratorio de datos y creación de modelos.\nFormación en Ingeniería Técnica, Informática o similares.\nValorable máster en análisis de datos o áreas relacionadas.\nSólidos conocimientos en estadística y técnicas de machine learning.\nExperiencia práctica con bibliotecas y herramientas de ML.\nCapacidad para trabajar en equipo e individualmente, con atención al detalle y habilidades para resolver problemas.\nPorque en Intelequia creemos firmemente que el bienestar de nuestro equipo influye directamente en el trabajo realizado, para ello TE OFRECEMOS:\n~ Incorporarte a un proyecto ilusionante y motivador, que despertará la pasión que hay en ti.\n~ Plan de desarrollo profesional para potenciar tu perfil (certificaciones Microsoft, formaciones en idiomas y competencias profesionales, etc.)\n~ Modelo de trabajo híbrido (sólo 2 días de trabajo al mes en nuestras oficinas, ya sea en Tenerife o Gran Canaria, todo lo demás será en remoto).\n~ Jornada Intelequia- Nuestra jornada laboral completa es de 38 horas/semana.\n~25 días hábiles de vacaciones al año.\n~ Tarde de cumpleaños libre.\n~",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DP1sh9kC_za-e679iAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "oQ5f60NRVutaUK8EAAAAAA==",
+      "job_title": "Data Scientist",
+      "employer_name": "Experian",
+      "employer_logo": null,
+      "employer_website": "https://www.experian.com",
+      "job_publisher": "Experian",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://jobs.experian.com/job/data-scientist-in-granada-spain-jid-3297?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Experian",
+          "apply_link": "https://jobs.experian.com/job/data-scientist-in-granada-spain-jid-3297?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Smart Recruiters Jobs",
+          "apply_link": "https://jobs.smartrecruiters.com/Experian/744000094356261-data-scientist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://es.indeed.com/viewjob?jk=592e45806050a079&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Built In",
+          "apply_link": "https://builtin.com/job/data-scientist-machine-learning/7766496?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.es/job/Qo2PcyZENJ7dew213myukyXbdZ3f9u8GgXHhYswd0FPlL-HqPf1V5g?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://es.linkedin.com/jobs/view/data-scientist-at-experian-4336849407?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://es.jooble.org/rjdp/799723639655801566?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/7cb83e49ceb0b6f15653939f40889530?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Join Experian Data Science team, where innovation meets real-world impact. We're looking for an experienced and motivated Data Scientist to develop and provide the latest analytical solutions that empower smarter decisions — especially in the financial services sector.\n\nYou will achieve agreed Recurring revenue and New Business targets by developing new and repeat business opportunities from our customers. You will be also responsible for developing relationships with clients and connecting with main business executives and team members to communicate our value proposition. You will report to the Head of Analytics in Spain\n\nYou'll have opportunity to:\n• Achieve a total revenue target and a new business target.\n• Identify important contacts within existing accounts; cross selling and upselling accordingly.\n• Demonstrate an understanding of Experian's proposition and be experience communicating product benefits appropriate for each prospect this in the context of client/s needs.\n• Develop account plan to support revenue goals\n• Validate account plan with client, build and implement contact strategy.\n\nAbout Experian\n\nReady to make a difference? Experian has evolved into a global tech company and specialized in data and analytics. We're passionate about unlocking the power of data to transform lives and create opportunities for consumers, businesses and society. We're a member of the FTSE 30 and for more than 125 years we've helped economies and communities flourish – and we're not done.\n\nDiscover the Unexpected - Our 22k amazing employees in 30+ countries believe the possibilities for you, and the world, are growing. We're investing in the future, through new technologies, experienced people and new ideas so we can help create a better tomorrow. To do this we employ 'big-thinkers' that share our purpose #uniquelyexperian\n\nExperience and Skills\n• 3+ years of experience in data science in credit risk, fraud analytics, or marketing analytics.\n• Background in machine learning, predictive modeling, and statistical analysis.\n• Strong proficiency in Python for data analysis, advanced analytics and automation\n• Knowledge of R, SQL is highly valued as an additional asset\n• knowledge of Power BI for creating interactive dashboards\n• Experience with cloud-based data platforms (e.g., Databricks, Cloudera, and Snowflake).\n• Proficiency in English (written and spoken).\n\nGood to have\n• Knowledge or hands-on experience with Generative AI concepts, including LLMs, RAG, prompt engineering, and information retrieval.\n• Familiarity with credit-related topics (e.g., issuing, monitoring, Bureau data) and regulatory analytics frameworks (“Basel”, IFRS 9).\n\nBenefits/Perks:\n• Great compensation package and bonus plan\n• Core benefits including Private Health Care and Experian wellness program\n• Flexible work environment, hybrid model of teleworking\n• Flexible time off including volunteer time off, personal leaves and paid holidays\n\nAdditional Information\n\nOur uniqueness is that we celebrate yours. Experian's culture and people are important differentiators. We take our people agenda very seriously and focus on what truly matters; DEI, work/life balance, development, authenticity, engagement, collaboration, wellness, reward and recognition, volunteering... the list goes on. Experian's people first approach is award-winning; Great Place To Work™ in 24 countries, FORTUNE Best Companies to work and Glassdoor Best Places to Work (globally 4.4 Stars) to name a few. Check out Experian Life on social or our Careers Site to understand why.\n\nExperian is proud to be an Equal Opportunity and Affirmative Action employer. Innovation is a critical part of Experian's DNA and practices, and our diverse workforce drives our success. Everyone can succeed at Experian and bring their whole self to work, irrespective of their gender, ethnicity, religion, colour, sexuality, physical ability or age. If you have a disability or special need that requires accommodation, please let us know at the earliest opportunity.\n\nExperian Careers - Creating a better tomorrow together\n\nFind out what its like to work for Experian by clicking here\n\nExperian Careers - Creating a better tomorrow together\n\nFind out what its like to work for Experian by clicking here",
+      "job_is_remote": false,
+      "job_posted_at": "hace 13 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3DoQ5f60NRVutaUK8EAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "r1OGwpDadvbGK2mkAAAAAA==",
+      "job_title": "Data Scientist – LLM Expert",
+      "employer_name": "3530 Kyndryl España, S.A.U.",
+      "employer_logo": null,
+      "employer_website": null,
+      "job_publisher": "JobLeads",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobleads.com/es/job/data-scientist-llm-expert--granada--e6bba8f5128c12c81a371f5229ff0ab5e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "JobLeads",
+          "apply_link": "https://www.jobleads.com/es/job/data-scientist-llm-expert--granada--e6bba8f5128c12c81a371f5229ff0ab5e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://es.bebee.com/job/1ccbb24e40e66b43578162af61961d01?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3144-1ff942e3212e8f5b76f8dcf7b0c9c0db?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Spain Jobs Expertini",
+          "apply_link": "https://es.expertini.com/jobs/job/data-scientist-llm-expert-granada-kyndryl-3931694901/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/es-andalusia-granada-data-scientist-llm-expert-3530-kyndryl-espa-a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Description\n\nAs an Associate Data Scientist at Kyndryl’s AI Innovation Hub, you’ll be part of a team that turns data into intelligent, high-impact solutions.\n\nYou’ll collaborate with senior data scientists, ML engineers, and AI architects to design, train, and validate predictive and machine learning models that tackle real business and operational challenges.\n\nYou’ll participate in every stage of the model lifecycle — from data exploration and feature engineering to modeling, evaluation, and documentation — helping transform raw data into actionable insights.\n\nThis is a hands‑on, learning‑focused role in which you’ll work with modern technologies, contribute to scalable AI solutions, and grow your expertise within an environment that values experimentation, rigor, and curiosity.\n\nIf you’re passionate about data, eager to learn from experienced professionals, and ready to contribute to cutting‑edge AI initiatives for leading global clients, this is your opportunity to build the foundation of your career in applied data science.\n\nYour Mission\n• Collaborate with senior scientists and engineers to develop and validate machine learning and predictive models.\n• Participate in the end‑to‑end model lifecycle— from data collection and preparation to training, evaluation, and documentation.\n• Contribute to feature engineering, exploratory analysis, and performance optimization of models.\n• Apply statistical and analytical techniques to extract meaningful patterns and insights from data.\n• Assist in model deployment and monitoring within MLOps environments and cloud platforms.\n• Document experiments and ensure transparency, reproducibility, and traceability of results.\n• Stay up to date with new algorithms, frameworks, and best practices in data science and applied AI.\n• Actively contribute to a collaborative, knowledge‑sharing culture within the Hub.\n\nWho You Are\n\nEssential Qualifications\n• 2–4 years of experience in data science, advanced analytics, or machine learning projects.\n• Practical experience building and validating models for classification, regression, or segmentation tasks.\n• Solid skills in Python and core data science libraries (Pandas, NumPy, Scikit‑learn, Matplotlib, XGBoost, LightGBM).\n• Familiarity with neural networks and deep learning frameworks (TensorFlow, PyTorch).\n• Strong understanding of data preprocessing, handling missing values, unbalanced datasets, and outlier detection.\n• Experience with model evaluation and validation (ROC, AUC, F1, RMSE, precision, recall, cross‑validation).\n• Basic knowledge of cloud AI platforms (Azure ML, Vertex AI, SageMaker, Databricks).\n• Awareness of model versioning and experiment tracking tools (MLflow, DVC).\n• Understanding of Responsible AI concepts — bias mitigation, transparency, and interpretability.\n\nEducation & Certifications\n\nBachelor’s degree in Computer Engineering, Mathematics, Statistics, Physics, Data Science, or related field.\n\nPostgraduate or Master’s degree in Artificial Intelligence, Machine Learning, or Data Analytics is valued.\n\nComplementary training or certifications in Machine Learning, Data Science, or MLOps are a plus.\n\nDemonstrated interest in continuous learning and professional growth in applied AI.\n\nPreferred Skills\n• Exposure to data pipelines, ETL processes, and data preparation workflows.\n• Familiarity with SQL / NoSQL databases and working with APIs for data access.\n• Experience supporting model integration and testing within production environments.\n• Curiosity for new algorithms, frameworks, and emerging tools in AI and MLOps.\n• Experience with data visualization and presentation of insights to cross‑functional teams.\n• Ability to collaborate effectively in agile, fast‑paced environments.\n\nSoft Skills\n• Analytical curiosity and a scientific mindset, eager to understand problems deeply and find evidence‑based solutions.\n• Clear and structured communication, both in technical documentation and team collaboration.\n• Logical and organized thinking, applying rigorous methodologies to problem‑solving.\n• Collaborative spirit, working proactively with technical and business profiles to deliver results.\n• Attention to detail and quality, ensuring reproducibility and reliability in models and analyses.\n• Continuous learning attitude, exploring new techniques, algorithms, and tools to strengthen the Hub’s capabilities.\n• Adaptability and growth orientation, thriving in a dynamic, innovation‑driven environment.\n\n#AgenticAI\n\nBeing You—Diversity is a whole lot more than what we look like or where we come from; it’s how we think and who we are. We welcome people of all cultures, backgrounds, and experiences. But we’re not doing it single‑handedly: Our Kyndryl Inclusion Networks are only one of many ways we create a workplace where all Kyndryls can find and provide support and advice. This dedication to welcoming everyone into our company means that Kyndryl gives you—and everyone next to you—the ability to bring your whole self to work, individually and collectively, and support the activation of our equitable culture. That’s the Kyndryl Way.\n\nWhat You Can Expect\n\nWith state‑of‑the‑art resources and Fortune 100 clients, every day is an opportunity to innovate, build new capabilities, new relationships, new processes, and new value. Kyndryl cares about your well‑being and prides itself on offering benefits that give you choice, reflect the diversity of our employees and support you and your family through the moments that matter—wherever you are in your life journey. Our employee learning programs give you access to the best learning in the industry to receive certifications, including Microsoft, Google, Amazon, Skillsoft, and many more. Through our company‑wide volunteering and giving platform, you can donate, start fundraisers, volunteer, and search over 2 million non‑profit organizations. At Kyndryl, we invest heavily in you, we want you to succeed so that together, we will all succeed.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 10 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3Dr1OGwpDadvbGK2mkAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "58_uZ2ifC6_D780fAAAAAA==",
+      "job_title": "Data Scientist - Data Science and Artificial Intelligence",
+      "employer_name": "Fujitsu",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZg-EF9k0YmnAPOv3OtAeEm69lW3jczpavecCq&s=0",
+      "employer_website": null,
+      "job_publisher": "Jobrapido.com",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://es.jobrapido.com/jobpreview/1492657319698235392?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://es.jobrapido.com/jobpreview/1492657319698235392?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Fujitsu es la compañía líder japonesa en tecnología digital, de la información y comunicaciones, y uno de los cinco principales proveedores de estos servicios en el mundo. Contamos con más de 50 años de experiencia en la entrega de soluciones tecnológicas a clientes de todo el globo y somos más de 140.000 expertos con el propósito de crear un mundo más sostenible a través de la innovación.\n\nuna empresa que reconoce los valores profesionales, la capacitación laboral y la pasión, independientemente de las diferentes capacidades de cada uno que, lejos de alejarnos, nos enriquecen..\n\n✔️¿Qué habilidades y experiencia requerimos de ti?\"\n\nExperiencia de al menos 2 años en perfiles similares.\n\nFormación en Ciencia de Datos, Ingeniería, Matemáticas o disciplinas afines .\n\nNivel de inglés B2 (imprescindible).\n\nExperiencia en Python, SQL y herramientas de análisis de datos.\n\nDesarrollar modelos de Machine Learning.\n\nExperiencia con plataformas cloud (Azure, AWS o GCP).\n\nExperiencia y/o conocimientos en inteligencia artificial y automatización.\n\nConocimientos en herramientas de visualización ( Power BI, Tableau ).\n\n✔️ ¿Contratación indefinida.\n\nAyuda de comida.\n\nPlan de Compensación Flexible (seguro médico, guardería, transporte, formación).\n\nCarrera profesional en una multinacional líder en su sector.\n\nAcceso a plataformas formativas.\n\n¡El estudio Spain 2022 de Whitelane Research y Quint, ha situado a Fujitsu España como líder en los indicadores de Ciberseguridad y Business Understanding.\n\nA nivel global, Fujitsu figura entre los diez principales proveedores de servicios TI (PAC/SITSI 2024).",
+      "job_is_remote": false,
+      "job_posted_at": "hace 3 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D58_uZ2ifC6_D780fAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "3xGZUlhqv_sdi2BXAAAAAA==",
+      "job_title": "Junior Data Scientist (Granada)",
+      "employer_name": "Innova-tsn",
+      "employer_logo": null,
+      "employer_website": "https://www.innova-tsn.com",
+      "job_publisher": "Jobijoba",
+      "job_employment_type": "A tiempo completo",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.jobijoba.es/oferta-empleo/69/40f7a47d40eab100e982b32c0f93e7f8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Jobijoba",
+          "apply_link": "https://www.jobijoba.es/oferta-empleo/69/40f7a47d40eab100e982b32c0f93e7f8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Trabajo.org",
+          "apply_link": "https://es.trabajo.org/oferta-3144-8ef41606c0fe30b8d4cf3f2f6fb3383b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://granada.es.expertini.com/job/junior-data-scientist-granada-whitebox-4186-11462998/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "¿Te apasiona la ciencia de datos y el desarrollo de soluciones analíticas?\n\n➥ Unirte a Innova, es formar parte de una empresa de consultoría líder a nivel nacional y en pleno desarrollo internacional. Si estás interesado en participar en proyectos innovadores de IA, Cloud Computing y Transformación Digital, creemos este es tu lugar.",
+      "job_is_remote": false,
+      "job_posted_at": "hace 6 días",
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Granada",
+      "job_city": "Granada",
+      "job_state": "Granada",
+      "job_country": "ES",
+      "job_latitude": 37.1824607,
+      "job_longitude": -3.6011675999999997,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=es&hl=es&udm=8#vhid=vt%3D20/docid%3D3xGZUlhqv_sdi2BXAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    }
+  ]
+}

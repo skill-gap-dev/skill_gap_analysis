@@ -1,0 +1,119 @@
+import pandas as pd
+from pathlib import Path
+
+# Ruta donde quieres guardarlo
+path = Path("data/taxonomy_skills.csv")
+path.parent.mkdir(exist_ok=True)   # crea /data si no existe
+
+# Contenido de la taxonomía (4 columnas)
+data = [
+    ("Python", "programming", "python|py|python3|python 3", "en"),
+    ("SQL", "programming", "sql|mysql|postgresql|postgres|sqlite", "en"),
+    ("R", "programming", "r|r language|r programming", "en"),
+    ("Pandas", "programming", "pandas|pd", "en"),
+    ("Numpy", "programming", "numpy|np", "en"),
+    ("JavaScript", "programming", "javascript|js|node.js|nodejs", "en"),
+    ("Java", "programming", "java|java 8|java 11", "en"),
+    ("Scala", "programming", "scala", "en"),
+    ("C++", "programming", "c++|cpp|c plus plus", "en"),
+    ("C#", "programming", "c#|csharp|dotnet|.net", "en"),
+    ("PHP", "programming", "php", "en"),
+    ("Ruby", "programming", "ruby|ruby on rails|rails", "en"),
+    ("Go", "programming", "go|golang", "en"),
+    ("Swift", "programming", "swift|ios development", "en"),
+    ("Kotlin", "programming", "kotlin|android development", "en"),
+
+    ("Excel", "analytics", "excel|microsoft excel|ms excel", "en"),
+    ("Power BI", "analytics", "power bi|powerbi|power-bi|microsoft power bi", "en"),
+    ("Tableau", "analytics", "tableau|tableau desktop|tableau prep", "en"),
+    ("Looker", "analytics", "looker|looker studio|google looker", "en"),
+    ("Qlik", "analytics", "qlik|qlikview|qlik sense", "en"),
+
+    ("Machine Learning", "ml", "machine learning|ml|aprendizaje automático|machine-learning", "en"),
+    ("Deep Learning", "ml", "deep learning|dl|redes neuronales|neural networks", "en"),
+    ("Statistics", "ml", "statistics|statistical analysis|estadística|estadísticas", "en"),
+    ("Data Mining", "ml", "data mining|minería de datos", "en"),
+    ("Natural Language Processing", "ml", "nlp|natural language processing|procesamiento de lenguaje natural", "en"),
+    ("Computer Vision", "ml", "computer vision|cv|visión por computador", "en"),
+
+    ("Git", "tools", "git|github|gitlab|version control", "en"),
+    ("Docker", "tools", "docker|docker containers|containers", "en"),
+    ("Kubernetes", "tools", "kubernetes|k8s", "en"),
+    ("Jira", "tools", "jira|atlassian jira", "en"),
+    ("Confluence", "tools", "confluence|atlassian confluence", "en"),
+
+    ("AWS", "cloud", "aws|amazon web services|amazon aws", "en"),
+    ("Azure", "cloud", "azure|microsoft azure|azure cloud", "en"),
+    ("GCP", "cloud", "gcp|google cloud|google cloud platform|gcp cloud", "en"),
+    ("Snowflake", "cloud", "snowflake|snowflake data warehouse", "en"),
+    ("Databricks", "cloud", "databricks", "en"),
+
+    ("Spark", "bigdata", "spark|apache spark|pyspark|spark sql", "en"),
+    ("Hadoop", "bigdata", "hadoop|apache hadoop|hdfs|mapreduce", "en"),
+    ("Kafka", "bigdata", "kafka|apache kafka", "en"),
+    ("Airflow", "bigdata", "airflow|apache airflow", "en"),
+
+    ("MongoDB", "database", "mongodb|mongo|nosql", "en"),
+    ("PostgreSQL", "database", "postgresql|postgres|pg", "en"),
+    ("MySQL", "database", "mysql", "en"),
+    ("Redis", "database", "redis|redis cache", "en"),
+    ("Elasticsearch", "database", "elasticsearch|elastic search|elk", "en"),
+
+    ("Communication", "soft", "communication|comunicación|comunicación efectiva|verbal communication|written communication", "en"),
+    ("Teamwork", "soft", "teamwork|trabajo en equipo|collaboration|colaboración|team player", "en"),
+    ("Problem Solving", "soft", "problem solving|resolución de problemas|analytical thinking|critical thinking", "en"),
+    ("Leadership", "soft", "leadership|liderazgo|team leadership|leading teams", "en"),
+    ("Project Management", "soft", "project management|gestión de proyectos|pm|agile|scrum|kanban", "en"),
+    ("Time Management", "soft", "time management|gestión del tiempo|organization|organización", "en"),
+    ("Adaptability", "soft", "adaptability|flexibility|flexibilidad|adaptación al cambio", "en"),
+    ("Creativity", "soft", "creativity|creatividad|innovative thinking|innovación", "en"),
+    ("Negotiation", "soft", "negotiation|negociación|negotiating skills", "en"),
+    ("Public Speaking", "soft", "public speaking|presentation skills|presentaciones|oratoria", "en"),
+    ("Customer Service", "soft", "customer service|atención al cliente|client relations|customer relations", "en"),
+    ("Sales", "soft", "sales|ventas|selling|business development", "en"),
+    ("Marketing", "soft", "marketing|digital marketing|marketing digital|branding", "en"),
+    ("Social Media", "soft", "social media|redes sociales|social media management", "en"),
+    ("Content Creation", "soft", "content creation|content writing|redacción|copywriting", "en"),
+    ("SEO", "soft", "seo|search engine optimization|posicionamiento web", "en"),
+    ("Email Marketing", "soft", "email marketing|email campaigns|campañas de email", "en"),
+
+    ("Adobe Photoshop", "design", "photoshop|adobe photoshop|ps", "en"),
+    ("Adobe Illustrator", "design", "illustrator|adobe illustrator", "en"),
+    ("Adobe InDesign", "design", "indesign|adobe indesign", "en"),
+    ("Figma", "design", "figma|ui design|ux design", "en"),
+    ("Sketch", "design", "sketch|ui/ux", "en"),
+    ("Canva", "design", "canva|graphic design", "en"),
+    ("Video Editing", "design", "video editing|video production|premiere|final cut", "en"),
+    ("Photography", "design", "photography|fotografía", "en"),
+
+    ("Accounting", "finance", "accounting|contabilidad|bookkeeping", "en"),
+    ("Financial Analysis", "finance", "financial analysis|análisis financiero|financial modeling", "en"),
+    ("Budgeting", "finance", "budgeting|presupuestos|budget management", "en"),
+    ("Tax Preparation", "finance", "tax preparation|preparación de impuestos|taxes", "en"),
+    ("QuickBooks", "finance", "quickbooks|accounting software", "en"),
+    ("SAP", "finance", "sap|erp|enterprise resource planning", "en"),
+
+    ("Training", "hr", "training|employee training|capacitación|development", "en"),
+    ("Compliance", "legal", "compliance|cumplimiento normativo|regulatory compliance", "en"),
+    ("Medical Knowledge", "healthcare", "medical knowledge|conocimiento médico|healthcare", "en"),
+
+    ("Spanish", "language", "spanish|español|castellano", "en"),
+    ("English", "language", "english|inglés", "en"),
+    ("French", "language", "french|francés", "en"),
+    ("German", "language", "german|alemán", "en"),
+    ("Portuguese", "language", "portuguese|portugués", "en"),
+    ("Chinese", "language", "chinese|chino|mandarin", "en"),
+    ("Italian", "language", "italian|italiano", "en"),
+    ("Russian", "language", "russian|ruso", "en"),
+    ("Japanese", "language", "japanese|japonés", "en"),
+
+    ("Forklift", "other", "forklift|carretilla elevadora|warehouse equipment", "en"),
+    ("Safety Training", "other", "safety training|seguridad laboral|osha", "en"),
+    ("Quality Control", "other", "quality control|control de calidad|qc|qa", "en"),
+    ("Inventory Management", "other", "inventory management|gestión de inventario|warehouse management", "en"),
+]
+
+df = pd.DataFrame(data, columns=["skill", "category", "synonyms", "language"])
+df.to_csv(path, index=False, encoding="utf-8")
+
+print("taxonomy_skills.csv creado en:", path)

@@ -199,7 +199,7 @@ def render_skills_analysis_tab(all_skills_flat, all_user_skills, skill_levels, m
                 search_url = f"https://www.google.com/search?q={skill_name.replace(' ', '+')}+course"
                 st.markdown(
                     f"- [{skill_name}]({search_url}) — "
-                    f"demand in jobs: **{count}**, priority: **{priority}**"
+                    f"demand in jobs: **{count}**"
                 )
             
             fig_missing = px.bar(
