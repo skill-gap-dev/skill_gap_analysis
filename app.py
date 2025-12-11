@@ -1485,8 +1485,8 @@ if 'df' in st.session_state and not st.session_state.df.empty:
                             )
                         if net:
                             try:
-                                net.save_graph("network.html")
-                                with open("network.html", "r", encoding="utf-8") as f:
+                                net.save_graph("data/temp_graph.html")
+                                with open("data/temp_graph.html", "r", encoding="utf-8") as f:
                                     html_content = f.read()
                                 st.components.v1.html(html_content, height=700)
                             except Exception as e:
