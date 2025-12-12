@@ -1,126 +1,188 @@
-# 🧠 Skill Gap Analysis  
-Web Analytics Project — Identifying Skill Gaps for Job Candidates
+# Skill Gap Analysis
+**Authors**: Carolina Lopez de la Madriz, Emma Rodriguez Hervas, Álvaro Martin Ruiz & Iker Rosales Saiz
+![SkillGapLogo](assets/skill_gap_logo.jpeg)
 
-## 📌 Overview  
-This project aims to identify the gap between a user's current skill set and the skills required for the job they are targeting.  
-We fetch job postings from external APIs, currently using **JSearch (OpenWebNinja)** as the main source (the initial prototype was based on **ADZUNA**).    
-A dashboard in **Looker Studio (Google Data Studio)** will visually present the missing skills and recommendations to help users prepare and become stronger candidates.
+A career-analytics platform that identifies the gap between a candidate’s current skill set and the requirements of their target roles.
+It retrieves job postings from external APIs (primary: **JSearch / OpenWebNinja**) and provides an interactive **Streamlit dashboard** for skill extraction, gap scoring, graph-based analytics, recommendations, reporting and **real job offers link**!.
 
-## Configuration
+![SkillGapWelcomeImage](assets/welcome_screen.jpeg)
 
-### 🔐 Environment Variables
+## Quickstart
 
-Create a `.env` file in the project root containing:
+1. **Install dependencies**
 
-```env
-# Main job search API (current prototype)
-API_KEY_JSEARCH=your_jsearch_api_key
-
-# Legacy Adzuna credentials (optional, kept for future experiments)
-APP_ID=your_app_id
-APP_KEY=your_app_key
-```
-
-Make sure the `.env` file is also listed in your `.gitignore`.
-
-Load the variables in your Python code with:
-
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-API_KEY_JSEARCH = os.getenv("API_KEY_JSEARCH")
-
-# Legacy (Adzuna) – not used in the current prototype, but kept for reference
-APP_ID = os.getenv("APP_ID")
-APP_KEY = os.getenv("APP_KEY")
-```
-### Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-> **Nota para Windows:** Si la instalación se queda bloqueada mucho tiempo, cancela y ejecuta: `pip install spacy --only-binary :all:` antes de reintentar.
 
-### Download the Language Model (Multi-language):
-It is necessary to download the NLP model separately to enable analysis in both English and Spanish.
+2. **Download the spaCy multilingual model**
+
 ```bash
 python -m spacy download xx_ent_wiki_sm
 ```
 
-## 🎯 Objectives  
-- Analyze user-provided skills and job preferences  
-- Extract relevant job descriptions using **external job APIs** (currently JSearch / OpenWebNinja)
-- Identify skill gaps between user abilities and target job requirements  
-- Provide recommendations for upskilling  
-- Present results in a clear, interactive dashboard
+3. **Create a `.env` file at the repository root**
 
-## 🛠️ Tools & Technologies  
-- **JSearch / OpenWebNinja** — Job data extraction  
-- **Python** — Data cleaning, structuring, and analysis  
-- **Streamlit** — Interactive dashboard  
-- **spaCy** — NLP for skill extraction  
-- **NetworkX** — Graph analysis and network science  
-- **Plotly** — Interactive visualizations  
-- **scikit-learn** — Clustering algorithms
+```env
+# Primary job search API
+API_KEY_JSEARCH=your_jsearch_api_key
+```
 
-## 🚀 Features
+4. **Launch the Streamlit dashboard**
 
-### Core Functionality
-- **Job Search**: Fetch job postings from JSearch API with caching
-- **Skill Extraction**: NLP-based extraction using spaCy with synonym matching
-- **Skill Gap Analysis**: Calculate match ratios and identify missing skills
-- **Seniority Detection**: Automatic detection of job level (junior/mid/senior)
+```bash
+streamlit run app.py
+```
 
-### Advanced Analytics
-- **Graph Analysis**: Skill co-occurrence networks with NetworkX
-- **Community Detection**: Identify skill communities using Louvain algorithm
-- **Centrality Metrics**: Degree, betweenness, closeness, eigenvector centralities
-- **Job Clustering**: K-means clustering to identify job typologies
-- **Interactive Visualizations**: Network graphs, radar charts, bar plots
+## Key Features
 
-### Dashboard Features
-- Interactive filters (role, location, remote, seniority, match ratio)
-- Real-time skill gap calculation
-- Network visualization of skill relationships
-- Cluster analysis of job offers
-- Profile comparison (user vs. ideal profile)
+* **Job Search & Caching**
 
-## 📊 Project Structure
+  * Integration with JSearch/OpenWebNinja APIs.
+  * Local caching layer to minimize API calls.
+
+* **NLP Skill Extraction**
+
+  * spaCy-based extraction pipeline.
+  * Taxonomy-driven synonym normalisation.
+  * Custom taxonomy management via `create_taxonomy_file.py`.
+
+* **Skill Gap Analysis**
+
+  * Comparison between user-declared skills and job requirements.
+  * Seniority inference (junior / mid / senior).
+  * Match ratios and weighted gap scoring.
+
+* **Advanced Analytics**
+
+  * Skill co-occurrence networks (NetworkX).
+  * Graph community detection and centrality metrics.
+  * Role clustering using scikit-learn.
+
+* **Interactive Dashboard**
+
+  * Streamlit multi-tab interface: overview, skills, matches, recommendations, graph analysis.
+  * Real job offers with useful links to apply to the positions that you fit the most!
+
+
+## Technologies & Libraries
+
+**Language & Frameworks**
+
+* Python 3.10+
+* Streamlit (dashboard UI)
+
+**NLP**
+
+* spaCy (`xx_ent_wiki_sm` model)
+* Custom taxonomy-based matching
+
+**Data & Analytics**
+
+* pandas, NumPy
+* scikit-learn (clustering, vectorisation)
+* NetworkX (graph construction & centrality)
+* community / python-louvain (community detection)
+
+**Visualisation**
+
+* Streamlit native charts
+* Plotly (interactive figures)
+* Network visualization exported as HTML
+
+**APIs**
+
+* JSearch / OpenWebNinja (primary job search)
+
+
+## Project Structure
 
 ```
 skill_gap_analysis/
-├── app.py                    # Streamlit dashboard
+├── app.py                     # Streamlit entrypoint orchestrating the UI
 ├── core/
-│   ├── api_client.py        # API client with caching
-│   ├── skills_extraction.py # NLP skill extraction
-│   ├── analysis.py          # Skill gap & clustering
-│   ├── graph_analysis.py    # Network analysis
-│   └── config.py            # Configuration
+│   ├── api_client.py          # API integration + caching
+│   ├── skills_extraction.py   # NLP extraction + taxonomy logic
+│   ├── analysis.py            # Gap scoring and clustering
+│   ├── graph_analysis.py      # Network analytics (centrality, detection)
+│   └── config.py              # Configuration utilities
+├── ui/
+│   ├── components.py          # Custom UI components
+│   ├── sidebar.py             # Sidebar inputs and preprocessing
+│   ├── styles.py              # Dashboard CSS
+│   ├── tabs/                  # Individual tab views
+│   │   ├── overview.py
+│   │   ├── skills_analysis.py
+│   │   ├── job_matches.py
+│   │   ├── recommendations.py
+│   │   └── graph_analysis.py
+│   └── welcome.py             # Landing screen
 ├── data/
-│   ├── taxonomy_skills.csv   # Skill taxonomy with synonyms
-│   └── processed_jobs_*.csv # Processed job data
-├── notebooks/
-│   └── graph_exploration.ipynb # Exploration notebook
-├── docs/
-│   └── STATE_OF_THE_ART.md  # State-of-the-art analysis
-└── requirements.txt         # Dependencies
+│   ├── taxonomy_skills.csv    # Skill taxonomy + synonyms
+│   ├── raw_jobs_*.json        # Example API outputs
+│   └── temp_graph.html        # Cached graph visualisation
+├── create_taxonomy_file.py    # Helper for building/extending the taxonomy
+├── requirements.txt
+└── LICENSE
 ```
 
-## 📚 Documentation
+## How It Works
 
-See [docs/STATE_OF_THE_ART.md](docs/STATE_OF_THE_ART.md) for a comprehensive analysis of:
-- Existing solutions (LinkedIn, Jobscan, Coursera, etc.)
-- Analytical techniques used
-- Project limitations
-- Future work
+### 1. Ingestion
 
-  
-## 👥 Authors  
-- Carolina López De La Madriz 
-- Emma Rodríguez Hervas
-- Álvaro Martín Ruiz
-- Iker Rosales Saiz
+* Fetch job postings using JSearch/OpenWebNinja (JSON).
+* Local caching prevents redundant external calls.
 
-**Web Analytics — 2025/2026**
+### 2. NLP Extraction
+
+* spaCy detects raw skills in job descriptions.
+* A taxonomy normalises synonyms (e.g., *PyTorch ≈ pytorch*).
+* Merged outputs are passed to the analysis pipeline.
+
+### 3. Gap Analysis
+
+* User skill set vs. aggregated job requirements.
+* Missing skills ranked by importance and frequency.
+* Seniority estimation using job-level text features.
+
+### 4. Advanced Analytics
+
+* Build a co-occurrence graph of skills from job postings.
+* Compute degree, betweenness, closeness, eigenvector centralities.
+* Detect communities (Louvain) and cluster job roles.
+
+### 5. Visualisation
+
+* Interactive Streamlit tabs show skills, gaps, matches, and graphs.
+* Exportable HTML graph visualisation.
+
+---
+
+## Dashboard Preview
+
+### Take a look of the last demo:
+
+[![Demo SkillGap - Intelligent Skill Gap Analysis for Job Seekers - YouTube](https://res.cloudinary.com/marcomontalbano/image/upload/v1765554063/video_to_markdown/images/youtube--xeKAscK2d8o-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=xeKAscK2d8o "Demo SkillGap - Intelligent Skill Gap Analysis for Job Seekers - YouTube")
+
+
+## Development Notes
+
+* Python 3.10+ recommended for compatibility.
+* Keep the `.env` file local — never commit secrets or API keys.
+* Large or temporary outputs should be placed under `data/` (gitignored except taxonomy samples).
+* Codebase follows a modular architecture: **core logic** separated from **UI components**.
+
+## Limitations
+
+- **Optimised for Data & AI roles:** The current pipeline and taxonomy ensure reliable performance mainly for technical positions in Data & AI. Other domains may yield incomplete or noisier results.
+
+- **Taxonomy-dependent adaptability:** Expanding the taxonomy is required to support additional industries. With a well-designed taxonomy, the system can be adapted to virtually any job family.
+
+- **Model and API variability:** Skill extraction depends on a general-purpose spaCy model and on the structure of external job APIs, which may introduce inconsistencies or reduce precision in certain postings.
+
+## Authors
+
+* Carolina López De La Madriz
+* Emma Rodríguez Hervas
+* Álvaro Martín Ruiz
+* Iker Rosales Saiz
