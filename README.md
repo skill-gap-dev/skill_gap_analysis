@@ -128,49 +128,95 @@ skill_gap_analysis/
 
 ## How It Works
 
-### 1. Ingestion
+This project implements an end-to-end career analytics pipeline that transforms raw job postings into actionable insights through NLP, graph theory, and interactive visualisation.
 
-* Fetch job postings using JSearch/OpenWebNinja (JSON).
-* Local caching prevents redundant external calls.
+### 1. Job Data Ingestion
 
-### 2. NLP Extraction
+* Fetches job postings via **JSearch (OpenWebNinja API)** as the primary data source.
+* Supports configurable search parameters (role, location, seniority, keywords).
+* Uses **local caching** to:
 
-* spaCy detects raw skills in job descriptions.
-* A taxonomy normalises synonyms (e.g., *PyTorch ≈ pytorch*).
-* Merged outputs are passed to the analysis pipeline.
+  * Reduce redundant external API calls
+  * Improve performance
+  * Respect rate limits
+* Normalises raw JSON responses into a structured internal representation for downstream processing.
 
-### 3. Gap Analysis
+### 2. Skill Extraction & Normalisation (NLP)
 
-* User skill set vs. aggregated job requirements.
-* Missing skills ranked by importance and frequency.
-* Seniority estimation using job-level text features.
+* Cleans and preprocesses job descriptions (HTML removal, text normalisation).
+* Uses **spaCy-based NLP pipelines** to extract skill candidates from unstructured text.
+* Applies a **domain-specific skill taxonomy** to:
 
-### 4. Advanced Analytics
+  * Normalise synonyms and variants (e.g. `PyTorch`, `pytorch`, `torch`)
+  * Reduce noise and false positives
+  * Ensure consistent skill representation across sources
+* Aggregates and deduplicates skills across all job postings.
 
-* Build a co-occurrence graph of skills from job postings.
-* Compute degree, betweenness, closeness, eigenvector centralities.
-* Detect communities (Louvain) and cluster job roles.
 
-### 5. Visualisation
+### 3. User Skill Profiling
 
-* Interactive Streamlit tabs show skills, gaps, matches, and graphs.
-* Exportable HTML graph visualisation.
+* Users define their current skill set manually or via CV/PDF parsing.
+* Optional **self-assessed proficiency levels** can be assigned per skill.
+* User skills are processed with the same taxonomy and normalisation logic to ensure a fair comparison with market demand.
 
----
+### 4. Skill Gap & Market Alignment Analysis
+
+* Compares user skills against aggregated job requirements.
+* Identifies:
+
+  * Missing or underrepresented skills
+  * Low-impact or overrepresented skills
+* Ranks gaps using:
+
+  * Skill frequency across job postings
+  * Graph-based importance metrics
+  * Relevance to detected job seniority
+* Estimates **job seniority (junior / mid / senior)** based on requirement patterns and linguistic signals in job descriptions.
+
+### 5. Advanced Analytics (Graphs & Clustering)
+
+* Builds a **skill co-occurrence graph** from job postings.
+* Computes multiple network metrics:
+
+  * Degree centrality
+  * Betweenness centrality
+  * Closeness centrality
+  * Eigenvector centrality
+* Identifies:
+
+  * Core skills with high structural importance
+  * Bridge skills connecting multiple domains
+  * Peripheral or niche skills
+* Detects skill communities using:
+
+  * Louvain
+  * Label Propagation
+  * Greedy Modularity
+* Performs **semantic skill clustering** using vector embeddings (`BAAI/bge-small-en-v1.5`) to group related skills and job profiles.
+
+### 6. Visualisation & Reporting
+
+* Provides an interactive **Streamlit dashboard** with:
+
+  * Skill coverage overview
+  * Ranked gap analysis and recommendations
+  * Job–skill matching insights
+  * Interactive network and community visualisations
+* Network graphs can be **exported as standalone HTML** for easy sharing.
+* The architecture is designed to support future integrations with external BI tools.
+
+### Architecture Overview
+
+```
+Job APIs → NLP & Taxonomy → Skill Analytics → Graph & Clustering → Streamlit UI
+```
+
 
 ## Dashboard Preview
 
 ### Take a look of the last demo:
 
 [![Demo SkillGap - Intelligent Skill Gap Analysis for Job Seekers - YouTube](https://res.cloudinary.com/marcomontalbano/image/upload/v1765554063/video_to_markdown/images/youtube--xeKAscK2d8o-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=xeKAscK2d8o "Demo SkillGap - Intelligent Skill Gap Analysis for Job Seekers - YouTube")
-
-
-## Development Notes
-
-* Python 3.10+ recommended for compatibility.
-* Keep the `.env` file local — never commit secrets or API keys.
-* Large or temporary outputs should be placed under `data/` (gitignored except taxonomy samples).
-* Codebase follows a modular architecture: **core logic** separated from **UI components**.
 
 ## Limitations
 
