@@ -10,7 +10,7 @@ from .config import TAXONOMY_PATH
 # Setup logging
 logger = logging.getLogger(__name__)
 
-# --- Load NLP model ---
+#Loadding NLP spacy model
 try:
     nlp = spacy.load("xx_ent_wiki_sm")
     logger.info("spaCy model loaded successfully")
@@ -21,7 +21,7 @@ except Exception as e:
     logger.error(f"Error loading spaCy model: {e}")
     raise
 
-# --- Load taxonomy with synonyms ---
+#Load taxonomy with synonyms
 try:
     taxonomy_df = pd.read_csv(TAXONOMY_PATH)
     logger.info(f"Loaded taxonomy with {len(taxonomy_df)} skills from {TAXONOMY_PATH}")
@@ -36,13 +36,13 @@ def normalize_token(x: str) -> str:
     if not x:
         return ""
     x = x.lower().strip()
-    x = re.sub(r"[^a-z0-9+.#]+", " ", x)         # remove weird chars
-    x = re.sub(r"s$", "", x)                    # remove plural "s"
-    x = x.replace("-", " ")                     # machine-learning → machine learning
+    x = re.sub(r"[^a-z0-9+.#]+", " ", x) # remove weird chars
+    x = re.sub(r"s$", "", x)  # remove plural "s"
+    x = x.replace("-", " ")  # machine-learning → machine learning
     x = x.replace("_", " ")
     return x
 
-# Create mapping from synonyms to main skill name
+#Create mapping from synonyms to main skill name
 synonym_to_skill = {}
 all_patterns = []
 
@@ -50,12 +50,12 @@ for _, row in taxonomy_df.iterrows():
     main_skill = row["skill"]
     synonyms_str = row.get("synonyms", "")
     
-    # Add main skill to patterns
+    # Adding main skill to patterns
     norm = normalize_token(main_skill)
     all_patterns.append(main_skill)
     synonym_to_skill[norm] = main_skill
     
-    # Add synonyms to patterns and mapping
+    # Add synonyms (normalized as well) to patterns and mapping
     if pd.notna(synonyms_str) and synonyms_str.strip():
         synonyms = [s.strip() for s in synonyms_str.split("|")]
         for syn in synonyms:
@@ -119,7 +119,7 @@ def extract_custom_skills(description, custom_skills):
         # Normalize the skill name for matching
         skill_normalized = normalize_token(skill)
         
-        # Check if skill appears in description (case-insensitive)
+        #Check if skill appears in description (case-insensitive)
         # Use word boundaries to avoid partial matches
         # For example, "Python" should match "Python" but not "Pythonic"
         pattern = r'\b' + re.escape(skill_normalized) + r'\b'
@@ -177,13 +177,13 @@ def detect_seniority(job_title, job_description=""):
 
 
 def get_best_apply_link(job):
-    # 1) Search LinkedIn in apply_options field
+    #Search for LinkedIn( because it is the most common job posting web) in apply_options field
     apply_opts = job.get("apply_options", [])
     for opt in apply_opts:
         if opt.get("publisher", "").lower() == "linkedin":
             return opt.get("apply_link")
 
-    # 2) If not LinkedIn, use job_apply_link
+    #if not LinkedIn, use job_apply_link
     if job.get("job_apply_link"):
         return job["job_apply_link"]
 
@@ -191,5 +191,5 @@ def get_best_apply_link(job):
     if apply_opts:
         return apply_opts[0].get("apply_link")
 
-    # 4) Si no hay nada, devolver None
+    # if no link found return None
     return None

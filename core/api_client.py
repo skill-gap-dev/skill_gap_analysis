@@ -1,38 +1,33 @@
-import os
 import json
 import logging
 import requests
-from pathlib import Path
-
-from dotenv import load_dotenv
-from .config import DATA_DIR, MAX_NUM_PAGES
+from .config import DATA_DIR, MAX_NUM_PAGES, API_KEY_JSEARCH
 
 # Setup logging
 logger = logging.getLogger(__name__)
-
-load_dotenv()
-API_KEY_JSEARCH = os.getenv("API_KEY_JSEARCH")
 
 if not API_KEY_JSEARCH:
     logger.error("API_KEY_JSEARCH missing in .env")
     raise RuntimeError("API_KEY_JSEARCH missing in .env")
 
 def sanitize(value):
+    """Sanitize a string to be filesystem-friendly."""
     return "".join(c.lower() if c.isalnum() else "_" for c in value)
 
 def get_cache_paths(role, location):
+    """Get cache file paths for raw job data based on role and location."""
     role_t = sanitize(role)
     loc_t = sanitize(location)
     raw = DATA_DIR / f"raw_jobs_{role_t}_{loc_t}.json"
     return raw
 
-def fetch_from_api(query, country="es", **params):
+def fetch_from_api(query, country_code="es", **params):
     """
     Fetch jobs from JSearch API.
     
     Args:
         query: Search query string
-        country: Country code (default: "es")
+        country_code: Country code (default: "es")
         **params: Additional API parameters including:
             - date_posted: 'all', 'today', '3days', 'week', 'month'
             - work_from_home: bool or None
@@ -46,20 +41,20 @@ def fetch_from_api(query, country="es", **params):
     Raises:
         requests.RequestException: If API request fails
     """
-    from .config import VALID_DATE_POSTED, VALID_EMPLOYMENT_TYPES, VALID_JOB_REQUIREMENTS
-    
+    from .config import VALID_DATE_POSTED, VALID_EMPLOYMENT_TYPES, VALID_JOB_REQUIREMENTS, API_URL
+
     # Validate and normalize parameters
-    country = country.lower()
-    if len(country) != 2 or not country.isalpha():
-        logger.warning(f"Invalid country '{country}'. Falling back to 'es'.")
-        country = "es"
-    
+    country_code = country_code.lower()
+    if len(country_code) != 2 or not country_code.isalpha():
+        logger.warning(f"Invalid country '{country_code}'. Falling back to 'es'.")
+        country_code = "es"
+
     # Normalize date_posted
     date_posted = params.get("date_posted", "all")
     if date_posted not in VALID_DATE_POSTED:
         logger.warning(f"Invalid date_posted '{date_posted}'. Falling back to 'all'.")
         date_posted = "all"
-    
+
     # Normalize employment_types
     employment_types = params.get("employment_types")
     normalized_employment_types = None
@@ -74,7 +69,7 @@ def fetch_from_api(query, country="es", **params):
                 logger.warning(f"Invalid employment_type '{token}' ignored.")
         if cleaned:
             normalized_employment_types = ",".join(cleaned)
-    
+
     # Normalize job_requirements
     job_requirements = params.get("job_requirements")
     normalized_job_requirements = None
@@ -89,7 +84,7 @@ def fetch_from_api(query, country="es", **params):
                 logger.warning(f"Invalid job_requirement '{token}' ignored.")
         if cleaned:
             normalized_job_requirements = ",".join(cleaned)
-    
+
     # Normalize radius
     radius = params.get("radius")
     if radius is not None:
@@ -101,18 +96,17 @@ def fetch_from_api(query, country="es", **params):
         except (ValueError, TypeError):
             logger.warning(f"Invalid radius '{radius}'. Ignoring this filter.")
             radius = None
-    
-    url = "https://api.openwebninja.com/jsearch/search"
+
     headers = {"x-api-key": API_KEY_JSEARCH}
 
     full_params = {
         "query": query,
-        "country": country,
-        "page": 1,
-        "num_pages": MAX_NUM_PAGES,
+        "country": country_code,
+        "page": 1, # each page is 10 results
+        "num_pages": MAX_NUM_PAGES, #1 page -> 1 query requests, 2-10 pages -> 2 query requests
         "date_posted": date_posted,
     }
-    
+
     # Add optional parameters
     work_from_home = params.get("work_from_home")
     if work_from_home is not None:
@@ -126,8 +120,8 @@ def fetch_from_api(query, country="es", **params):
         full_params["radius"] = radius
 
     try:
-        logger.info(f"Fetching jobs from API: query='{query}', country='{country}'")
-        r = requests.get(url, params=full_params, headers=headers, timeout=20)
+        logger.info(f"Fetching jobs from API: query='{query}', country='{country_code}'")
+        r = requests.get(API_URL, params=full_params, headers=headers, timeout=20)
         r.raise_for_status()
         data = r.json()
         logger.info(f"Successfully fetched {len(data.get('data', []))} jobs")
@@ -170,7 +164,7 @@ def load_or_fetch_jobs(role, location, country="es", **filters):
     query = f"{role} jobs in {location}"
     try:
         data = fetch_from_api(query, country, **filters)
-        
+
         # Save to cache
         try:
             raw_path.parent.mkdir(parents=True, exist_ok=True)
@@ -179,7 +173,7 @@ def load_or_fetch_jobs(role, location, country="es", **filters):
             logger.info(f"Cached {len(data.get('data', []))} jobs to {raw_path}")
         except IOError as e:
             logger.warning(f"Could not save cache file: {e}")
-        
+
         return data
     except Exception as e:
         logger.error(f"Failed to fetch jobs: {str(e)}")

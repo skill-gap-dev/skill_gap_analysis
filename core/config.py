@@ -1,10 +1,17 @@
 from pathlib import Path
+from dotenv import load_dotenv
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 TAXONOMY_PATH = DATA_DIR / "taxonomy_skills.csv"
+
+load_dotenv()
+API_KEY_JSEARCH = os.getenv("API_KEY_JSEARCH")
+
+API_URL = "https://api.openwebninja.com/jsearch/search"
 
 MAX_NUM_PAGES = 3  # evitar gastar cuota
 

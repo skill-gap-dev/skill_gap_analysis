@@ -12,39 +12,6 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def build_bipartite_graph(jobs_df: pd.DataFrame) -> nx.Graph:
-    """
-    Build a bipartite graph connecting jobs to skills.
-    
-    Args:
-        jobs_df: DataFrame with columns 'job_id' and 'skills_detected'
-        
-    Returns:
-        NetworkX bipartite graph
-    """
-    B = nx.Graph()
-    
-    # Add nodes with node_type attribute
-    for _, row in jobs_df.iterrows():
-        job_id = str(row.get("job_id", ""))
-        if job_id:
-            B.add_node(job_id, node_type="job")
-            
-            skills = row.get("skills_detected", [])
-            if isinstance(skills, str):
-                # Handle case where skills might be stored as string
-                skills = [s.strip() for s in skills.split(",") if s.strip()]
-            elif not isinstance(skills, list):
-                skills = []
-            
-            for skill in skills:
-                if skill:
-                    B.add_node(skill, node_type="skill")
-                    B.add_edge(job_id, skill)
-    
-    return B
-
-
 def build_skill_cooccurrence_graph(jobs_df: pd.DataFrame) -> nx.Graph:
     """
     Build a skill co-occurrence graph (projection of bipartite graph).
@@ -126,7 +93,7 @@ def compute_centralities(graph: nx.Graph) -> pd.DataFrame:
         except:
             closeness_cent = {node: 0.0 for node in graph.nodes()}
     
-    # Eigenvector centrality (only if graph has edges)
+    # Eigenvector centrality
     try:
         eigenvector_cent = nx.eigenvector_centrality(graph, weight="weight" if has_weights else None, max_iter=1000)
     except:
@@ -307,66 +274,18 @@ def merge_small_communities(graph: nx.Graph, communities: Dict[str, int],
     
     return updated_communities
 
-
-def get_skill_network_metrics(jobs_df: pd.DataFrame) -> Tuple[nx.Graph, pd.DataFrame, Dict[str, int]]:
-    """
-    Compute complete skill network analysis: graph, centralities, and communities.
-    
-    Args:
-        jobs_df: DataFrame with job data and skills_detected column
-        
-    Returns:
-        Tuple of (cooccurrence_graph, centralities_df, communities_dict)
-    """
-    # Build co-occurrence graph
-    graph = build_skill_cooccurrence_graph(jobs_df)
-    
-    # Compute centralities
-    centralities = compute_centralities(graph)
-    
-    # Detect communities
-    communities = detect_communities(graph)
-    
-    return graph, centralities, communities
-
-
-def get_bridge_skills(centralities_df: pd.DataFrame, top_n: int = 10) -> pd.DataFrame:
-    """
-    Identify bridge skills (high betweenness centrality).
-    These are skills that connect different communities.
-    
-    Args:
-        centralities_df: DataFrame from compute_centralities()
-        top_n: Number of top bridge skills to return
-        
-    Returns:
-        DataFrame with top bridge skills
-    """
-    if "betweenness" not in centralities_df.columns:
-        return pd.DataFrame()
-    
-    bridge_skills = centralities_df.nlargest(top_n, "betweenness")
-    return bridge_skills[["node", "betweenness", "degree"]]
-
-
-def find_bridge_skills(graph: nx.Graph, top_n: int = 10) -> List[str]:
+def find_bridge_skills(centralities_df: pd.DataFrame, top_n: int = 10) -> List[str]:
     """
     Find top bridge skills by betweenness centrality.
     
     Args:
-        graph: NetworkX graph
+        centralities_df: DataFrame with centrality measures
         top_n: Number of skills to return
         
     Returns:
         List of skill names
     """
-    if len(graph.nodes()) == 0:
-        return []
-    
-    try:
-        betweenness = nx.betweenness_centrality(graph, weight="weight" if graph.is_weighted() else None)
-    except:
-        betweenness = nx.betweenness_centrality(graph)
+    betweenness = dict(zip(centralities_df["node"], centralities_df["betweenness"]))
     
     sorted_skills = sorted(betweenness.items(), key=lambda x: x[1], reverse=True)
     return [skill for skill, _ in sorted_skills[:top_n]]
@@ -531,7 +450,7 @@ def plot_skill_network(
         return None
 
 
-def get_skill_importance_scores(jobs_df: pd.DataFrame, user_skills: Optional[List[str]] = None) -> pd.DataFrame:
+def get_skill_importance_scores(G, centrality_df, jobs_df: pd.DataFrame, user_skills: Optional[List[str]] = None) -> pd.DataFrame:
     """
     Compute comprehensive importance scores for skills combining:
     - Frequency (how often it appears)
@@ -539,13 +458,14 @@ def get_skill_importance_scores(jobs_df: pd.DataFrame, user_skills: Optional[Lis
     - Co-occurrence (connections to other important skills)
     
     Args:
+        G: Skill co-occurrence graph
+        centrality_df: DataFrame with centrality measures
         jobs_df: DataFrame with jobs and skills_detected column
         user_skills: Optional list of user skills for personalized scoring
         
     Returns:
         DataFrame with skill importance metrics
     """
-    G = build_skill_cooccurrence_graph(jobs_df)
     
     if len(G.nodes()) == 0:
         return pd.DataFrame(columns=["skill", "frequency", "degree_centrality", 
@@ -561,8 +481,6 @@ def get_skill_importance_scores(jobs_df: pd.DataFrame, user_skills: Optional[Lis
     
     freq = Counter(all_skills)
     total_jobs = len(jobs_df)
-    
-    centrality_df = compute_centralities(G)
     
     importance_df = pd.DataFrame({
         "skill": list(freq.keys()),
@@ -601,68 +519,3 @@ def get_skill_importance_scores(jobs_df: pd.DataFrame, user_skills: Optional[Lis
         importance_df["user_has"] = False
     
     return importance_df.sort_values("importance_score", ascending=False)
-
-
-def get_skill_paths(graph: nx.Graph, skill1: str, skill2: str) -> List[List[str]]:
-    """
-    Find all shortest paths between two skills.
-    Useful for understanding skill relationships.
-    
-    Args:
-        graph: NetworkX graph
-        skill1: First skill name
-        skill2: Second skill name
-        
-    Returns:
-        List of paths (each path is a list of skill names)
-    """
-    if skill1 not in graph or skill2 not in graph:
-        return []
-    
-    try:
-        paths = list(nx.all_shortest_paths(graph, skill1, skill2))
-        return paths
-    except nx.NetworkXNoPath:
-        return []
-
-
-def get_skill_recommendations(graph: nx.Graph, user_skills: List[str], top_n: int = 10) -> pd.DataFrame:
-    """
-    Recommend skills based on network proximity to user's existing skills.
-    
-    Args:
-        graph: Skill co-occurrence graph
-        user_skills: List of skills user already has
-        top_n: Number of recommendations
-        
-    Returns:
-        DataFrame with recommended skills and scores
-    """
-    if len(graph.nodes()) == 0:
-        return pd.DataFrame(columns=["skill", "score", "reason"])
-    
-    user_skills_set = set(user_skills)
-    recommendations = []
-    
-    for skill in graph.nodes():
-        if skill in user_skills_set:
-            continue
-        
-        neighbors = set(graph.neighbors(skill))
-        common_neighbors = neighbors & user_skills_set
-        
-        if len(common_neighbors) > 0:
-            score = len(common_neighbors) / len(neighbors) if len(neighbors) > 0 else 0
-            recommendations.append({
-                "skill": skill,
-                "score": score,
-                "common_with": len(common_neighbors),
-                "reason": f"Co-occurs with {len(common_neighbors)} of your skills"
-            })
-    
-    if not recommendations:
-        return pd.DataFrame(columns=["skill", "score", "reason"])
-    
-    rec_df = pd.DataFrame(recommendations)
-    rec_df = rec_df.sort_values("score", ascending=False).head(top_n)
-    return rec_df[["skill", "score", "reason"]]
