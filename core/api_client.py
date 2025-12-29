@@ -1,25 +1,14 @@
-import json
 import logging
+import streamlit as st
 import requests
-from .config import DATA_DIR, MAX_NUM_PAGES, API_KEY_JSEARCH
+from .config import MAX_NUM_PAGES, API_KEY_JSEARCH
 
 # Setup logging
 logger = logging.getLogger(__name__)
 
 if not API_KEY_JSEARCH:
-    logger.error("API_KEY_JSEARCH missing in .env")
-    raise RuntimeError("API_KEY_JSEARCH missing in .env")
-
-def sanitize(value):
-    """Sanitize a string to be filesystem-friendly."""
-    return "".join(c.lower() if c.isalnum() else "_" for c in value)
-
-def get_cache_paths(role, location):
-    """Get cache file paths for raw job data based on role and location."""
-    role_t = sanitize(role)
-    loc_t = sanitize(location)
-    raw = DATA_DIR / f"raw_jobs_{role_t}_{loc_t}.json"
-    return raw
+    logger.error("API_KEY_JSEARCH missing in secrets")
+    raise RuntimeError("API_KEY_JSEARCH missing in secrets")
 
 def fetch_from_api(query, country_code="es", **params):
     """
@@ -136,9 +125,13 @@ def fetch_from_api(query, country_code="es", **params):
         logger.error(f"API request failed: {str(e)}")
         raise
 
+@st.cache_data(ttl=3600)  # Cache for 1 hour
 def load_or_fetch_jobs(role, location, country="es", **filters):
     """
-    Load jobs from cache or fetch from API.
+    Fetch jobs from API with Streamlit caching.
+    
+    The results are cached for 1 hour to avoid excessive API calls.
+    Cache is automatically invalidated after TTL expires.
     
     Args:
         role: Job role to search for
@@ -149,31 +142,11 @@ def load_or_fetch_jobs(role, location, country="es", **filters):
     Returns:
         JSON data with job listings
     """
-    raw_path = get_cache_paths(role, location)
-
-    if raw_path.exists():
-        try:
-            logger.info(f"Loading cached jobs from {raw_path}")
-            with raw_path.open("r", encoding="utf-8") as f:
-                data = json.load(f)
-            logger.info(f"Loaded {len(data.get('data', []))} jobs from cache")
-            return data
-        except (json.JSONDecodeError, IOError) as e:
-            logger.warning(f"Error reading cache file: {e}. Fetching from API instead.")
-
     query = f"{role} jobs in {location}"
     try:
+        logger.info(f"Fetching jobs from API: role='{role}', location='{location}'")
         data = fetch_from_api(query, country, **filters)
-
-        # Save to cache
-        try:
-            raw_path.parent.mkdir(parents=True, exist_ok=True)
-            with raw_path.open("w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            logger.info(f"Cached {len(data.get('data', []))} jobs to {raw_path}")
-        except IOError as e:
-            logger.warning(f"Could not save cache file: {e}")
-
+        logger.info(f"Successfully fetched {len(data.get('data', []))} jobs")
         return data
     except Exception as e:
         logger.error(f"Failed to fetch jobs: {str(e)}")

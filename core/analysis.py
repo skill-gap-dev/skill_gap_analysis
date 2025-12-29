@@ -4,29 +4,31 @@ import numpy as np
 from sklearn.cluster import KMeans
 import time
 import logging
+import streamlit as st
 
 logger = logging.getLogger(__name__)
 
-# Lazy loading of embedding model for performance
-_embedding_model = None
-
+@st.cache_resource
 def _get_embedding_model():
-    """Lazy load the embedding model to avoid loading on import."""
-    global _embedding_model
-    if _embedding_model is None:
-        try:
-            from sentence_transformers import SentenceTransformer
-            # Use fast, lightweight model optimized for speed
-            # BAAI/bge-small-en-v1.5 great model for single words or skills.
-            _embedding_model = SentenceTransformer('BAAI/bge-small-en-v1.5')
-            logger.info("Embedding model loaded successfully")
-        except ImportError:
-            logger.error("sentence-transformers not installed. Run: pip install sentence-transformers")
-            raise
-        except Exception as e:
-            logger.error(f"Error loading embedding model: {e}")
-            raise
-    return _embedding_model
+    """
+    Load the embedding model with Streamlit caching.
+    
+    Uses @st.cache_resource because this is a global resource (ML model)
+    that should be loaded once and reused across sessions.
+    """
+    try:
+        from sentence_transformers import SentenceTransformer
+        # Use fast, lightweight model optimized for speed
+        # BAAI/bge-small-en-v1.5 great model for single words or skills.
+        model = SentenceTransformer('BAAI/bge-small-en-v1.5')
+        logger.info("Embedding model loaded successfully")
+        return model
+    except ImportError:
+        logger.error("sentence-transformers not installed. Run: pip install sentence-transformers")
+        raise
+    except Exception as e:
+        logger.error(f"Error loading embedding model: {e}")
+        raise
 
 def compute_skill_gap(rows, user_skills, skill_levels=None):
     """

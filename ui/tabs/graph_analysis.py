@@ -279,9 +279,8 @@ def render_graph_analysis_tab(df, all_user_skills, enable_graph_analysis, show_n
                         )
                     if net:
                         try:
-                            net.save_graph("data/temp_graph.html")
-                            with open("data/temp_graph.html", "r", encoding="utf-8") as f:
-                                html_content = f.read()
+                            # Generate HTML directly in memory (no file I/O needed)
+                            html_content = net.generate_html()
                             st.components.v1.html(html_content, height=700)
                         except Exception as e:
                             st.error(f"Error displaying network: {e}")

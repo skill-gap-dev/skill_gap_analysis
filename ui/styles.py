@@ -244,6 +244,114 @@ def custom_css():
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
+    
+    /* Footer styling */
+    .footer-container {
+        margin-top: 4rem;
+        padding: 2rem 1rem;
+        background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1e 100%);
+        border-top: 2px solid #3a3a4e;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-text {
+        color: #a0a0a0;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+    
+    .footer-logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+    
+    .footer-logo {
+        max-height: 40px;
+        max-width: 200px;
+        object-fit: contain;
+        filter: brightness(0.9);
+        transition: filter 0.3s ease;
+    }
+    
+    .footer-logo:hover {
+        filter: brightness(1.1);
+    }
+
+    .footer-logo-link,
+    .footer-logo-link:visited,
+    .footer-logo-link:hover,
+    .footer-logo-link:active {
+        text-decoration: none !important;
+        border-bottom: none !important;
+        color: inherit;
+    }
+
+
+
+    .footer-logo-text {
+        color: #b8e994;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-decoration: none;
+        border-bottom: none;
+    }
+    
+    .footer-divider {
+        width: 100%;
+        max-width: 300px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #3a3a4e, transparent);
+    }
+    
+    .footer-authors {
+        color: #a0a0a0;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+    
+    .footer-names {
+        color: #e0e0e0;
+        font-size: 0.85rem;
+        line-height: 1.6;
+        margin: 0;
+    }
+    
+    @media (min-width: 768px) {
+        .footer-content {
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .footer-divider {
+            width: 1px;
+        }
+        
+        .footer-names {
+            font-size: 0.9rem;
+        }
+    }
+
     </style>
     """
 

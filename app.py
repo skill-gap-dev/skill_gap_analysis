@@ -8,7 +8,7 @@ import logging
 import streamlit as st
 
 from ui.styles import apply_custom_css
-from ui.components import render_header, render_skill_levels_ui
+from ui.components import render_header, render_skill_levels_ui, render_footer
 from ui.sidebar import (
     render_search_parameters,
     render_skills_input,
@@ -130,3 +130,6 @@ if 'df' in st.session_state and not st.session_state.df.empty:
 else:
     # Welcome screen
     render_welcome_screen()
+
+# Render footer on all pages
+render_footer()

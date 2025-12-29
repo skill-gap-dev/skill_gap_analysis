@@ -1,4 +1,5 @@
 import streamlit as st
+from pathlib import Path
 
 
 def render_skill_levels_ui(all_user_skills, skill_levels, key_suffix=""):
@@ -54,4 +55,43 @@ def render_header():
     """
     st.markdown('<h1 class="main-header">SKILLGAP</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Intelligent Skill Gap Analysis for Job Seekers</p>', unsafe_allow_html=True)
+
+
+def render_footer():
+    """
+    Render the application footer with acknowledgments and author information.
+    """
+    base_dir = Path(__file__).resolve().parent.parent
+    logo_path = base_dir / "assets" / "openwebninja.png"
+    
+    # Check if logo exists
+    if logo_path.exists():
+        try:
+            import base64
+            with open(logo_path, "rb") as img_file:
+                img_data = base64.b64encode(img_file.read()).decode()
+                logo_html = f' <a href="https://openwebninja.com" target="_blank" class="footer-logo-link"> <img src="data:image/png;base64,{img_data}" alt="OpenWeb Ninja" class="footer-logo"/> <span class="footer-logo-text">OpenWeb Ninja</span> </a>'
+        except Exception:
+            logo_html = '<img src="data:image/png;base64,{img_data}" alt="OpenWeb Ninja" class="footer-logo" <span class="footer-logo-text">OpenWeb Ninja</span>'
+    else:
+        logo_html = '<img src="data:image/png;base64,{img_data}" alt="OpenWeb Ninja" class="footer-logo" <span class="footer-logo-text">OpenWeb Ninja</span>'
+    
+    footer_html = f"""
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p class="footer-text">Powered by job data from</p>
+                <div class="footer-logo-container">
+                    {logo_html}
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-section">
+                <p class="footer-authors">Developed by</p>
+                <p class="footer-names">Carolina Lopez de la Madriz • Emma Rodriguez Hervas • Álvaro Martin Ruiz • Iker Rosales Saiz</p>
+            </div>
+        </div>
+    </div>
+    """
+    st.markdown(footer_html, unsafe_allow_html=True)
 

@@ -16,7 +16,6 @@ try:
     logger.info("spaCy model loaded successfully")
 except OSError as e:
     logger.error(f"spaCy model not found: {e}")
-    raise RuntimeError("Run: python -m spacy download xx_ent_wiki_sm")
 except Exception as e:
     logger.error(f"Error loading spaCy model: {e}")
     raise

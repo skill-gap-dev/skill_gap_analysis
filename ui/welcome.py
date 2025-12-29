@@ -56,5 +56,6 @@ def render_welcome_screen():
     st.markdown(
         "**Get started:** choose a role and location in the sidebar, "
         "optionally load an example scenario, then click **Search Jobs**."
+        " *Note: The application focus on tech roles. The application is still in development and some features may not work as expected.*"
     )
 

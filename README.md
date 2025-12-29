@@ -2,37 +2,18 @@
 **Authors**: Carolina Lopez de la Madriz, Emma Rodriguez Hervas, Álvaro Martin Ruiz & Iker Rosales Saiz
 ![SkillGapLogo](assets/skill_gap_video_portada.jpg)
 
-A career-analytics platform that identifies the gap between a candidate’s current skill set and the requirements of their target roles.
+A career-analytics platform that identifies the gap between a candidate's current skill set and the requirements of their target roles.
 It retrieves job postings from external APIs (primary: **JSearch / OpenWebNinja**) and provides an interactive **Streamlit dashboard** for skill extraction, gap scoring, graph-based analytics, recommendations, reporting and **real job offers link**!.
 
 ![SkillGapWelcomeImage](assets/welcome_image.jpeg)
 
-## Quickstart
+## 🚀 Try It Now
 
-1. **Install dependencies**
+**Use SkillGap directly in your browser - no installation required!**
 
-```bash
-pip install -r requirements.txt
-```
+👉 **[Access the Live Application](https://skill-gap.streamlit.app/)** 👈
 
-2. **Download the spaCy multilingual model**
-
-```bash
-python -m spacy download xx_ent_wiki_sm
-```
-
-3. **Create a `.env` file at the repository root**
-
-```env
-# Primary job search API
-API_KEY_JSEARCH=your_jsearch_api_key
-```
-
-4. **Launch the Streamlit dashboard**
-
-```bash
-streamlit run app.py
-```
+Simply open the link above and start analyzing your skill gap right away. Enter your role, location, and skills to get personalized insights and job recommendations.
 
 ## Key Features
 
@@ -218,6 +199,37 @@ Job APIs → NLP & Taxonomy → Skill Analytics → Graph & Clustering → Strea
 
 [![Demo SkillGap - Intelligent Skill Gap Analysis for Job Seekers - YouTube](https://res.cloudinary.com/marcomontalbano/image/upload/v1765554063/video_to_markdown/images/youtube--xeKAscK2d8o-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=xeKAscK2d8o "Demo SkillGap - Intelligent Skill Gap Analysis for Job Seekers - YouTube")
 
+## Quickstart (Local Development)
+
+If you want to run SkillGap locally or contribute to the project, follow these steps:
+
+1. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+2. **Download the spaCy multilingual model**
+
+```bash
+python -m spacy download xx_ent_wiki_sm
+```
+
+3. **Create a `.env` file at the repository root**
+
+```env
+# Primary job search API
+API_KEY_JSEARCH=your_jsearch_api_key
+```
+
+4. **Launch the Streamlit dashboard**
+
+```bash
+streamlit run app.py
+```
+
+> **Note:** For most users, we recommend using the [live application](https://skill-gap.streamlit.app/) instead, which requires no setup and is always up-to-date.
+
 ## Limitations
 
 - **Optimised for Data & AI roles:** The current pipeline and taxonomy ensure reliable performance mainly for technical positions in Data & AI. Other domains may yield incomplete or noisier results.
@@ -248,3 +260,9 @@ Job APIs → NLP & Taxonomy → Skill Analytics → Graph & Clustering → Strea
     </td>
   </tr>
 </table>
+
+
+## Acknowledgements
+
+We sincerely thank **OpenWebNinja** (OpenWebSearch) for their API access support to empowering community-driven job analytics.  
+This project would not have been possible without their generous API allowance and open spirit.
