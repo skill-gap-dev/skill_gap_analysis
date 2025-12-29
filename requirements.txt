@@ -1,10 +1,10 @@
 streamlit
 requests
 pandas
-numpy
+numpy<2.0
 python-dotenv
 bs4
-spacy>=3.7.0,<3.8.0
+spacy>=3.7.0,<3.9.0
 plotly>=5.0.0
 networkx>=3.0
 python-louvain>=0.16
