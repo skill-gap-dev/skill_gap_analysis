@@ -1,11 +1,11 @@
 # Skill Gap Analysis
 **Authors**: Carolina Lopez de la Madriz, Emma Rodriguez Hervas, Álvaro Martin Ruiz & Iker Rosales Saiz
-![SkillGapLogo](assets/skill_gap_logo.jpeg)
+![SkillGapLogo](assets/skill_gap_video_portada.jpg)
 
 A career-analytics platform that identifies the gap between a candidate’s current skill set and the requirements of their target roles.
 It retrieves job postings from external APIs (primary: **JSearch / OpenWebNinja**) and provides an interactive **Streamlit dashboard** for skill extraction, gap scoring, graph-based analytics, recommendations, reporting and **real job offers link**!.
 
-![SkillGapWelcomeImage](assets/welcome_screen.jpeg)
+![SkillGapWelcomeImage](assets/welcome_image.jpeg)
 
 ## Quickstart
 
