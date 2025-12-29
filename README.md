@@ -228,7 +228,23 @@ Job APIs → NLP & Taxonomy → Skill Analytics → Graph & Clustering → Strea
 
 ## Authors
 
-* Carolina López De La Madriz
-* Emma Rodríguez Hervas
-* Álvaro Martín Ruiz
-* Iker Rosales Saiz
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/carolinalopezdelamadriz.png" width="100px;" alt="Profile picture of Carolina López De La Madriz"/><br />
+      <b>Carolina López De La Madriz</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/emmarhv.png" width="100px;" alt="Profile picture of Emma Rodríguez Hervás"/><br />
+      <b>Emma Rodríguez Hervas</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/alvaromartinruiz.png" width="100px;" alt="Profile picture of Álvaro Martín Ruiz"/><br />
+      <b>Álvaro Martín Ruiz</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/ikerosales.png" width="100px;" alt="Profile picture of Iker Rosales Saiz"/><br />
+      <b>Iker Rosales Saiz</b>
+    </td>
+  </tr>
+</table>
