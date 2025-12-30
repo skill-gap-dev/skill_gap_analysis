@@ -75,7 +75,46 @@ def render_footer():
             logo_html = '<img src="data:image/png;base64,{img_data}" alt="OpenWeb Ninja" class="footer-logo" <span class="footer-logo-text">OpenWeb Ninja</span>'
     else:
         logo_html = '<img src="data:image/png;base64,{img_data}" alt="OpenWeb Ninja" class="footer-logo" <span class="footer-logo-text">OpenWeb Ninja</span>'
+
+
+    # Cargar iconos una sola vez
+    linkedin_image_path = base_dir / "assets" / "linkedin.png"
+    github_image_path = base_dir / "assets" / "github.png"
     
+    with open(linkedin_image_path, "rb") as linkedin_image:
+        linkedin_image_data = base64.b64encode(linkedin_image.read()).decode()
+    
+    with open(github_image_path, "rb") as github_image:
+        github_image_data = base64.b64encode(github_image.read()).decode()
+    
+    
+    # Definir desarrolladores con sus enlaces
+    developers = [
+        {
+            "name": "Carolina Lopez de la Madriz",
+            "github": "https://github.com/carolinalopezdelamadriz",
+            "linkedin": "https://www.linkedin.com/in/carolinalopezdelamadriz/"
+        },
+        {
+            "name": "Emma Rodriguez Hervas",
+            "github": "https://github.com/emmarhv",
+            "linkedin": "https://www.linkedin.com/in/emma-rodriguez-hervas/"
+        },
+        {
+            "name": "Álvaro Martin Ruiz",
+            "github": "https://github.com/alvaromartinruiz",
+            "linkedin": "https://www.linkedin.com/in/alvaro-martin-ruiz-engineering/ "
+        },
+        {
+            "name": "Iker Rosales Saiz",
+            "github": "https://github.com/ikerosales",
+            "linkedin": "https://www.linkedin.com/in/iker-rosales-saiz-49218531b/"
+        }
+    ]
+
+    developers_html = ''
+    for dev in developers:
+        developers_html += f'<div class="developer-card"> <span class="developer-name">{dev['name']}</span><div class="social-links"><a href="{dev['github']}" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub"><img src="data:image/png;base64,{github_image_data}" alt="GitHub" class="social-icon"/></a><a href="{dev['linkedin']}" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn"><img src="data:image/png;base64,{linkedin_image_data}" alt="LinkedIn" class="social-icon"/></a></div></div>'
     footer_html = f"""
     <div class="footer-container">
         <div class="footer-content">
@@ -88,7 +127,9 @@ def render_footer():
             <div class="footer-divider"></div>
             <div class="footer-section">
                 <p class="footer-authors">Developed by</p>
-                <p class="footer-names">Carolina Lopez de la Madriz • Emma Rodriguez Hervas • Álvaro Martin Ruiz • Iker Rosales Saiz</p>
+                <div class="developers-container">
+                    {developers_html}
+                </div>
             </div>
         </div>
     </div>

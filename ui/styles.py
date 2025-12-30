@@ -335,8 +335,87 @@ def custom_css():
         line-height: 1.6;
         margin: 0;
     }
+
+    /* Contenedor de desarrolladores */
+    .developers-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            gap: 1rem;
+    }
+
+    .developer-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem;
+        background: rgba(58, 58, 78, 0.3);
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .developer-card:hover {
+        background: rgba(58, 58, 78, 0.5);
+        transform: translateY(-2px);
+    }
+
+    .developer-name {
+        color: #e0e0e0;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+    }
+
+    .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #a0a0a0;
+        transition: all 0.3s ease;
+        text-decoration: none !important;
+        border-bottom: none !important;
+    }
+
+    .social-link:hover {
+        color: #b8e994;
+        transform: scale(1.2);
+    }
+
+    .social-icon {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        filter: brightness(0.8);
+        transition: all 0.3s ease;
+    }
+
+    /* GitHub icon hover */
+    .social-link:hover:first-child {
+        color: #fff;
+    }
+
+    /* LinkedIn icon hover */
+    .social-link:hover:last-child {
+        color: #0077b5;
+    }
     
     @media (min-width: 768px) {
+        .developers-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            gap: 1rem;
+        }
+
         .footer-content {
             flex-direction: row;
             justify-content: space-around;
@@ -351,6 +430,7 @@ def custom_css():
             font-size: 0.9rem;
         }
     }
+
 
     </style>
     """
