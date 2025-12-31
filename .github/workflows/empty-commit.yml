@@ -1,0 +1,23 @@
+name: Scheduled empty commit
+
+on:
+  schedule:
+    # GitHub cron uses UTC
+    - cron: "0 */10 * * *"
+  workflow_dispatch: # optional: lets you run it manually
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create empty commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: scheduled empty commit"
+          git push
